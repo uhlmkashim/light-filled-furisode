@@ -14,7 +14,7 @@
 <script>
 $(document).ready(function(){
   if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-    newrelic.setPageViewName('/idolmaster/index.php/idol_story/cjs/394/4/idol_gallery--idol_detail--3f7874784573946c967d1fb2056dbeae--2/0');
+    newrelic.setPageViewName('/idolmaster/index.php/idol_story/cjs/394/4/idol_gallery--idol_detail--6c3cedcaf10692458192b79ba6324334--2/1');
   }
 });
 </script>
@@ -46,10 +46,19 @@ display: none;
 var image_server = "http://sp.pf-img-a.mbga.jp/12008305/";
 var base_url = "http://125.6.169.35/idolmaster/";
 // 音声ファイルのmanifestを定義
+window.voice_manifest = {
+'scene1': 'sound/9900910/scene1.mp3',
+'scene2': 'sound/9900910/scene2.mp3',
+'scene3': 'sound/9900910/scene3.mp3',
+'scene4': 'sound/9900910/scene4.mp3',
+'scene5': 'sound/9900910/scene5.mp3',
+'scene6': 'sound/9900910/scene6.mp3',
+'scene7': 'sound/9900910/scene7.mp3',
+};
 window.file_name = "_394_4"; // createjs の本体ファイルを定義
 window.dir_name = "image_sp/cjs/episode/394_4/";
-window.im_cjs.voice_flag = false; // 音声再生フラグを定義
-window.im_cjs.jump_url = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/idol_gallery/idol_detail/3f7874784573946c967d1fb2056dbeae/2?l_frm%3DIdol_story_cjs_1'; // createjsの演出が全て終了した場合の飛び先urlの定義
+window.im_cjs.voice_flag = true; // 音声再生フラグを定義
+window.im_cjs.jump_url = 'http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/idol_gallery/idol_detail/6c3cedcaf10692458192b79ba6324334/2?l_frm=Idol_story_cjs_1'; // createjsの演出が全て終了した場合の飛び先urlの定義
 </script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -202,15 +211,15 @@ data: {
 };
 })();
 </script>
-<script type='text/javascript'>var se_flg = 0, bgm_flg = 0, chrome_app_flg = 0, chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';</script>
-<script type='text/javascript' src='js/app_sound.js'></script>
-<link rel="stylesheet" type="text/css" href="css/base.css" /></head>
+<script type='text/javascript'>var se_flg = 0, bgm_flg = 0, chrome_app_flg = 0, chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';</script><script type='text/javascript' src='http://sp.pf-img-a.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/js/app_sound.js?v=20170222083914'></script><link rel="stylesheet" type="text/css" href="http://sp.pf-img-a.mbga.jp/css/base.css?20171116" /></head>
 <body onload="init();" style="margin:0px;">
 <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px position: relative">
 <canvas id="canvas" width="100%" height="" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
 <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;">
 </div>
 </div>
+<script type='text/javascript' src='js/boombox.min.js'></script>
+<script type='text/javascript' src='js/voice_cjs.js'></script>
 <div id="mbga-pf-footer">
 <div class="mbga-pf-footer-container odd-lines mbga-pf-footer-white">
 <ul>
