@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/*common*/
+body#mbga-pf-body {
+  padding: 0;
+  margin: 0;
+}
+
+body#mbga-pf-body-normal {
+  padding: 0;
+  margin: 0;
+}
+
+body#mbga-pf-body td,
+body#mbga-pf-body td *,
+body#mbga-pf-body,
+body#mbga-pf-body * {
+  line-height: 100%;
+  font-size: 13px;
+  font-family: "Hiragino Kaku Gothic Pro" monospace;
+}
+
+#mbga-pf-content {
+  font-family: "Hiragino Kaku Gothic Pro" monospace;
+  font-size: 16px;
+  _word-break: break-all;
+  _word-wrap: break-word;
+}
+
+#mbga-pf-content .mobile {
+  line-height: 1.1;
+  font-size: 15px;
+  font-family: "Hiragino Kaku Gothic Pro" monospace;
+}
+
+/* for footer boxes */
+div#mbga-pf-footer span.mbga-pf-footer-caption {
+  font-size: 12px;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container {
+  display: block;
+  margin: 8px;
+  border-radius: 6px;
+  border: 1px solid #999999;
+  padding: 0;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container.mbga-pf-footer-white {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container.mbga-pf-footer-black {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container ul:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  zoom: 1;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container ul li {
+  white-space: normal;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container ul li.mbga-pf-footer-list {
+  paddeing: 0px;
+  float: left;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container ul li.mbga-pf-footer-list div.mbga-pf-footer-content > * {
+  vertical-align: middle;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container.odd-lines ul li {
+  width: 100%;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.odd-lines ul li:nth-child(odd) {
+  border-bottom: 1px solid #b4b4b4;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.odd-lines ul li:nth-child(even) {
+  border-bottom: 1px solid #b4b4b4;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.odd-lines ul li:last-child {
+  border-bottom: none;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.odd-lines ul li .mbga-pf-footer-arrow {
+  background-position: 98% 50%;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li {
+  width: 50%;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li:first-child {
+  border-bottom: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  margin-left: -1px;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li:nth-child(even) {
+  border-bottom: 1px solid #b4b4b4;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li:nth-child(odd) {
+  border-bottom: 1px solid #b4b4b4;
+  border-right: 1px solid #b4b4b4;
+  margin-left: -1px;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li:nth-last-child(2) {
+  border-bottom: none;
+}
+div#mbga-pf-footer div.mbga-pf-footer-container.even-lines ul li:last-child {
+  border-bottom: none;
+}
+
+div#mbga-pf-footer div.mbga-pf-footer-container .mbga-pf-footer-arrow {
+  margin: 0px;
+  padding: 8px;
+}
+
+div#mbga-pf-footer .mbga-pf-footer-arrow {
+  background-image: url("/img/arrow_link.png?20130918");
+  background-position: 96% 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 6px 9px;
+  padding: 8px 24px 8px 8px;
+  margin: 0px;
+  color: inherit !important;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+div#mbga-pf-footer .mbga-pf-footer-arrow-out {
+  -webkit-background-size: 8px 14px;
+  padding: 8px 24px 8px 8px;
+  margin: 0px;
+  color: inherit !important;
+  text-decoration: none;
+  display: block;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* for global navigator */
+#mbga-pf-footer-navbar {
+  height: 46px;
+  line-height: 33px;
+  vertical-align: middle;
+  padding: 0 0 1px 0;
+  width: 100%;
+  border-bottom: 1px solid #0d0e0f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #002a5b), color-stop(1%, #003877), color-stop(2%, #00438f), color-stop(50%, #002e62), color-stop(98%, #002d61), color-stop(99%, #003872), color-stop(100%, #004486));
+  background: -webkit-linear-gradient(top, #002a5b 0, #003877 1%, #00438f 2%, #002e62 50%, #002d61 98%, #003872 99%, #004486 100%);
+  background: linear-gradient(top, #002a5b 0%, #003877 1%, #00438f 2%, #002e62 50%, #002d61 98%, #003872 99%, #004486 100%);
+}
+
+#mbga-pf-footer-navbar-mini {
+  height: 36px;
+  line-height: 33px;
+  vertical-align: middle;
+  padding: 0 0 1px 0;
+  width: 100%;
+  border-bottom: 1px solid #0d0e0f;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #002a5b), color-stop(1%, #003877), color-stop(2%, #00438f), color-stop(50%, #002e62), color-stop(98%, #002d61), color-stop(99%, #003872), color-stop(100%, #004486));
+  background: -webkit-linear-gradient(top, #002a5b 0, #003877 1%, #00438f 2%, #002e62 50%, #002d61 98%, #003872 99%, #004486 100%);
+  background: linear-gradient(top, #002a5b 0%, #003877 1%, #00438f 2%, #002e62 50%, #002d61 98%, #003872 99%, #004486 100%);
+}
+
+ul.mbga-pf-box-h {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-orient: horizontal;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li.mbga-pf-footer-li {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a.mbga-pf-footer-a {
+  background-image: url(/img/sg-sprite.png?20130918);
+  background-repeat: no-repeat;
+  -webkit-background-size: 320px auto;
+  -moz-background-size: 320px auto;
+  -o-background-size: 320px auto;
+  -ms-background-size: 320px auto;
+  background-size: 320px auto;
+  display: block;
+  width: 60px;
+  height: 48px;
+  margin: auto;
+}
+
+#mbga-pf-footer-navbar-mini a.mbga-pf-footer-a {
+  background-image: url(/img/sg-sprite.png?20130918);
+  background-repeat: no-repeat;
+  -webkit-background-size: 240px auto;
+  -moz-background-size: 240px auto;
+  -o-background-size: 240px auto;
+  -ms-background-size: 240px auto;
+  background-size: 240px auto;
+  display: block;
+  width: 45px;
+  height: 36px;
+  margin: auto;
+}
+
+#mbga-pf-footer-navbar span.mbga-pf-footer-txt {
+  font-size: 8px;
+  color: #b4cfec;
+  display: inline-block;
+  line-height: 17px;
+  margin-top: 31px;
+}
+
+#mbga-pf-footer-navbar-mini span.mbga-pf-footer-txt {
+  font-size: 6px;
+  color: #b4cfec;
+  display: inline-block;
+  line-height: 6px;
+  margin-top: 27px;
+}
+
+a.mbga-pf-footer-home-w {
+  background-position: 0 -1px;
+}
+
+a.mbga-pf-footer-mypage-w {
+  background-position: 0 -45px;
+}
+
+a.mbga-pf-footer-mygame-w {
+  background-position: 0 -89px;
+}
+
+a.mbga-pf-footer-game-w {
+  background-position: 0 -133px;
+}
+
+.mbga-pf-tapped a.mbga-pf-footer-home-w {
+  background-position: -60px -1px;
+}
+
+.mbga-pf-tapped a.mbga-pf-footer-mypage-w {
+  background-position: -60px -45px;
+}
+
+.mbga-pf-tapped a.mbga-pf-footer-mygame-w {
+  background-position: -60px -89px;
+}
+
+.mbga-pf-tapped a.mbga-pf-footer-game-w {
+  background-position: -60px -133px;
+}
+
+#mbga-pf-footer-navbar-mini a.mbga-pf-footer-home-w {
+  background-position: 0 -1px;
+}
+
+#mbga-pf-footer-navbar-mini a.mbga-pf-footer-mypage-w {
+  background-position: 0 -34px;
+}
+
+#mbga-pf-footer-navbar-mini a.mbga-pf-footer-mygame-w {
+  background-position: 0 -67px;
+}
+
+#mbga-pf-footer-navbar-mini a.mbga-pf-footer-game-w {
+  background-position: 0 -100px;
+}
+
+#mbga-pf-footer-navbar-mini .mbga-pf-tapped a.mbga-pf-footer-home-w {
+  background-position: -45px -1px;
+}
+
+#mbga-pf-footer-navbar-mini .mbga-pf-tapped a.mbga-pf-footer-mypage-w {
+  background-position: -45px -34px;
+}
+
+#mbga-pf-footer-navbar-mini .mbga-pf-tapped a.mbga-pf-footer-mygame-w {
+  background-position: -45px -67px;
+}
+
+#mbga-pf-footer-navbar-mini .mbga-pf-tapped a.mbga-pf-footer-game-w {
+  background-position: -45px -100px;
+}
+
+/* for Emoji */
+img.mbga-pf-pictogram {
+  vertical-align: middle;
+}
+
+/* sandboxMode */
+div#mbga-pf-footer .sandboxMode {
+  font-size: 12px;
+  color: #ff0000;
+  width: 100%;
+}
+div#mbga-pf-footer .sandboxMode .sandboxModeTxt {
+  margin: 8px;
+  display: block;
+}
+
+/* for iPhone X only */
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 812px)
+  and (-webkit-device-pixel-ratio: 3) {
+    #mbga-pf-footer-navbar {
+      padding-bottom: 10px;
+    }
+}
