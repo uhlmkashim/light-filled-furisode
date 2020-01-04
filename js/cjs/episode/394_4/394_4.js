@@ -160,7 +160,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.white_mask = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AyvYOMAAAgwbMAlfAAAMAAAAwbg");
 	this.shape.setTransform(120,155);
@@ -173,7 +173,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.yajirusi_p = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#444545").s().p("AAjA0IhMAAIAAgfIAoAAIg0gyIAWgWIA1A2IAAgqIAfAAIAABIQACATgRAAIgDAAg");
 	this.shape.setTransform(-5.3448,-5.1698);
@@ -186,7 +186,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.window_shadow = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(0,0,0,0.702)").s().p("AxJG9QgmAAgUgRQARAHAZAAMAiNAAAQBOAAAChLIAAAEQAABRhRAAgAl8mFQgTgmgJgRIAFAGQAIALAbA3QALAVALAQQgTgUgPgig");
 	this.shape.setTransform(118.95,47.975);
@@ -221,7 +221,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// timeline functions:
 	this.frame_0 = function() {
-		// 繝懊う繧ｹ繧ｪ繝ｳ繧ｪ繝暮未菫ゅ↑縺励↓陦ｨ遉ｺ縺輔○繧�
+		// ボイスオンオフ関係なしに表示させる
 		/*
 		if (exportRoot._g.voice_flag == false) {
 			this.visible = false;
@@ -277,7 +277,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 (lib.uru_gra = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(255,255,255,0.8)").s().p("AgOAXQgHgJAAgOQAAgMAHgKQAGgKAIAAQAJAAAGAKQAHAKAAAMQAAAOgHAJQgGAKgJAAQgIAAgGgKg");
 	this.shape.setTransform(0.025,3.275);
@@ -291,7 +291,7 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 (lib.textfield = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.line4 = new cjs.Text("", "14px 'Arial'");
 	this.line4.name = "line4";
 	this.line4.lineHeight = 18;
@@ -328,7 +328,7 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 (lib.sun_light = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.rf(["#FFFFFF","rgba(255,251,201,0)"],[0.247,1],0,0,0,0,0,51).s().p("AlhFiQiSiTAAjPQAAjOCSiTQCTiSDOAAQDPAACTCSQCSCTAADOQAADPiSCTQiTCSjPAAQjOAAiTiSg");
 
@@ -340,7 +340,7 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 (lib.squear = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#808080").s().p("AgGAHIAAgNIANAAIAAANg");
 	this.shape.setTransform(0.725,0.725);
@@ -353,7 +353,7 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 (lib.spread_flower_circle_pink = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.rf(["rgba(255,79,156,0.2)","#FF4194"],[0,1],0,0,0,0,0,47.8).s().p("AlPFQQiLiLAAjFQAAjECLiLQCLiLDEAAQDFAACLCLQCLCLAADEQAADFiLCLQiLCLjFAAQjEAAiLiLg");
 
@@ -365,14 +365,14 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 (lib.sigh = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#07D5F1").ss(1.5,1,1).p("ABEg9QAUgDAQgLQAPgIAKgOQALgPACgHQAAAMgCAMQgDAWgNATQgPAWgVATQAIAKAAAkQAAATgLARQgKAPgNAEQgHADgWgCQgTgCgBABQgDACgbAWQgNAJgXgBQgWgCgPgQQgNgPgHgLQgJgIgNgTQgMgTAEgXQAEgVAPgPQAQgPAIgDIATgbQARgYAkgGQAhgFAhAWQAaASABAIg");
 	this.shape.setTransform(0.8654,-0.0398);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#FFFFFF").s().p("Ag1B4QgWgCgPgQQgNgPgHgLQgJgIgNgTQgMgTAEgXQAEgVAPgPQAQgPAIgDIATgbQARgYAkgGQAhgFAhAWQAaASABAIQAUgDAQgLQAPgIAKgOQALgPACgHQAAAMgCAMQgDAWgNATQgPAWgVATQAIAKAAAkQAAATgLARQgKAPgNAEQgHADgWgCQgTgCgBABIgeAYQgLAIgTAAIgGAAg");
 	this.shape_1.setTransform(0.8654,-0.0398);
@@ -404,7 +404,7 @@ p.nominalBounds = new cjs.Rectangle(-15.6,-29.6,46.7,54.1);
 (lib.shield = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#000000").s().p("EhK/BH4MAAAiPvMCV/AAAMAAACPvgA13XcMAlfAAAMAAAgwbMglfAAAg");
 	this.shape.setTransform(20,0);
@@ -449,7 +449,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25,25);
 (lib.roader_ring2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgQAFQgBAAAAAAQgBAAAAAAQgBgBAAAAQgBAAAAAAQAAgBgBAAQAAgBAAAAQAAgBAAAAQAAAAgBgBQABAAAAAAQAAAAAAgBQAAAAAAgBQABAAAAgBQAAAAABAAQAAAAABgBQAAAAABAAQAAAAABAAIAiAAQAAAAAAAAQABAAAAAAQABABAAAAQABAAAAAAQAAABABAAQAAABAAAAQAAABAAAAQAAAAAAAAQAAABAAAAQAAAAAAABQAAAAAAABQgBAAAAABQAAAAgBAAQAAAAgBABQAAAAgBAAQAAAAAAAAg");
 	this.shape.setTransform(4.7,0);
@@ -462,7 +462,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25,25);
 (lib.ranko_finish_blur = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_3
+	// レイヤー_3
 	this.instance = new lib.finish_blur();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -475,7 +475,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25,25);
 (lib.question = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_3
+	// レイヤー_3
 	this.shape = new cjs.Shape();
 	this.shape.graphics.lf(["#FFFFFF","#FFDDB6"],[0.463,1],0,-17.7,0.3,17.7).s().p("Ag+CaIAAgPQAAgmARgbQAPgaAjgXQAUgMAIgLQAJgLAAgRQAAgSgNgKQgNgLgWgBQgXABgNARQgOAQAAAgIh4gRQABgwAWgiQAXgjApgSQAogSAzgBQA0AAAnARQAnARAWAeQAXAeAAAoQABApgQAeQgPAdgjAWIgcATQgMAIgGALQgIAKAAAOIABAMIABAMIh3ABIgDgSg");
 	this.shape.setTransform(-0.2742,-7.725);
@@ -486,7 +486,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25,25);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f().s("#FF8C00").ss(3,1,1).p("ABRjIQgigPgtAAQgrAAgjAPQgjAQgUAdQgUAdgBAqIBoAQQAAgcAMgOQALgPAUAAQATABALAJQALAKAAAPQAAAOgIAKQgHAKgRAKQgeAUgOAWQgOAXAAAgQAAAHAAAGQABAIABAHIBmAAQgBgFAAgFQgBgFAAgFQAAgMAHgJQAGgJAKgGQALgIANgJQAfgSANgZQAOgaAAgkQAAgigUgaQgSgagigPgAA3BvIhwAAIAABpIBwAAg");
 	this.shape_2.setTransform(-0.1696,0.1705,1.1607,1.1607,-0.47);
@@ -503,7 +503,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,25,25);
 (lib.pusher_next_inner = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(255,255,255,0.851)").s().p("AAQA3IAHg1IgtAAIgGA1IgWAAIAPhsIAUAAIgGAxIAtAAIAGgxIAUAAIgLBsg");
 	this.shape.setTransform(17.2,1.3);
@@ -529,7 +529,7 @@ p.nominalBounds = new cjs.Rectangle(-24.2,-12.1,48.4,24.299999999999997);
 (lib.pointGlitter2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(255,255,255,0.988)").s().p("AlaAAIFalaIFaFaIlaFag");
 
@@ -542,7 +542,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.placebase_sp = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.tie_sp();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -555,7 +555,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.placebase_fp = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.tie_fp();
 	this.instance.parent = this;
 
@@ -567,7 +567,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.pin = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#F96A05").s().p("ALwXgQgcgQgRgcIiWkCIAEAoQAFApgWAjQgWAjgnAPQgTAHgWAAQgeAAgagOQgbgOgQgZInMqnQibCTi/AAQiDAAh4hGQh5hGhZh/QhYh8gTiCQgUiBA0hwQAdg/AxgyQhqg/hKhZQhKhZgnhvQhBi4AtjNQAsjOCQi1QBuiLCvhTQCuhTC1AAQBwAABiAiQBjAiBOBBQA9AzAwBIQBPhlB2gzQBoguB2AAQCXAACKBIQCLBHBRB5QCuEAg5DrQgYBhg8BVQBlAuA2BeQAyBXgDBpQgDBog4BgQgzBahQAwQhPAwhjAAQguAAgvgLICKSxQAFArgXAjQgXAkgoAOQgSAGgUAAQggAAgbgPgAMrV3Iii17IBIAnQBYAoBMAAQCFAABIh8QBSiQhDh8Qgeg4g4ggQg6ghhJAAQhVAAheAwQDsiCA/iyQBFjFiejqQhChhhwg6Qhwg4h4AAQicAAhvBdQh+BqgiDJQgljqiNh3Qh+hpi4AAQiZAAiXBIQiWBHhcB1Qh2CTgqClQgpCjAoCUQApCZB5BrQCBBzDLAuQhnAKhJAyQhHAwgeBOQgfBOAQBcQASBgBDBgQBGBkBdA5QBiA7BmAAQBfAABYg1QBfg5BPhzIIkMqIhEpbg");
 	this.shape.setTransform(18.6476,28.4776,0.1749,0.1749,29.9978);
@@ -584,7 +584,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.petal = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(255,255,255,0.663)").s().p("Ag3BXQgFgCgDgFQgHgJgCgLQgTgIgIglIAAAAQgGgcAVgSQAOgOAjgHIAFAAQAnACA4gkQAGgEAJACQAMACAEAOQASBFgsAvQgjAphQAEIgCAAQgEAAgEgCgAghgqQgfAGgOAMQgQAPAFAWQAHAjASAEQACAMAHALIAEADIAFABQBLgDAhgmQAogrgQhBQgCgIgGgBQgEgBgDADQg8AmgqgDIAAAAIgCAAg");
 	this.shape.setTransform(-0.4522,0.0056);
@@ -605,7 +605,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_O = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AguAzIANhlIBQAAIgLBlgAgZAsIAqAAIAKhXIgqAAg");
 	this.shape.setTransform(0.6,1.225);
@@ -618,7 +618,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_N = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_4
+	// レイヤー_4
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AAQAzIgghVIgKBVIgUAAIANhlIATAAIAfBVIALhVIATAAIgLBlg");
 	this.shape.setTransform(0.6,1.225);
@@ -631,7 +631,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_L = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AglAyIANhjIAUAAIgNBcIA3AAIgCAHg");
 	this.shape.setTransform(0.6,1.25);
@@ -644,7 +644,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_I = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgQAyIAOhjIASAAIgMBjg");
 	this.shape.setTransform(-0.2,1.25);
@@ -657,7 +657,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_G = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgtAyIANhkIBOAAIgEAfIgTAAIACgYIgmAAIgKBXIApAAIAGgqIgbAAIABgFIAuAAIgHA1g");
 	this.shape.setTransform(0.45,1.2);
@@ -670,7 +670,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_D = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AguAzIANhlIBOAAIACAwIgOA1gAgZAsIAnAAIANguIgBgpIgpAAg");
 	this.shape.setTransform(0.475,1.225);
@@ -683,7 +683,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_A = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AAeAzIgJgpIgjAAIgQApIgUAAIAnhlIAkAAIAaBlgAATADIgLguIgEAAIgQAuIAfAAg");
 	this.shape.setTransform(0,1.225);
@@ -696,7 +696,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-34.6,69.30000000000001,69.30000000000
 (lib.loading_ = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgLAKIADgUIAUAAIgCAUg");
 	this.shape.setTransform(-0.725,5.2);
@@ -784,7 +784,7 @@ p.nominalBounds = new cjs.Rectangle(-40.4,-30,40.4,60.1);
 (lib.hikari_ob = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.rf(["#FFFFFF","rgba(255,255,255,0)"],[0,1],0,-140,0,0,-140,23.8).s().p("AglVYQgnhKggjFQgwkkgio1QgoqQgCr0IgBjqIHTAAQAADfgDDnQgLMXgoI3IgJBvQgPC/gTCkQgPCAgPBhQgvEqg1AMIgFAAQgTAAgUgng");
 	this.shape.setTransform(0.075,140.0755);
@@ -798,7 +798,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-0.6,46.8,281.40000000000003);
 (lib.heart_vector = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("EgAGArOIgMgDQgPgGgHgMQmLlZnmlZQiAhbjzimQkAiuh1hSQkmjPjajDQkEjoi6jyQjLkKiAkrQiEk0gqlCQhKo8DPoPQDbotHNk0QEZi7FSg8QFQg8FLBOQFaBREYDDQEOC8CFD3QBcilCeiRQCxigDlhtQERiCElghQEpgiEfBFIADABIADAAIABABQHIB0FUFoQFHFZCDHYQCrJoi/KCQi2JknOHaQjuD1jiCuQh0BbiVBoQhiBGitB1QmtEmkQDIQlzETkiD+QgGAMgQAGIgMADIgHABgEgcNgpAQlDBUj7DOQjQCqiYDoQiUDihPEIQhWEagFEsQgFEqBKEgQBWFJC1ExQCuElD7D4QD8D5DQCcQB2BZCbBtIEWC+QGeEaDyC0QC/CPCgCBQBhBOBeBQIBXBLIBKg/ICTh7QCEhsCXh0QDui1E+jdQCXhoExjOQEKi3CxiRQJZnuEIofQCJkaA6kvQA7k3gdkyQgakShikBQhikEihjWQldnPoSiHIgDAAQkRhCkdAgQkcAhj+B+QjaBsihCTQi2CmhYDGQgKAWgdAAQgcAAgKgWQiHkylLjVQktjDllg4Qh7gTh6AAQjIAAjGA0g");
 	this.shape.setTransform(206.7985,181.7222,0.6568,0.6568);
@@ -823,7 +823,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-0.6,46.8,281.40000000000003);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FF0000").s().p("AkkAAIEkkkIElEkIklElg");
 
@@ -835,7 +835,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-0.6,46.8,281.40000000000003);
 (lib.gr_exclamation = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#FF8C00").ss(1.5,1,1).p("AAoBwIhPAAIgjlTICVAAgAArDkIhVAAIAAhHIBVAAg");
 	this.shape.setTransform(0,-0.4);
@@ -856,7 +856,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-0.6,46.8,281.40000000000003);
 (lib.good_circle = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.rf(["rgba(255,244,194,0.2)","#FFCA4A"],[0,1],0,0,0,0,0,47.8).s().p("AlPFQQiLiLAAjFQAAjECLiLQCLiLDEAAQDFAACLCLQCLCLAADEQAADFiLCLQiLCLjFAAQjEAAiLiLg");
 
@@ -868,7 +868,7 @@ p.nominalBounds = new cjs.Rectangle(-23.3,-0.6,46.8,281.40000000000003);
 (lib.flower2_good = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFCC66").s().p("AgXA3QgOgGAIgTQAGgOANgMQgOABgRgGQgTgIAGgOQAGgOATAIQAQAIAKALQgBgOAGgRQAJgTANAGQAOAHgIASQgHAQgMAKQAOgBARAGQATAJgGANQgGAOgTgIQgQgHgKgMQABAOgGARQgHAOgJAAIgGgBg");
 	this.shape.setTransform(0.0156,0.025);
@@ -882,7 +882,7 @@ p.nominalBounds = new cjs.Rectangle(-5.6,-5.6,11.3,11.3);
 (lib.flower1_good = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFF99").s().p("AgCBHQgJgcADgZQgTASgbAJQggAKgIgXQgIgYAhgKQAbgJAZADQgRgRgKgdQgKggAXgIQAYgIAKAhQAJAbgDAaQAQgRAegKQAggLAIAXQAIAYghAKQgbAJgagDQASARAJAdQAMAggYAIQgFABgFAAQgQAAgIgZg");
 	this.shape.setTransform(0.017,-0.0159);
@@ -896,7 +896,7 @@ p.nominalBounds = new cjs.Rectangle(-9.6,-9.6,19.299999999999997,19.299999999999
 (lib.flower_pink2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FF74BA").s().p("AgXA3QgOgGAIgTQAGgOANgMQgOABgRgGQgTgIAGgOQAGgOATAIQAQAIAKALQgBgOAGgRQAJgTANAGQAOAHgIASQgHAQgMAKQAOgBARAGQATAJgGANQgGAOgTgIQgQgHgKgMQABAOgGARQgHAOgJAAIgGgBg");
 	this.shape.setTransform(0.0156,0.025);
@@ -910,7 +910,7 @@ p.nominalBounds = new cjs.Rectangle(-5.6,-5.6,11.3,11.3);
 (lib.flower_pink1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFA9E9").s().p("AgCBHQgJgcADgZQgTASgbAJQggAKgIgXQgIgYAhgKQAbgJAZADQgRgRgKgdQgKggAXgIQAYgIAKAhQAJAbgDAaQAQgRAegKQAggLAIAXQAIAYghAKQgbAJgagDQASARAJAdQAMAggYAIQgFABgFAAQgQAAgIgZg");
 	this.shape.setTransform(0.017,-0.0159);
@@ -924,7 +924,7 @@ p.nominalBounds = new cjs.Rectangle(-9.6,-9.6,19.299999999999997,19.299999999999
 (lib.first_scene_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.first_scene();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -937,7 +937,7 @@ p.nominalBounds = new cjs.Rectangle(-9.6,-9.6,19.299999999999997,19.299999999999
 (lib.finish_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance = new lib.finish();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -950,7 +950,7 @@ p.nominalBounds = new cjs.Rectangle(-9.6,-9.6,19.299999999999997,19.299999999999
 (lib.drop2_v2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#FFFFFF").ss(0.5,1,1).p("AhMgEQgLAeAnALQAKABAmgHQAhgHAuAKIgbgjQghgjgjgBQgwAAgMAhg");
 	this.shape.setTransform(0.004,0.0059);
@@ -968,21 +968,21 @@ p.nominalBounds = new cjs.Rectangle(-8.9,-4.7,17.8,9.5);
 (lib.drop1a = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_4
+	// レイヤー_4
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AAhAhQgCgDAAgEQAAgEACgDQAEgDAEAAQAEAAADADQADADAAAEQAAAEgDADQgDADgEAAQgEAAgEgDgAgoAYQgKgKAAgOQAAgOAKgLQALgKAOAAQAPAAAJAKQAKALAAAOQAAAOgKAKQgJAKgPAAQgOAAgLgKg");
 	this.shape.setTransform(-1.075,13.575);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_3
+	// レイヤー_3
 	this.shape_1 = new cjs.Shape();
 	this.shape_1.graphics.f("#A9E5F2").s().p("AAACjQgcABgNgTQgLgRADgaQADgqAujfQAuDfAEAqQADAagLARQgMATgbAAIgDgBg");
 	this.shape_1.setTransform(0.375,2.9024);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.shape_2 = new cjs.Shape();
 	this.shape_2.graphics.f("#A9E5F2").s().p("AhKDRQgXgbAFgnQAHg8BRk9IACgDIACgBIADABIACADQBSE9AHA8QAEAmgbAcIAAAAQgcAdguABIgCAAQgtAAgYgegAhSCQQgFAiAUAZQAXAaApAAQAqgBAZgaIAAAAQAYgZgEghIAAAAQgHg6hNkrQhMErgGA6g");
 	this.shape_2.setTransform(0.5441,-0.5995);
@@ -1000,7 +1000,7 @@ p.nominalBounds = new cjs.Rectangle(-8.8,-24.5,18.8,47.8);
 (lib.drop1_v2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#FFFFFF").ss(0.5,1,1).p("AA4hDQAgAYgfAmQgJAHgrASQglAQgmAqQgDgZAFgdQAJg5AjgZQAvghAhAYg");
 	this.shape.setTransform(1.2129,1.7575,1,1,0,0,180);
@@ -1018,7 +1018,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,16.5,17.6);
 (lib.dark = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#000000").s().p("AyvYOMAAAgwbMAlfAAAMAAAAwbg");
 	this.shape.setTransform(1,0,1.0083,1);
@@ -1031,7 +1031,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,16.5,17.6);
 (lib.chord2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FC8D05").s().p("AAZDjQgegIgGgUQgGgVAUgUQAWgUAkgJQAlgIAeAIIAMAEIAAjNQgJgHh6hUIAADGIADAHQAGAUgUAUQgWAUglAJQgkAIgegIQgfgIgGgUQgGgVAVgUQAWgUAkgJQAlgIAeAIIAMAEIAAj3IBXA8QBIAzANALQABAKAAB9IABB8IADAHQAGAUgVAUQgWAUglAJQgSAEgQAAQgRAAgPgEg");
 	this.shape.setTransform(16.66,23.1125);
@@ -1044,7 +1044,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,16.5,17.6);
 (lib.chord1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FCE05F").s().p("Ah3CpQgfgIgGgUQgGgVAVgUQAWgUAkgJQAlgIAeAIIAMAEIAAj3QAIAIAiAKQArALASAJQBKAjgTBgQgShGg9gXQgUgHgVgCIgRAAIAADGIADAHQAGAUgVAUQgVAUglAJQgSAEgQAAQgRAAgPgEg");
 	this.shape.setTransform(15.8526,17.3125);
@@ -1083,7 +1083,7 @@ p.nominalBounds = new cjs.Rectangle(-7,-7,16.5,17.6);
 (lib.button = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(83,83,83,0.008)").s().p("AyvYOMAAAgwbMAlfAAAMAAAAwbg");
 
@@ -1096,7 +1096,7 @@ p.nominalBounds = new cjs.Rectangle(-120,-155,240,310);
 (lib.btn_window = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("rgba(0,0,0,0.02)").s().p("AjHDIIAAmPIGPAAIAAGPg");
 	this.shape.setTransform(20,20);
@@ -1110,7 +1110,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.breath_01 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.breath();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1123,7 +1123,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_12_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_12();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1136,7 +1136,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_11_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_11();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1149,7 +1149,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_09_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_09();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1162,7 +1162,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_03_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_03();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1175,7 +1175,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_02_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_02();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1188,7 +1188,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.book_leef_01_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.book_leef_01();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1201,7 +1201,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,40,40);
 (lib.bg_zoom_half = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.bg();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1215,7 +1215,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,700,670);
 (lib.bg_blur_zoom_half = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.bg_blur();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.5,0.5);
@@ -1229,7 +1229,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,700,670);
 (lib.angry = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#C6002C").ss(2,1,1).p("AgwA7QgGgeAJgdQATg6BOAA");
 	this.shape.setTransform(7.5339,8.025);
@@ -1272,7 +1272,7 @@ p.nominalBounds = new cjs.Rectangle(-13.6,-14.8,27.299999999999997,29.7000000000
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(5).call(this.frame_5).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AgQAKIAEgSIASgGIALAOIgOAPg");
 	this.shape.setTransform(-0.125,-0.15);
@@ -1298,7 +1298,7 @@ p.nominalBounds = new cjs.Rectangle(-2.3,-2.2,4,3.9000000000000004);
 (lib.concent2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("Agow/IBRACMgAgAh9g");
 	this.shape.setTransform(2.575,-204.175);
@@ -1311,7 +1311,7 @@ p.nominalBounds = new cjs.Rectangle(-2.3,-2.2,4,3.9000000000000004);
 (lib.concent = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AAm8aMAAYA4gIh7AUg");
 	this.shape.setTransform(3.475,285.8);
@@ -1332,7 +1332,7 @@ p.nominalBounds = new cjs.Rectangle(-2.3,-2.2,4,3.9000000000000004);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).wait(8).call(this.frame_8).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.yajirusi_p();
 	this.instance.parent = this;
 	this.instance.setTransform(-1.5,-1.5);
@@ -1357,7 +1357,7 @@ p.nominalBounds = new cjs.Rectangle(-12.2,-11.8,12.2,11.8);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).wait(5).call(this.frame_5).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.uru_gra("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(0,3.3,1,1,0,0,0,0,3.3);
@@ -1430,7 +1430,7 @@ p.nominalBounds = new cjs.Rectangle(-2.2,-0.1,4.5,6.8999999999999995);
 (lib.square2c = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.squear();
 	this.instance.parent = this;
 	this.instance.setTransform(0.7,20.7,1,1,0,0,0,0.7,0.7);
@@ -1475,7 +1475,7 @@ p.nominalBounds = new cjs.Rectangle(-2.2,-0.1,4.5,6.8999999999999995);
 (lib.square2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.squear();
 	this.instance.parent = this;
 	this.instance.setTransform(0.7,25.7,1,1,0,0,0,0.7,0.7);
@@ -1594,7 +1594,7 @@ p.nominalBounds = new cjs.Rectangle(-2.2,-0.1,4.5,6.8999999999999995);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({scaleX:1.0148,scaleY:1.0148,rotation:43.8468,x:-1.106,y:-37.9799,alpha:0.6862},0).wait(1).to({scaleX:1.087,scaleY:1.087,rotation:-39.9454,x:-1.5405,y:-45.9619,alpha:0.5892},0).wait(1).to({scaleX:1.1355,scaleY:1.1355,rotation:-96.281,x:-1.8326,y:-51.3284,alpha:0.524},0).wait(1).to({scaleX:1.1945,scaleY:1.1945,rotation:-164.7547,x:-2.1876,y:-57.8511,alpha:0.4447},0).wait(1).to({scaleX:1.3627,scaleY:1.3627,rotation:0,x:-3.2,y:-76.45,alpha:0.2188},0).to({_off:true},1).wait(2));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance_7 = new lib.spread_flower_circle_pink();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(0,0,0.5578,0.5578);
@@ -1612,7 +1612,7 @@ p.nominalBounds = new cjs.Rectangle(-84.4,-89.6,168.5,171.1);
 	this.frame_0 = function() {
 		this.play();
 		
-		// 繝懊う繧ｹ繝輔Λ繧ｰ縺ｧ縺ｮ蛻､蛻･繧偵ｄ繧√ｋ
+		// ボイスフラグでの判別をやめる
 		/*
 		if (exportRoot._g.voice_flag) {
 			this.play();
@@ -1661,7 +1661,7 @@ p.nominalBounds = new cjs.Rectangle(-24.2,-12.1,48.4,24.299999999999997);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(58).call(this.frame_58).wait(1));
 
-	// 闃ｱ縺ｳ繧�
+	// 花びら
 	this.instance = new lib.petal();
 	this.instance.parent = this;
 	this.instance.setTransform(-1,-0.3,0.9999,0.9999,-53.9688);
@@ -1676,7 +1676,7 @@ p.nominalBounds = new cjs.Rectangle(-90.2,-14.5,179.7,520.6);
 (lib.obj_yuge = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance = new lib.breath_01();
 	this.instance.parent = this;
 	this.instance.setTransform(45.6,-84.25,1,1,-65.3695,0,0,81.2,54.9);
@@ -1776,7 +1776,7 @@ p.nominalBounds = new cjs.Rectangle(-206,-91.9,232,178.60000000000002);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(18).call(this.frame_18).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.gr_exclamation();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.95,12.4,0.4605,0.4605,15.0009);
@@ -1790,7 +1790,7 @@ p.nominalBounds = new cjs.Rectangle(-16.3,-32.4,33.6,73);
 (lib.loader_ring_contaier2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.roader_ring2("synched",0);
 	this.instance.parent = this;
 
@@ -1803,7 +1803,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.5,7,1);
 (lib.leaf_move_2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_9
+	// レイヤー_9
 	this.instance = new lib.book_leef_11_1();
 	this.instance.parent = this;
 	this.instance.setTransform(-3.4,16.75,0.8519,1.2859,0,-38.6508,-26.0731,12,18.1);
@@ -1811,7 +1811,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.5,7,1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3).to({_off:false},0).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_8
+	// レイヤー_8
 	this.instance_1 = new lib.book_leef_02_1();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-4.2,17.05,0.5625,0.762,0,-71.3024,-70.5157,17.9,34.1);
@@ -1819,7 +1819,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.5,7,1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2).to({_off:false},0).to({_off:true},1).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_13
+	// レイヤー_13
 	this.instance_2 = new lib.book_leef_09_1();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-0.75,15.35,0.5386,0.8324,0,-63.7957,-70.5158,15.1,30);
@@ -1827,7 +1827,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.5,7,1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({_off:false},0).to({_off:true},1).wait(2));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance_3 = new lib.book_leef_01_1();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(0.45,17.1,0.4088,0.4768,-3.7008,0,0,47.5,54);
@@ -1841,7 +1841,7 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-10.1,56.5,49.300000000000004);
 (lib.leaf_move_1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_7
+	// レイヤー_7
 	this.instance = new lib.book_leef_03_1();
 	this.instance.parent = this;
 	this.instance.setTransform(0.8,9.65,0.8369,0.5358,-129.3578,0,0,26.8,17);
@@ -1849,7 +1849,7 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-10.1,56.5,49.300000000000004);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(2).to({_off:false},0).wait(1).to({regY:16.9,scaleY:0.433,rotation:-136.5663,y:9.75},0).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_3
+	// レイヤー_3
 	this.instance_1 = new lib.book_leef_02_1();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(4.25,14.3,0.4091,0.7535,0,-64.2071,-56.6276,22.6,38.4);
@@ -1857,7 +1857,7 @@ p.nominalBounds = new cjs.Rectangle(-32.1,-10.1,56.5,49.300000000000004);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).to({_off:true},1).wait(2));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance_2 = new lib.book_leef_12_1();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(3.95,13.05,0.4413,0.4785,-135.4082,0,0,59.5,20.8);
@@ -1895,7 +1895,7 @@ p.nominalBounds = new cjs.Rectangle(-52,-9.1,43.5,63.300000000000004);
 (lib.heart = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance = new lib.heart_vector();
 	this.instance.parent = this;
 	this.instance.setTransform(2.45,1.2,0.1194,0.1194,-12.5105,0,0,207.8,183);
@@ -1987,7 +1987,7 @@ p.nominalBounds = new cjs.Rectangle(-84.4,-89.6,168.5,171.1);
 (lib.glitter_first_inner = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.pointGlitter2("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.0121,0.6227,59.2024);
@@ -2039,13 +2039,13 @@ p.nominalBounds = new cjs.Rectangle(-90,-105,180,210.1);
 
 	// timeline functions:
 	this.frame_0 = function() {
-		/* //繝ｩ繧ｹ繝医�蜿ｰ隧槭′2陦後�譎ゅ�縲契2line縲阪�繝ｬ繧､繝､繝ｼ繧剃ｽｿ縺�*/
+		/* //ラストの台詞が2行の時は「_2line」のレイヤーを使う*/
 	}
 
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.line2 = new cjs.Text("", "14px 'MS PGothic'", "#F1439A");
 	this.line2.name = "line2";
 	this.line2.lineHeight = 16;
@@ -2223,7 +2223,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,133,123);
 (lib.bg_hikari = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance = new lib.hikari_ob("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(27.6,-99.05,0.3298,1,-2.741);
@@ -2290,7 +2290,7 @@ p.nominalBounds = new cjs.Rectangle(-21.7,-12.5,51.5,51.1);
 (lib.grass2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.grass2_core();
 	this.instance.parent = this;
 	this.instance.setTransform(-92.8,-8,1,1,-12.2117,0,0,59.8,47.1);
@@ -2318,7 +2318,7 @@ p.nominalBounds = new cjs.Rectangle(-246.3,-509.9,1774,503);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(25).call(this.frame_25).wait(40));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.wind_inner();
 	this.instance.parent = this;
 
@@ -2351,7 +2351,7 @@ p.nominalBounds = new cjs.Rectangle(-1.8,-7.1,599.0999999999999,73.6);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10).call(this.frame_10).wait(26));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.wind_inner();
 	this.instance.parent = this;
 
@@ -2378,7 +2378,7 @@ p.nominalBounds = new cjs.Rectangle(-1.8,-1.6,575.9,68.69999999999999);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(30).call(this.frame_30).wait(25));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.wind_inner();
 	this.instance.parent = this;
 
@@ -2391,7 +2391,7 @@ p.nominalBounds = new cjs.Rectangle(-1.8,-1.6,544.9,68.19999999999999);
 (lib.wind_container = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.wind3();
 	this.instance.parent = this;
 	this.instance.setTransform(-5.65,-23.75,0.6077,0.6077);
@@ -2494,7 +2494,7 @@ p.nominalBounds = new cjs.Rectangle(0,-57.7,75.8,85.2);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(18).call(this.frame_18).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_3
+	// レイヤー_3
 	this.instance = new lib.punpun("synched",0);
 	this.instance.parent = this;
 	this.instance.setTransform(96.95,4.95,0.7347,0.7347,45.4813,0,0,48.8,-2);
@@ -2502,7 +2502,7 @@ p.nominalBounds = new cjs.Rectangle(0,-57.7,75.8,85.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(5).to({_off:false},0).to({_off:true},5).wait(3).to({_off:false},0).to({_off:true},4).wait(2));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance_1 = new lib.punpun("synched",0);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(0.05,-0.05,1,1,-42.2096,0,0,48.9,-2);
@@ -2516,7 +2516,7 @@ p.nominalBounds = new cjs.Rectangle(-41.7,-47.9,173.5,72.7);
 (lib.concent_container = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.concent();
 	this.instance.parent = this;
 	this.instance.setTransform(-0.15,0.5,0.8875,0.8875,-119.2436);
@@ -2726,7 +2726,7 @@ p.nominalBounds = new cjs.Rectangle(0,-4,267.6,105.7);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).wait(19).call(this.frame_19).wait(1));
 
-	// 鬚ｨ
+	// 風
 	this.instance = new lib.wind_container();
 	this.instance.parent = this;
 	this.instance.setTransform(741.4,-204.6,1,1,0,-14.9992,165.0008,0.3,-0.3);
@@ -2734,7 +2734,7 @@ p.nominalBounds = new cjs.Rectangle(0,-4,267.6,105.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).wait(19));
 
-	// grass1_繧ｳ繝斐�_3
+	// grass1_コピー_3
 	this.instance_1 = new lib.grass2();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(448.5,-284.55,0.4687,0.4687,164.3746);
@@ -2742,7 +2742,7 @@ p.nominalBounds = new cjs.Rectangle(0,-4,267.6,105.7);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).wait(19));
 
-	// grass1_繧ｳ繝斐�_4
+	// grass1_コピー_4
 	this.instance_2 = new lib.grass2();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(662.75,62,0.4783,0.33,147.848,0,0,52.1,43.8);
@@ -2860,7 +2860,7 @@ p.nominalBounds = new cjs.Rectangle(-6.9,-7,13.9,14);
 (lib.hikari = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// hikari_繧ｳ繝斐�
+	// hikari_コピー
 	this.instance = new lib.bg_hikari();
 	this.instance.parent = this;
 	this.instance.setTransform(94,-114.5,0.9432,0.9432,0,-35.8184,144.1816);
@@ -2869,7 +2869,7 @@ p.nominalBounds = new cjs.Rectangle(-6.9,-7,13.9,14);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(10).to({_off:false},0).to({scaleX:1,scaleY:1,skewX:-35.9331,skewY:144.0669,x:96,y:-115.05,alpha:0.5},10).wait(1).to({regX:-1.8,regY:91.4,scaleX:1.0011,scaleY:1.0011,skewX:-35.9294,skewY:144.0706,x:151,y:-41.95,alpha:0.4878},0).wait(1).to({scaleX:1.0043,scaleY:1.0043,skewX:-35.9183,skewY:144.0817,x:150.8,y:-41.6,alpha:0.4517},0).wait(1).to({scaleX:1.0093,scaleY:1.0093,skewX:-35.9015,skewY:144.0985,x:150.55,y:-41.1,alpha:0.3969},0).wait(1).to({scaleX:1.015,scaleY:1.015,skewX:-35.8819,skewY:144.1181,x:150.3,y:-40.5,alpha:0.3328},0).wait(1).to({scaleX:1.0207,scaleY:1.0207,skewX:-35.8627,skewY:144.1373,x:149.95,y:-39.95,alpha:0.27},0).wait(1).to({scaleX:1.0256,scaleY:1.0256,skewX:-35.8461,skewY:144.1539,x:149.7,y:-39.45,alpha:0.2159},0).wait(1).to({scaleX:1.0293,scaleY:1.0293,skewX:-35.8333,skewY:144.1667,x:149.5,y:-39.1,alpha:0.1741},0).wait(1).to({scaleX:1.0319,scaleY:1.0319,skewX:-35.8245,skewY:144.1755,x:149.35,y:-38.8,alpha:0.1454},0).wait(1).to({regX:0,regY:0,scaleX:1.0334,scaleY:1.0334,skewX:-35.8194,skewY:144.1806,x:92.5,y:-114.15,alpha:0.1289},0).to({scaleX:1.0385,scaleY:1.0385,skewX:-35.9324,skewY:144.0676,x:92.15,y:-114,alpha:0.1016},1).wait(1));
 
-	// hikari_繧ｳ繝斐�_2
+	// hikari_コピー_2
 	this.instance_1 = new lib.bg_hikari();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(81.35,-147.95,0.9432,0.9432,0,-35.8184,144.1816);
@@ -2912,14 +2912,14 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).wait(21).call(this.frame_21).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_4
+	// レイヤー_4
 	this.instance = new lib.glitter_first();
 	this.instance.parent = this;
 	this.instance.setTransform(28.45,232.25,0.0766,0.0766);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(22));
 
-	// 繝ｬ繧､繝､繝ｼ_5
+	// レイヤー_5
 	this.instance_1 = new lib.glitter_first();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(13.05,200.4,0.1958,0.1958);
@@ -2927,7 +2927,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).wait(21));
 
-	// 繝ｬ繧､繝､繝ｼ_7
+	// レイヤー_7
 	this.instance_2 = new lib.glitter_first();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(216.25,245.25,0.1412,0.1412);
@@ -2935,7 +2935,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(4).to({_off:false},0).wait(18));
 
-	// 繝ｬ繧､繝､繝ｼ_8
+	// レイヤー_8
 	this.instance_3 = new lib.glitter_first();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(17.2,27.95,0.159,0.159,0,0,0,-1.3,2.9);
@@ -2943,7 +2943,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(6).to({_off:false},0).wait(16));
 
-	// 繝ｬ繧､繝､繝ｼ_9
+	// レイヤー_9
 	this.instance_4 = new lib.glitter_first();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(6.7,138,0.0849,0.0849);
@@ -2951,7 +2951,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(7).to({_off:false},0).wait(15));
 
-	// 繝ｬ繧､繝､繝ｼ_10
+	// レイヤー_10
 	this.instance_5 = new lib.glitter_first();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(229.2,207.65,0.1618,0.1618);
@@ -2959,7 +2959,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(8).to({_off:false},0).wait(14));
 
-	// 繝ｬ繧､繝､繝ｼ_11
+	// レイヤー_11
 	this.instance_6 = new lib.glitter_first();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(221.8,45.6,0.1362,0.1362);
@@ -2967,7 +2967,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(10).to({_off:false},0).wait(12));
 
-	// 繝ｬ繧､繝､繝ｼ_12
+	// レイヤー_12
 	this.instance_7 = new lib.glitter_first();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(88.1,255.15,0.1106,0.1106);
@@ -2975,7 +2975,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(11).to({_off:false},0).wait(11));
 
-	// 繝ｬ繧､繝､繝ｼ_13
+	// レイヤー_13
 	this.instance_8 = new lib.glitter_first();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(147.5,27.1,0.1702,0.1702);
@@ -2983,7 +2983,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(12).to({_off:false},0).wait(10));
 
-	// 繝ｬ繧､繝､繝ｼ_14
+	// レイヤー_14
 	this.instance_9 = new lib.glitter_first();
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(226.45,83.1,0.2555,0.2555);
@@ -2991,7 +2991,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(14).to({_off:false},0).wait(8));
 
-	// 繝ｬ繧､繝､繝ｼ_15
+	// レイヤー_15
 	this.instance_10 = new lib.glitter_first();
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(173.2,259.75,0.1176,0.1176);
@@ -2999,7 +2999,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-295.1,362.8,576);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(16).to({_off:false},0).wait(6));
 
-	// 繝ｬ繧､繝､繝ｼ_16
+	// レイヤー_16
 	this.instance_11 = new lib.glitter_first();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(231.95,147.35,0.1138,0.1138);
@@ -3111,10 +3111,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		/* 
 		
 		//public var
-		current_face = 1;	//迴ｾ蝨ｨ縺ｮ陦ｨ諠�
-		next_face = 1;		//谺｡縺ｮ陦ｨ諠�
-		blink = 80;			//縺ｾ縺ｰ縺溘″縺ｾ縺ｧ縺ｮ譛螟ｧ繝輔Ξ繝ｼ繝�謨ｰ (蟆上＆縺�ｨ矩�ｻ郢√↓縺ｾ縺ｰ縺溘″縺吶ｋ)
-		face1_blink = 1;		//0:縺ｾ縺ｰ縺溘″縺励↑縺� 1~:縺ｾ縺ｰ縺溘″縺吶ｋ
+		current_face = 1;	//現在の表情
+		next_face = 1;		//次の表情
+		blink = 80;			//まばたきまでの最大フレーム数 (小さい程頻繁にまばたきする)
+		face1_blink = 1;		//0:まばたきしない 1~:まばたきする
 		face2_blink = 1;
 		face3_blink = 1;
 		face4_blink = 1;
@@ -3132,7 +3132,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		face13_blink = 1;
 		
 		//private var
-		cnt = 0;			//縺ｾ縺ｰ縺溘″繧ｫ繧ｦ繝ｳ繝�
+		cnt = 0;			//まばたきカウント
 		
 		call("setBlink");
 		gotoAndPlay("stay");
@@ -3141,15 +3141,15 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		
 		// 1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15
 		this.face_blink_ary = [1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1]; 
-		this.blink = 80; //縺ｾ縺ｰ縺溘″縺ｾ縺ｧ縺ｮ譛螟ｧ繝輔Ξ繝ｼ繝�謨ｰ (蟆上＆縺�ｨ矩�ｻ郢√↓縺ｾ縺ｰ縺溘″縺吶ｋ)
-		// 迸ｬ縺埼未謨ｰ
+		this.blink = 80; //まばたきまでの最大フレーム数 (小さい程頻繁にまばたきする)
+		// 瞬き関数
 		this.setBlink = function () {
 			return exportRoot._u.random(this.blink);
 		}
 		
-		this.current_face = 0; //迴ｾ蝨ｨ縺ｮ陦ｨ諠�
-		this.next_face = 0; //谺｡縺ｮ陦ｨ諠�
-		this.cnt = 0; //縺ｾ縺ｰ縺溘″繧ｫ繧ｦ繝ｳ繝�
+		this.current_face = 0; //現在の表情
+		this.next_face = 0; //次の表情
+		this.cnt = 0; //まばたきカウント
 		this.gotoAndPlay("stay");
 	}
 	this.frame_5 = function() {
@@ -3161,7 +3161,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		if (this.next_face == this.current_face) {
 			this.gotoAndPlay( "stay" );
 		} else {
-			//陦ｨ諠�1縺九ｉ陦ｨ諠�2縺ｫ螟峨ｏ繧�
+			//表情1から表情2に変わる
 			this.f1.gotoAndStop( this.current_face );
 			this.f2.gotoAndStop( this.next_face );
 			if( this.current_face == 0 ) {
@@ -3192,7 +3192,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		
 		this.face_blink = this.face_blink_ary[this.current_face];
 		
-		//縺ｾ縺ｰ縺溘″縺励↑縺�↑繧画ｭ｢縺ｾ繧�
+		//まばたきしないなら止まる
 		if (this.face_blink > 0) {
 			this.play();
 		} else {
@@ -3200,7 +3200,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		}
 	}
 	this.frame_12 = function() {
-		//縺ｾ縺ｰ縺溘″蠕�■繝ｫ繝ｼ繝�
+		//まばたき待ちループ
 		if (this.cnt > 0) {
 			this.cnt--;
 		} else {
@@ -3212,7 +3212,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		this.gotoAndPlay("s2");
 	}
 	this.frame_15 = function() {
-		//縺ｾ縺ｰ縺溘″
+		//まばたき
 		this.f1.visible = false;
 		this.f2.visible = true;
 	}
@@ -3220,7 +3220,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		this.gotoAndPlay( "stay" );
 	}
 	this.frame_21 = function() {
-		//縺ｾ縺ｰ縺溘″
+		//まばたき
 		this.f1.visible = false;
 		this.f2.visible = true;
 	}
@@ -3383,7 +3383,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(7).call(this.frame_7).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.concent_container();
 	this.instance.parent = this;
 
@@ -3538,7 +3538,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,2.6,92.4,15.4);
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(204).call(this.frame_204).wait(1));
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.powder_rise_core();
 	this.instance.parent = this;
 	this.instance.setTransform(0,-17.45);
@@ -4143,7 +4143,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 (lib.rize_2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// 繝ｬ繧､繝､繝ｼ_1
+	// レイヤー_1
 	this.instance = new lib.powder_rise_inner();
 	this.instance.parent = this;
 	this.instance.setTransform(11.55,25.6,0.5,0.5);
@@ -4251,17 +4251,17 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 
 	// timeline functions:
 	this.frame_0 = function() {
-		// 01.螟画焚蛻晄悄蛹�(隗ｦ繧九∋縺九ｉ縺�) ------
+		// 01.変数初期化(触るべからず) ------
 		var _g = {};
 		var _u = {};
 		// - 01.END -------------------------
 		////////////////////////////////////////
-		// 02.蜈ｱ騾壼､画焚縺ｮ繧ｻ繝�ヨ(隗ｦ縺｣縺ｦOK) ---- //
-		//    -> 隗ｦ繧句ｿ�ｦ√�縺ｪ縺�°繧�           //
+		// 02.共通変数のセット(触ってOK) ---- //
+		//    -> 触る必要はないかも           //
 		////////////////////////////////////////
-		// voice_flag縺ｯ蝓ｺ譛ｬ逧�↓繧ｵ繝ｼ繝舌�縺九ｉ蜿門ｾ励☆繧狗ぜ縲√≠縺ｾ繧頑ｰ励↓縺吶ｋ蠢�ｦ√�縺ゅｊ縺ｾ縺帙ｓ縲�
-		// 縺ゅｊ=true 縺ｪ縺�=false (tpl縺九ｉ螟画焚繧偵ｂ繧峨ｏ縺ｪ縺�＠縺ｪ縺��ｴ蜷医�縲－| 縺ｮ縺ゅ→繧� true 縺� false 縺ｫ縺励※縺上□縺輔＞縲�
-		// 繝懊う繧ｹ縺ｪ縺励�繧ｨ繝斐た繝ｼ繝峨ｒ菴懈�縺吶ｋ蝣ｴ蜷医� false 縺ｫ險ｭ螳壹☆繧九→濶ｯ縺�°繧ゅ�
+		// voice_flagは基本的にサーバーから取得する為、あまり気にする必要はありません。
+		// あり=true なし=false (tplから変数をもらわないしない場合は、|| のあとを true か false にしてください。
+		// ボイスなしのエピソードを作成する場合は false に設定すると良いかも。
 		_g.voice_flag = window.im_cjs.voice_flag || false; 
 		_g.skip_flag = false;
 		_g.window_flag = true;
@@ -4269,7 +4269,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		_g.end_flag = false;
 		_g.shell = window._spec.isShellApp;
 		
-		_g.url = window.im_cjs.jump_url || ''; // (tpl縺九ｉ螟画焚繧偵ｂ繧峨ｏ縺ｪ縺�＠縺ｪ縺��ｴ蜷医�縲－| 縺ｮ縺ゅ→縺ｫ謖�ｮ壹＠縺殷rl繧貞�繧後※縺上□縺輔＞
+		_g.url = window.im_cjs.jump_url || ''; // (tplから変数をもらわないしない場合は、|| のあとに指定したurlを入れてください
 		///////////////////////////////////////////
 		//- 02.END ----------------------------- //
 		///////////////////////////////////////////
@@ -4283,7 +4283,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		_g.idx = 0;
 		_g.t_name = '1';
 		_g.t_face = '1';
-		_g.face_init_flag = true; // face蛻晄悄蛹悶ヵ繝ｩ繧ｰ
+		_g.face_init_flag = true; // face初期化フラグ
 		
 		_g.start_time;
 		_g.start_frame;
@@ -4291,13 +4291,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		_g.monitoring_flg = false;
 		
 		
-		//繧ｹ繝槭�蟇ｾ蠢�
+		//スマホ対応
 		if (createjs.Touch.isSupported()) {
 			createjs.Touch.enable(stage, true);
 		}
 		
-		// 03.蜈ｱ騾夐未謨ｰ縺ｮ逋ｻ骭ｲ(蝓ｺ譛ｬ逧�↓隗ｦ繧九∋縺九ｉ縺�) ------
-		//random髢｢謨ｰ
+		// 03.共通関数の登録(基本的に触るべからず) ------
+		//random関数
 		_u.random = function (_seed) {
 			return Math.floor(Math.random() * _seed);
 		}
@@ -4305,7 +4305,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		_u.updateTalk = function () {
 			exportRoot._g.skip_flag = false;
 		
-			//--------荳譎ょ●豁｢("end"縺ｫ縺�ｋ)--------
+			//--------一時停止("end"にいる)--------
 			exportRoot._g.m1 = window.im_cjs.t[exportRoot._g.idx][1];
 			exportRoot._g.m2 = window.im_cjs.t[exportRoot._g.idx][2];
 			exportRoot._g.m3 = window.im_cjs.t[exportRoot._g.idx][3];
@@ -4331,16 +4331,16 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			}
 		}
 		
-		// 谺｡縺ｮ繧ｹ繧ｭ繝��蜈医�蛻､螳�
+		// 次のスキップ先の判定
 		_u.nextScene = function () {
 			if (exportRoot._g.skip_flag) {
-				//"scene"縺ｫ縺�ｋ
+				//"scene"にいる
 				exportRoot._g.skip_flag = false;
 				exportRoot.window_1.w2.ar.visible = true;
 				exportRoot.gotoAndStop("end" + exportRoot._g.idx);
 				
 			} else {
-				//"end"縺ｫ縺�ｋ
+				//"end"にいる
 		
 				exportRoot._g.skip_flag = true;
 				exportRoot.window_1.w2.ar.visible = false;
@@ -4356,9 +4356,9 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			}
 		}
 		
-		// 鬘疲ュ蝣ｱ縺ｮ譖ｴ譁ｰ
-		// param _instance: exportRoot縺九ｉ縺ｮ隕九◆繧､繝ｳ繧ｹ繧ｿ繝ｳ繧ｹ縺ｮ菴咲ｽｮ謖�ｮ�
-		// _num faceId縺ｮ謖�ｮ�
+		// 顔情報の更新
+		// param _instance: exportRootからの見たインスタンスの位置指定
+		// _num faceIdの指定
 		_u.setFace = function (_instance, _num) {
 			exportRoot[_instance].c.f.next_face = (_num - 1);
 			exportRoot[_instance].c.f.gotoAndPlay("run");
@@ -4368,8 +4368,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			exportRoot.play();
 		}
 		
-		// 繝�く繧ｹ繝医そ繝�ヨ
-		// param _type: finish 繧呈欠螳壹☆繧九→譛邨ゅヵ繝ｬ繝ｼ繝�逕ｨ縺ｮ譖ｴ譁ｰ縺ｫ縺ｪ繧具ｼ育怐逡･蜿ｯ)
+		// テキストセット
+		// param _type: finish を指定すると最終フレーム用の更新になる（省略可)
 		_u.setText = function (_type, _num) {
 			_type = _type || null;
 			_num = _num || 4;
@@ -4392,7 +4392,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			if (window.voiceLoad) {
 				window.voiceLoad(_path, _scene);
 			} else {
-				console.warn("voiceLoad 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ");
+				console.warn("voiceLoad が見つかりません");
 			}
 		}
 		
@@ -4401,23 +4401,23 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			if (window.sceneLoad) {
 				window.sceneoad(scene);
 			} else {
-				console.warn("sceneLoad 縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ");
+				console.warn("sceneLoad が見つかりません");
 			}
 		}
 		
-		//PC逕ｨ縺ｫENTER縺ｧ繧るｲ繧√ｋ繧医≧縺ｫ縺吶ｋ縲�
+		//PC用にENTERでも進めるようにする。
 		window.addEventListener("keydown", handleKeyDown);
 		
 		function handleKeyDown(event) {
 			var keyCode = event.keyCode;
 			if (keyCode == 13) { 
-		    // 繧ｨ繝ｳ繧ｿ繝ｼ繧ｭ繝ｼ縺梧款縺輔ｌ縺滓凾縺ｮ蜃ｦ逅�
-			// loading譎�
+		    // エンターキーが押された時の処理
+			// loading時
 					if (exportRoot.loader.visible) {
 						return;
 					}
 		
-					// 譛邨ゅヵ繝ｬ繝ｼ繝�譎�
+					// 最終フレーム時
 					if (exportRoot._g.end_flag) {
 						window.location.href = exportRoot._g.url;
 						window.removeEventListener("keydown", handleKeyDown);
@@ -4433,14 +4433,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			}
 		}
 		
-				// 繝懊ち繝ｳ繧ｿ繝��蜃ｦ逅�
+				// ボタンタップ処理
 				if (window.navigator.userAgent.indexOf('Android') > 0) {
 					var _flag = false;
 					exportRoot.stage_btn.addEventListener('mousedown', function (event) {
 						var _btn = event.nativeEvent.type || event.type;
 						if(_btn != "touchstart" || (event.nativeEvent.type != event.type)) {
 							if (!_flag) {
-								// loading譎�
+								// loading時
 								if (exportRoot.loader.visible) {
 									return;
 								}
@@ -4449,7 +4449,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 									_flag = false;
 								}, 500);
 								
-								// 譛邨ゅヵ繝ｬ繝ｼ繝�譎�
+								// 最終フレーム時
 								if (exportRoot._g.end_flag) {
 									//window.location.href = exportRoot._g.url;
 									window.location.assign(exportRoot._g.url);
@@ -4488,12 +4488,12 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 					var _flag = false;
 					exportRoot.stage_btn.addEventListener('click', function (event) {
 						if (!_flag) {
-							// loading譎�
+							// loading時
 							if (exportRoot.loader.visible) {
 								return;
 							}
 		
-							// 譛邨ゅヵ繝ｬ繝ｼ繝�譎�
+							// 最終フレーム時
 							if (exportRoot._g.end_flag) {
 								window.location.href = exportRoot._g.url;
 								exportRoot.stage_btn.removeAllEventListeners();
@@ -4537,12 +4537,12 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		// 03.END ---------------------------------
 		
-		// 螟画焚繧弾xportRoot縺ｫ譬ｼ邏�
+		// 変数をexportRootに格納
 		exportRoot._g = _g;
 		exportRoot._u = _u;
 		
 		
-		// exportRoot繧ｿ繧､繝�繝ｩ繧､繝ｳ縺ｫ髯舌ｊ螟画焚縺ｮ邁｡逡･蛹門､画焚縺ｮ繧ｻ繝�ヨ(exportRoot莉･螟悶〒繧ゆｽｿ逕ｨ縺ｧ縺阪ｋ縺後∽ｿ晁ｨｼ縺ｯ縺励↑縺�)
+		// exportRootタイムラインに限り変数の簡略化変数のセット(exportRoot以外でも使用できるが、保証はしない)
 		this.m = window.im_cjs;
 		
 		var frame_skip_ticker = (function() {
@@ -4554,7 +4554,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		     
 		    _f.init = function() {
 		        root = window.exportRoot;
-		        correction_time = 1000 / (lib.properties.fps - 0.3); // createjs縺ｮticker縺ｯ繧ｺ繝ｬ繧狗ぜ縲∬｣懈ｭ｣蛟､(0.3)繧貞�繧後※邨碁℃譎る俣縺九ｉ譛ｬ譚･縺ｮ繝輔Ξ繝ｼ繝�謨ｰ繧貞叙蠕励☆繧�
+		        correction_time = 1000 / (lib.properties.fps - 0.3); // createjsのtickerはズレる為、補正値(0.3)を入れて経過時間から本来のフレーム数を取得する
 		        _f.get_action_frames();
 		        createjs.Ticker.addEventListener('tick', _f.frame_monitoring);
 		    }
@@ -4566,10 +4566,10 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		            var now_time = new Date().getTime();
 		             
 		            var now_fps = _g.start_frame + Math.floor((now_time - _g.start_time) / correction_time);
-		            // createjs縺ｮ迴ｾ蝨ｨ縺ｮ繝輔Ξ繝ｼ繝�謨ｰ繧医ｊ譛ｬ譚･縺ｮ繝輔Ξ繝ｼ繝�謨ｰ縺悟�陦後＠縺ｦ縺溘ｉ繝輔Ξ繝ｼ繝�繧ｹ繧ｭ繝��蜃ｦ逅�ｒ陦後≧
+		            // createjsの現在のフレーム数より本来のフレーム数が先行してたらフレームスキップ処理を行う
 		            if (now_fps > _position) {
 		                var this_position = _position;
-		                // frame script縺後≠繧句�ｴ謇繧偵し繝ｼ繝√＠縺ｦ蠢�★螳溯｡後☆繧区ｧ倥↓縺吶ｋ
+		                // frame scriptがある場所をサーチして必ず実行する様にする
 		                for (var i = frame_arr_head, len = ex_frame.length; i < len; i++) {
 		                    var _t = ex_frame[i];
 		                    if (_t > _position && _t < now_fps) {
@@ -4580,7 +4580,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		                        play_fps = now_fps;
 		                    }
 		                }
-		                // 譛邨ゅヵ繝ｬ繝ｼ繝�繧呈､懃衍縺吶ｋ
+		                // 最終フレームを検知する
 		                if (play_fps >= _duration) {
 		                    _g.monitoring_flg = false;
 		                    play_fps = _duration - 1;
@@ -4614,10 +4614,10 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		if ((/Android/.test(ua) && /Linux; U;/.test(ua) && !/Chrome/.test(ua) && !_g.shell) ||
 			(/Android/.test(ua) && !/Android 4.4.4/.test(ua) && /Chrome/.test(ua) && /Version/.test(ua) && !_g.shell) ||
 		  (/Android/.test(ua)  && /Chrome/.test(ua) && /SamsungBrowser/.test(ua) && !_g.shell)) {
-			// Android讓呎ｺ悶ヶ繝ｩ繧ｦ繧ｶ&ShellApp縺ｧ縺ｯ縺ｪ縺�凾縺ｮ蜃ｦ逅�
+			// Android標準ブラウザ&ShellAppではない時の処理
 			  self.test_mc.gotoAndStop('android');
 		} else {
-			// Android讓呎ｺ悶ヶ繝ｩ繧ｦ繧ｶ縺ｧ縺ｯ縺ｪ縺�&ShellApp縺�縺｣縺滓凾縺ｮ蜃ｦ逅�
+			// Android標準ブラウザではない&ShellAppだった時の処理
 			self.test_mc.gotoAndStop('shell');
 		}
 		
@@ -4641,8 +4641,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_15 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�1
-		m1 = "縺ｵ縺�ｦ窶ｦ";
+		//コメント1
+		m1 = "ふぅ……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4650,7 +4650,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		if (sp_flag eq 1) {
 			fscommand2("JavaScript", "btStart", 1, "window");
 		}
-		//btStart(int,char)//繝懊ち繝ｳ縺ｮ謨ｰ,繝懊ち繝ｳ縺ｮ繧ｷ繝ｳ繝懊Ν蜷�
+		//btStart(int,char)//ボタンの数,ボタンのシンボル名
 		
 		
 		tellTarget ("ch1/c/f") {
@@ -4660,7 +4660,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		*/
 		
-		exportRoot._g.m1 = "縺ｵ縺�ｦ窶ｦ";
+		exportRoot._g.m1 = "ふぅ……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4681,19 +4681,19 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_45 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "窶ｦ窶ｦ�｡";
+		m2 = "……｡";
 		
 		
 		gotoAndPlay("ch1/:swing_on");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "窶ｦ窶ｦ�｡";
+		exportRoot._g.m2 = "……｡";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("swing_on");
 	}
 	this.frame_96 = function() {
-		/* m2 = "窶ｦ窶ｦ�｡縺��､螟ｧ荳亥､ｫ縺��､";
+		/* m2 = "……｡だ､大丈夫だ､";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 3;
@@ -4702,7 +4702,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		*/
 		
-		exportRoot._g.m2 = "窶ｦ窶ｦ�｡縺��､螟ｧ荳亥､ｫ縺��､";
+		exportRoot._g.m2 = "……｡だ､大丈夫だ､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4720,7 +4720,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_126 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "窶ｦ窶ｦ";
+		m3 = "……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 10;
@@ -4730,7 +4730,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:nod2");*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "窶ｦ窶ｦ";
+		exportRoot._g.m3 = "……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 10);
@@ -4756,7 +4756,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 3);
 	}
 	this.frame_203 = function() {
-		/* m4 = "縺ｪ�､";
+		/* m4 = "な､";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 2;
@@ -4765,7 +4765,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch1/:nod");*/
 		
-		exportRoot._g.m4 = "縺ｪ�､";
+		exportRoot._g.m4 = "な､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
@@ -4807,8 +4807,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_243 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�2
-		m1 = "莠句漁謇縺ｮ縺ｿ繧薙↑縺鯉ｽ､";
+		//コメント2
+		m1 = "事務所のみんなが､";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4820,7 +4820,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndStop("ch1/c/:f_off");*/
 		
-		exportRoot._g.m1 = "莠句漁謇縺ｮ縺ｿ繧薙↑縺鯉ｽ､";
+		exportRoot._g.m1 = "事務所のみんなが､";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4832,15 +4832,15 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_272 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "縺帙※縺上ｌ縺溘ｓ縺�窶ｦ窶ｦ";
+		m2 = "せてくれたんだ……";
 		*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "縺帙※縺上ｌ縺溘ｓ縺�窶ｦ窶ｦ";
+		exportRoot._g.m2 = "せてくれたんだ……";
 		exportRoot._u.setText();
 	}
 	this.frame_320 = function() {
-		/* m2 = "縺帙※縺上ｌ縺溘ｓ縺�窶ｦ窶ｦ逹蟠ｩ繧�";
+		/* m2 = "せてくれたんだ……着崩れ";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 1;
@@ -4849,14 +4849,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch2/:swing");*/
 		
-		exportRoot._g.m2 = "縺帙※縺上ｌ縺溘ｓ縺�窶ｦ窶ｦ逹蟠ｩ繧�";
+		exportRoot._g.m2 = "せてくれたんだ……着崩れ";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
 	}
 	this.frame_336 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "縺溘￥縺ｪ縺�ｽ｡";
+		m3 = "たくない｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -4866,7 +4866,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:nod2");*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "縺溘￥縺ｪ縺�ｽ｡";
+		exportRoot._g.m3 = "たくない｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -4874,7 +4874,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_379 = function() {
-		/* m3 = "縺溘￥縺ｪ縺�ｽ｡逹迚ｩ縺ｯ窶ｦ窶ｦ";
+		/* m3 = "たくない｡着物は……";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 3;
@@ -4883,7 +4883,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m3 = "縺溘￥縺ｪ縺�ｽ｡逹迚ｩ縺ｯ窶ｦ窶ｦ";
+		exportRoot._g.m3 = "たくない｡着物は……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4891,22 +4891,22 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_407 = function() {
-		/* m3 = "縺溘￥縺ｪ縺�ｽ｡逹迚ｩ縺ｯ窶ｦ窶ｦ縺奇ｽ､";
+		/* m3 = "たくない｡着物は……お､";
 		
 		*/
 		
-		exportRoot._g.m3 = "縺溘￥縺ｪ縺�ｽ｡逹迚ｩ縺ｯ窶ｦ窶ｦ縺奇ｽ､";
+		exportRoot._g.m3 = "たくない｡着物は……お､";
 		exportRoot._u.setText();
 	}
 	this.frame_416 = function() {
 		/* m3 = eval("t" add idx add "_3");
-		m4 = "縺ｿ縺溘＞縺ｧ�､";
+		m4 = "みたいで､";
 		
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "縺ｿ縺溘＞縺ｧ�､";
+		exportRoot._g.m4 = "みたいで､";
 		exportRoot._u.setText();
 		
 		
@@ -4947,8 +4947,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_471 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�3
-		m1 = "縺ｫ�､";
+		//コメント3
+		m1 = "に､";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4960,7 +4960,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:shock2");*/
 		
-		exportRoot._g.m1 = "縺ｫ�､";
+		exportRoot._g.m1 = "に､";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4971,17 +4971,17 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("shock2");
 	}
 	this.frame_491 = function() {
-		/* m1 = "縺ｫ�､縺ｫ�､";
+		/* m1 = "に､に､";
 		
 		gotoAndPlay("ch2/:shock2");*/
 		
-		exportRoot._g.m1 = "縺ｫ�､縺ｫ�､";
+		exportRoot._g.m1 = "に､に､";
 		exportRoot._u.setText();
 		
 		this.ch2.gotoAndPlay("shock2");
 	}
 	this.frame_507 = function() {
-		/* m1 = "縺ｫ�､縺ｫ�､縺ｫ縺ｫ莨ｼ蜷医▲縺ｦ繧�!?";
+		/* m1 = "に､に､にに似合ってる!?";
 		
 		
 		tellTarget ("ch2/c/f") {
@@ -4991,7 +4991,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:shy_jump");*/
 		
-		exportRoot._g.m1 = "縺ｫ�､縺ｫ�､縺ｫ縺ｫ莨ｼ蜷医▲縺ｦ繧�!?";
+		exportRoot._g.m1 = "に､に､にに似合ってる!?";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 5);
@@ -5000,7 +5000,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_560 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "窶ｦ窶ｦ窶ｦ窶ｦ縺ゑｽ､";
+		m2 = "…………あ､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 11;
@@ -5009,19 +5009,19 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "窶ｦ窶ｦ窶ｦ窶ｦ縺ゑｽ､";
+		exportRoot._g.m2 = "…………あ､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 11);
 	}
 	this.frame_570 = function() {
-		/* m2 = "窶ｦ窶ｦ窶ｦ窶ｦ縺ゑｽ､縺吶∪縺ｪ縺�ｽ｡";
+		/* m2 = "…………あ､すまない｡";
 		
 		gotoAndPlay("ch2/:swing_on");
 		
 		*/
 		
-		exportRoot._g.m2 = "窶ｦ窶ｦ窶ｦ窶ｦ縺ゑｽ､縺吶∪縺ｪ縺�ｽ｡";
+		exportRoot._g.m2 = "…………あ､すまない｡";
 		exportRoot._u.setText();
 		
 		
@@ -5047,27 +5047,27 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_off");
 	}
 	this.frame_662 = function() {
-		/* m4 = "縺昴�窶ｦ窶ｦ";
+		/* m4 = "その……";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 11;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m4 = "縺昴�窶ｦ窶ｦ";
+		exportRoot._g.m4 = "その……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 11);
 	}
 	this.frame_700 = function() {
-		/* m4 = "縺昴�窶ｦ窶ｦ縺ゑｽ､";
+		/* m4 = "その……あ､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 5;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m4 = "縺昴�窶ｦ窶ｦ縺ゑｽ､";
+		exportRoot._g.m4 = "その……あ､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 5);
@@ -5107,8 +5107,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_729 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�4
-		m1 = "蛻晁ｩ｣縺ｯ�､";
+		//コメント4
+		m1 = "初詣は､";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -5120,7 +5120,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m1 = "蛻晁ｩ｣縺ｯ�､";
+		exportRoot._g.m1 = "初詣は､";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -5131,7 +5131,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_756 = function() {
-		/* m1 = "蛻晁ｩ｣縺ｯ�､逾樊ｧ倥∈";
+		/* m1 = "初詣は､神様へ";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -5140,7 +5140,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m1 = "蛻晁ｩ｣縺ｯ�､逾樊ｧ倥∈";
+		exportRoot._g.m1 = "初詣は､神様へ";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -5148,11 +5148,11 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_off");
 	}
 	this.frame_772 = function() {
-		/* m1 = "蛻晁ｩ｣縺ｯ�､逾樊ｧ倥∈謖ｨ諡ｶ縺吶ｋ";
+		/* m1 = "初詣は､神様へ挨拶する";
 		
 		*/
 		
-		exportRoot._g.m1 = "蛻晁ｩ｣縺ｯ�､逾樊ｧ倥∈謖ｨ諡ｶ縺吶ｋ";
+		exportRoot._g.m1 = "初詣は､神様へ挨拶する";
 		exportRoot._u.setText();
 	}
 	this.frame_791 = function() {
@@ -5173,24 +5173,24 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_820 = function() {
-		/* m2 = "縺�縺九ｉ";
+		/* m2 = "だから";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m2 = "縺�縺九ｉ";
+		exportRoot._g.m2 = "だから";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
 	}
 	this.frame_833 = function() {
-		/* m2 = "縺�縺九ｉ邯ｺ鮗励↑霄ｫ縺ｮ譁ｹ縺鯉ｽ､";
+		/* m2 = "だから綺麗な身の方が､";
 		
 		*/
 		
-		exportRoot._g.m2 = "縺�縺九ｉ邯ｺ鮗励↑霄ｫ縺ｮ譁ｹ縺鯉ｽ､";
+		exportRoot._g.m2 = "だから綺麗な身の方が､";
 		exportRoot._u.setText();
 	}
 	this.frame_871 = function() {
@@ -5211,20 +5211,20 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_885 = function() {
-		/* m3 = "縺泌茜逶�";
+		/* m3 = "ご利益";
 		
 		
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m3 = "縺泌茜逶�";
+		exportRoot._g.m3 = "ご利益";
 		exportRoot._u.setText();
 		
 		
 		this.ch2.gotoAndPlay("swing_off");
 	}
 	this.frame_905 = function() {
-		/* m3 = "縺泌茜逶翫≠繧具ｽ｡";
+		/* m3 = "ご利益ある｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 9;
@@ -5234,7 +5234,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod");*/
 		
-		exportRoot._g.m3 = "縺泌茜逶翫≠繧具ｽ｡";
+		exportRoot._g.m3 = "ご利益ある｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 9);
@@ -5242,7 +5242,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_927 = function() {
-		/* m3 = "縺泌茜逶翫≠繧具ｽ｡�鯉ｾ具ｽｯ窶ｦ窶ｦ";
+		/* m3 = "ご利益ある｡ﾌﾋｯ……";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
@@ -5251,7 +5251,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod_double2");*/
 		
-		exportRoot._g.m3 = "縺泌茜逶翫≠繧具ｽ｡�鯉ｾ具ｽｯ窶ｦ窶ｦ";
+		exportRoot._g.m3 = "ご利益ある｡ﾌﾋｯ……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -5260,7 +5260,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_945 = function() {
 		/* m3 = eval("t" add idx add "_3");
-		m4 = "縺九ｂ�､";
+		m4 = "かも､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -5268,7 +5268,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};*/
 		
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "縺九ｂ�､";
+		exportRoot._g.m4 = "かも､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -5309,8 +5309,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_1005 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�5
-		m1 = "1縺､逶ｮ縺ｯ�､";
+		//コメント5
+		m1 = "1つ目は､";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -5323,7 +5323,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:nod2");
 		*/
 		
-		exportRoot._g.m1 = "1縺､逶ｮ縺ｯ�､";
+		exportRoot._g.m1 = "1つ目は､";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -5334,7 +5334,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_1028 = function() {
-		/* m1 = "1縺､逶ｮ縺ｯ�､螳ｶ譌上→��ｾ難ｾ�橸ｾ√�蛛･蠎ｷ�｡";
+		/* m1 = "1つ目は､家族とﾄﾓﾀﾞﾁの健康｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -5343,7 +5343,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m1 = "1縺､逶ｮ縺ｯ�､螳ｶ譌上→��ｾ難ｾ�橸ｾ√�蛛･蠎ｷ�｡";
+		exportRoot._g.m1 = "1つ目は､家族とﾄﾓﾀﾞﾁの健康｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -5364,7 +5364,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1091 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "繧難ｽ､";
+		m2 = "ん､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 1;
@@ -5374,7 +5374,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:nod");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "繧難ｽ､";
+		exportRoot._g.m2 = "ん､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
@@ -5382,7 +5382,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_1106 = function() {
-		/* m2 = "繧難ｽ､螟ｧ蛻�□�｡";
+		/* m2 = "ん､大切だ｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -5391,7 +5391,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing");*/
 		
-		exportRoot._g.m2 = "繧難ｽ､螟ｧ蛻�□�｡";
+		exportRoot._g.m2 = "ん､大切だ｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -5399,7 +5399,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing");
 	}
 	this.frame_1141 = function() {
-		/* m2 = "繧難ｽ､螟ｧ蛻�□�｡2縺､逶ｮ縺ｯ�､";
+		/* m2 = "ん､大切だ｡2つ目は､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 9;
@@ -5408,7 +5408,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod2");*/
 		
-		exportRoot._g.m2 = "繧難ｽ､螟ｧ蛻�□�｡2縺､逶ｮ縺ｯ�､";
+		exportRoot._g.m2 = "ん､大切だ｡2つ目は､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 9);
@@ -5417,7 +5417,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1163 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "逶幢ｽ｡";
+		m3 = "盛｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 6;
@@ -5427,7 +5427,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:swing");*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "逶幢ｽ｡";
+		exportRoot._g.m3 = "盛｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -5435,20 +5435,20 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing");
 	}
 	this.frame_1208 = function() {
-		/* m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､";
+		/* m3 = "盛｡これも､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､";
+		exportRoot._g.m3 = "盛｡これも､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
 	}
 	this.frame_1230 = function() {
-		/* m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､縺�ｓ�｡";
+		/* m3 = "盛｡これも､うん｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 9;
@@ -5457,7 +5457,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod");*/
 		
-		exportRoot._g.m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､縺�ｓ�｡";
+		exportRoot._g.m3 = "盛｡これも､うん｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 9);
@@ -5465,7 +5465,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_1264 = function() {
-		/* m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､縺�ｓ�｡縺昴＠縺ｦ�､";
+		/* m3 = "盛｡これも､うん｡そして､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
@@ -5475,7 +5475,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//gotoAndPlay("ch2/:swing");*/
 		
 		
-		exportRoot._g.m3 = "逶幢ｽ｡縺薙ｌ繧ゑｽ､縺�ｓ�｡縺昴＠縺ｦ�､";
+		exportRoot._g.m3 = "盛｡これも､うん｡そして､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -5498,7 +5498,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_1317 = function() {
-		/* m4 = "縺薙ｌ縺�";
+		/* m4 = "これが";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
@@ -5507,7 +5507,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m4 = "縺薙ｌ縺�";
+		exportRoot._g.m4 = "これが";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -5515,13 +5515,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_1334 = function() {
-		/* m4 = "縺薙ｌ縺御ｸ逡ｪ";
+		/* m4 = "これが一番";
 		
 		
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m4 = "縺薙ｌ縺御ｸ逡ｪ";
+		exportRoot._g.m4 = "これが一番";
 		exportRoot._u.setText();
 		
 		this.ch2.gotoAndPlay("swing_off");
@@ -5561,8 +5561,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_1366 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�6
-		m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ";
+		//コメント6
+		m1 = "ﾋｬｨｯ!? ……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -5574,7 +5574,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:fall");*/
 		
-		exportRoot._g.m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ";
+		exportRoot._g.m1 = "ﾋｬｨｯ!? ……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -5585,24 +5585,24 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("fall");
 	}
 	this.frame_1385 = function() {
-		/* m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ縺呻ｽ､";*/
+		/* m1 = "ﾋｬｨｯ!? ……す､";*/
 		
-		exportRoot._g.m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ縺呻ｽ､";
+		exportRoot._g.m1 = "ﾋｬｨｯ!? ……す､";
 		exportRoot._u.setText();
 	}
 	this.frame_1391 = function() {
-		/* m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ縺呻ｽ､縺吶∪縺ｪ縺�ｽ｡";
+		/* m1 = "ﾋｬｨｯ!? ……す､すまない｡";
 		
 		gotoAndPlay("ch2/:wake");*/
 		
-		exportRoot._g.m1 = "�具ｽｬ�ｨ�ｯ!? 窶ｦ窶ｦ縺呻ｽ､縺吶∪縺ｪ縺�ｽ｡";
+		exportRoot._g.m1 = "ﾋｬｨｯ!? ……す､すまない｡";
 		exportRoot._u.setText();
 		
 		this.ch2.gotoAndPlay("wake");
 	}
 	this.frame_1407 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "縺ｧ霄薙″縺九￠縺滂ｽ｡";
+		m2 = "で躓きかけた｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 11;
@@ -5612,7 +5612,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:shy_jump2");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "縺ｧ霄薙″縺九￠縺滂ｽ｡";
+		exportRoot._g.m2 = "で躓きかけた｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 11);
@@ -5620,7 +5620,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("shy_jump2");
 	}
 	this.frame_1448 = function() {
-		/* m2 = "縺ｧ霄薙″縺九￠縺滂ｽ｡螟ｧ荳亥､ｫ�｡";
+		/* m2 = "で躓きかけた｡大丈夫｡";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 3;
@@ -5629,7 +5629,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod2");*/
 		
-		exportRoot._g.m2 = "縺ｧ霄薙″縺九￠縺滂ｽ｡螟ｧ荳亥､ｫ�｡";
+		exportRoot._g.m2 = "で躓きかけた｡大丈夫｡";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -5654,7 +5654,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_1525 = function() {
-		/* m3 = "繧茨ｽ､";
+		/* m3 = "よ､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 3;
@@ -5663,13 +5663,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		*/
 		
-		exportRoot._g.m3 = "繧茨ｽ､";
+		exportRoot._g.m3 = "よ､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
 	}
 	this.frame_1535 = function() {
-		/* m3 = "繧茨ｽ､繧医°縺｣縺溘ｉ�､";
+		/* m3 = "よ､よかったら､";
 		
 		//tellTarget ("ch2/c/f") {
 		//	next_face = 10;
@@ -5678,13 +5678,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m3 = "繧茨ｽ､繧医°縺｣縺溘ｉ�､";
+		exportRoot._g.m3 = "よ､よかったら､";
 		exportRoot._u.setText();
 		
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_1571 = function() {
-		/* m3 = "繧茨ｽ､繧医°縺｣縺溘ｉ�､縺薙�縺ｾ縺ｾ";
+		/* m3 = "よ､よかったら､このまま";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 4;
@@ -5693,7 +5693,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m3 = "繧茨ｽ､繧医°縺｣縺溘ｉ�､縺薙�縺ｾ縺ｾ";
+		exportRoot._g.m3 = "よ､よかったら､このまま";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
@@ -5718,11 +5718,11 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch2/:swing");*/
 		
-		exportRoot._g.m4 = "蛟溘ｊ縺ｦ縺ｦ繧ゑｽ､";
+		exportRoot._g.m4 = "借りてても､";
 		exportRoot._u.setText();
 	}
 	this.frame_1635 = function() {
-		// m4 = "蛟溘ｊ縺ｦ縺ｦ繧ゑｽ､縺�＞";
+		// m4 = "借りてても､いい";
 		
 		//gotoAndPlay("ch2/:nod2");
 		
@@ -5732,7 +5732,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		////};
 		
 		
-		exportRoot._g.m4 = "蛟溘ｊ縺ｦ縺ｦ繧ゑｽ､縺�＞";
+		exportRoot._g.m4 = "借りてても､いい";
 		exportRoot._u.setText();
 		
 		
@@ -5765,8 +5765,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_1655 = function() {
 		/* call("updateTalk");
 		
-		//繧ｳ繝｡繝ｳ繝�7
-		m1 = "縺薙ｌ縺ｯ�､";
+		//コメント7
+		m1 = "これは､";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -5776,7 +5776,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m1 = "縺薙ｌ縺ｯ�､";
+		exportRoot._g.m1 = "これは､";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -5785,7 +5785,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 2);
 	}
 	this.frame_1671 = function() {
-		/* m1 = "縺薙ｌ縺ｯ�､3縺､繧√�鬘倥＞縺ｧ繧ゑｽ､";
+		/* m1 = "これは､3つめの願いでも､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 1;
@@ -5794,7 +5794,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		*/
 		
-		exportRoot._g.m1 = "縺薙ｌ縺ｯ�､3縺､逶ｮ縺ｮ鬘倥＞縺ｧ繧ゑｽ､";
+		exportRoot._g.m1 = "これは､3つ目の願いでも､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
@@ -5817,7 +5817,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_1742 = function() {
-		/* m2 = "�鯉ｾ滂ｾ幢ｾ�ｾ橸ｽｭ�ｰ�ｻ�ｰ縺ｨ";
+		/* m2 = "ﾌﾟﾛﾃﾞｭｰｻｰと";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
@@ -5827,7 +5827,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m2 = "�鯉ｾ滂ｾ幢ｾ�ｾ橸ｽｭ�ｰ�ｻ�ｰ縺ｨ";
+		exportRoot._g.m2 = "ﾌﾟﾛﾃﾞｭｰｻｰと";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -5835,11 +5835,11 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("swing_on");
 	}
 	this.frame_1773 = function() {
-		/* m2 = "�鯉ｾ滂ｾ幢ｾ�ｾ橸ｽｭ�ｰ�ｻ�ｰ縺ｨ縺薙�蜈医ｂ�､";
+		/* m2 = "ﾌﾟﾛﾃﾞｭｰｻｰとこの先も､";
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m2 = "�鯉ｾ滂ｾ幢ｾ�ｾ橸ｽｭ�ｰ�ｻ�ｰ縺ｨ縺薙�蜈医ｂ�､";
+		exportRoot._g.m2 = "ﾌﾟﾛﾃﾞｭｰｻｰとこの先も､";
 		exportRoot._u.setText();
 		
 		
@@ -5847,7 +5847,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1800 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "窶ｦ窶ｦ";
+		m3 = "……";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 1;
@@ -5857,7 +5857,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:nod2");*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "窶ｦ窶ｦ";
+		exportRoot._g.m3 = "……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
@@ -5865,14 +5865,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_1846 = function() {
-		/* m3 = "窶ｦ窶ｦ謇九ｒ蜿悶ｊ縺ゅ＞�､";
+		/* m3 = "……手を取りあい､";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m3 = "窶ｦ窶ｦ謇九ｒ蜿悶ｊ縺ゅ＞�､";
+		exportRoot._g.m3 = "……手を取りあい､";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -5895,15 +5895,15 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_1908 = function() {
-		/* m4 = "�鯉ｾ銀ｦ窶ｦ";*/
+		/* m4 = "ﾌﾋ……";*/
 		
-		exportRoot._g.m4 = "�鯉ｾ銀ｦ窶ｦ";
+		exportRoot._g.m4 = "ﾌﾋ……";
 		exportRoot._u.setText("finish", 4);
 	}
 	this.frame_1933 = function() {
-		/* m4 = "�鯉ｾ銀ｦ窶ｦ莉雁ｹｴ繧ゑｽ､";*/
+		/* m4 = "ﾌﾋ……今年も､";*/
 		
-		exportRoot._g.m4 = "�鯉ｾ銀ｦ窶ｦ莉雁ｹｴ繧ゑｽ､";
+		exportRoot._g.m4 = "ﾌﾋ……今年も､";
 		exportRoot._u.setText("finish", 4);
 	}
 	this.frame_1955 = function() {
@@ -5914,12 +5914,12 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setText("finish", 4);
 	}
 	this.frame_1966 = function() {
-		/* //譛蠕後�繧ｷ繝ｼ繝ｳ縺ｧ縺ゅｋ縺薙→繧辿TML蛛ｴ縺ｫ騾夂衍
+		/* //最後のシーンであることをHTML側に通知
 		if (sp_flag eq 1) {
 			fscommand2("JavaScript", "backUrl", url);
 		}
 		
-		//label縲茎cene7縲埼夐℃蠕後�skip蟇ｾ遲�
+		//label「scene7」通過後のskip対策
 		m1 = eval("t" add idx add "_1");
 		m2 = eval("t" add idx add "_2");
 		m3 = eval("t" add idx add "_3");
@@ -5930,10 +5930,10 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		stop();
 		*/
 		
-		//譛蠕後�繧ｷ繝ｼ繝ｳ縺ｧ縺ゅｋ縺薙→繧辿TML蛛ｴ縺ｫ騾夂衍
+		//最後のシーンであることをHTML側に通知
 		exportRoot._g.end_flag = true;
 		
-		//label縲茎cene7縲埼夐℃蠕後�skip蟇ｾ遲�
+		//label「scene7」通過後のskip対策
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
@@ -6059,7 +6059,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 
 	this.timeline.addTween(cjs.Tween.get(this.glitters).wait(1908).to({_off:false},0).wait(63));
 
-	// 繝ｬ繧､繝､繝ｼ_2
+	// レイヤー_2
 	this.instance_9 = new lib.white_mask();
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(120,155,1,1,0,0,0,120,155);
