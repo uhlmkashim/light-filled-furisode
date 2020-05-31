@@ -4091,16 +4091,16 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/blue_light.png?1590543141739", id:"_409_3_blue_light"},
-		{src:"images/ch_base.jpg?1590543141739", id:"_409_3_ch_base"},
-		{src:"images/ch_face2.jpg?1590543141739", id:"_409_3_ch_face2"},
-		{src:"images/ch_face3.jpg?1590543141739", id:"_409_3_ch_face3"},
-		{src:"images/ch_face4.jpg?1590543141739", id:"_409_3_ch_face4"},
-		{src:"images/finish.jpg?1590543141739", id:"_409_3_finish"},
-		{src:"images/finish_blur.jpg?1590543141739", id:"_409_3_finish_blur"},
-		{src:"images/sun_light.png?1590543141739", id:"_409_3_sun_light"},
-		{src:"images/tie_fp.png?1590543141739", id:"_409_3_tie_fp"},
-		{src:"images/tie_sp.png?1590543141739", id:"_409_3_tie_sp"}
+		{src:"images/blue_light.png", id:"_409_3_blue_light"},
+		{src:"images/ch_base.jpg", id:"_409_3_ch_base"},
+		{src:"images/ch_face2.jpg", id:"_409_3_ch_face2"},
+		{src:"images/ch_face3.jpg", id:"_409_3_ch_face3"},
+		{src:"images/ch_face4.jpg", id:"_409_3_ch_face4"},
+		{src:"images/finish.jpg", id:"_409_3_finish"},
+		{src:"images/finish_blur.jpg", id:"_409_3_finish_blur"},
+		{src:"images/sun_light.png", id:"_409_3_sun_light"},
+		{src:"images/tie_fp.png", id:"_409_3_tie_fp"},
+		{src:"images/tie_sp.png", id:"_409_3_tie_sp"}
 	],
 	preloads: []
 };
