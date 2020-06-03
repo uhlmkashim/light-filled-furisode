@@ -4019,7 +4019,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.stop();
 	}
 	this.frame_15 = function() {
-		exportRoot._g.m1 = "…………妙ですね｡";
+		exportRoot._g.m1 = "…………묘하네요.";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4032,18 +4032,18 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_45 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "先は､";
+		exportRoot._g.m2 = "확실히,";
 		exportRoot._u.setText();
 	}
 	this.frame_79 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "が……";
+		exportRoot._g.m3 = "… ";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_132 = function() {
-		exportRoot._g.m3 = "が……何故でしょう｡";
+		exportRoot._g.m3 = "… 어째서일까요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 10);
@@ -4058,7 +4058,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_194 = function() {
-		exportRoot._g.m4 = "……気配すら､";
+		exportRoot._g.m4 = "…… 기척조차,";
 		exportRoot._u.setText();
 	}
 	this.frame_212 = function() {
@@ -4078,7 +4078,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_225 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "があると";
+		exportRoot._g.m2 = "있다고";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
@@ -4095,14 +4095,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_322 = function() {
-		exportRoot._g.m3 = "困りました｡";
+		exportRoot._g.m3 = "곤란합니다.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 11);
 		this.ch1.gotoAndPlay("nod");
 	}
 	this.frame_361 = function() {
-		exportRoot._g.m3 = "困りました｡……来た道は､";
+		exportRoot._g.m3 = "곤란합니다. ……온 길은,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -4123,7 +4123,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_413 = function() {
-		exportRoot._g.m1 = "進めば進むほどに､";
+		exportRoot._g.m1 = "나아가면 나아갈수록,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4138,7 +4138,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_450 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "っていく……";
+		exportRoot._g.m2 = "가는……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 11);
@@ -4153,7 +4153,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_534 = function() {
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "はずが､";
+		exportRoot._g.m4 = "것이,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -4198,7 +4198,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_674 = function() {
-		exportRoot._g.m2 = "ありがとうございます｡";
+		exportRoot._g.m2 = "감사합니다.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
@@ -4206,7 +4206,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_719 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "ｻｰさんが､";
+		exportRoot._g.m3 = "가,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
@@ -4235,7 +4235,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 6);
 	}
 	this.frame_819 = function() {
-		exportRoot._g.m1 = "……ええ､";
+		exportRoot._g.m1 = "……네,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4249,7 +4249,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_839 = function() {
-		exportRoot._g.m1 = "……ええ､そうですね｡";
+		exportRoot._g.m1 = "……네, 그렇네요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4257,14 +4257,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_867 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "を見ていては､";
+		exportRoot._g.m2 = "보고 있으면,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
 	}
 	this.frame_905 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "ますね｡";
+		exportRoot._g.m3 = "군요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
@@ -4277,7 +4277,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 7);
 	}
 	this.frame_992 = function() {
-		exportRoot._g.m4 = "こんなにも､";
+		exportRoot._g.m4 = "이렇게도,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 8);
@@ -4301,7 +4301,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 7);
 	}
 	this.frame_1040 = function() {
-		exportRoot._g.m1 = "……私は､";
+		exportRoot._g.m1 = "……저는,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4314,7 +4314,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1062 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "もしれません｡";
+		exportRoot._g.m2 = "모릅니다.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4322,7 +4322,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1120 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "旅の時間を､";
+		exportRoot._g.m3 = "여행 시간을,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
@@ -4330,7 +4330,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1170 = function() {
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "と";
+		exportRoot._g.m4 = "고";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4351,7 +4351,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 12);
 	}
 	this.frame_1232 = function() {
-		exportRoot._g.m1 = "惑う時間も､";
+		exportRoot._g.m1 = "갈팡거리는 시간도,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4369,7 +4369,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 12);
 	}
 	this.frame_1294 = function() {
-		exportRoot._g.m2 = "素敵な記憶へと";
+		exportRoot._g.m2 = "멋진 기억으로";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
@@ -4640,31 +4640,31 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1587623432552", id:"_407_3_bg"},
-		{src:"images/bg_blur.jpg?1587623432552", id:"_407_3_bg_blur"},
-		{src:"images/blue_light.png?1587623432552", id:"_407_3_blue_light"},
-		{src:"images/ch_base.png?1587623432552", id:"_407_3_ch_base"},
-		{src:"images/ch_face10.jpg?1587623432552", id:"_407_3_ch_face10"},
-		{src:"images/ch_face11.jpg?1587623432552", id:"_407_3_ch_face11"},
-		{src:"images/ch_face12.jpg?1587623432552", id:"_407_3_ch_face12"},
-		{src:"images/ch_face2.jpg?1587623432552", id:"_407_3_ch_face2"},
-		{src:"images/ch_face3.jpg?1587623432552", id:"_407_3_ch_face3"},
-		{src:"images/ch_face4.jpg?1587623432552", id:"_407_3_ch_face4"},
-		{src:"images/ch_face6.jpg?1587623432552", id:"_407_3_ch_face6"},
-		{src:"images/ch_face7.jpg?1587623432552", id:"_407_3_ch_face7"},
-		{src:"images/ch_face8.jpg?1587623432552", id:"_407_3_ch_face8"},
-		{src:"images/ch_face9.jpg?1587623432552", id:"_407_3_ch_face9"},
-		{src:"images/finish.jpg?1587623432552", id:"_407_3_finish"},
-		{src:"images/finish_blur.jpg?1587623432552", id:"_407_3_finish_blur"},
-		{src:"images/leaf_1.png?1587623432552", id:"_407_3_leaf_1"},
-		{src:"images/leef_2.png?1587623432552", id:"_407_3_leef_2"},
-		{src:"images/leef_3.png?1587623432552", id:"_407_3_leef_3"},
-		{src:"images/leef_4.png?1587623432552", id:"_407_3_leef_4"},
-		{src:"images/leef_5.png?1587623432552", id:"_407_3_leef_5"},
-		{src:"images/leef_6.png?1587623432552", id:"_407_3_leef_6"},
-		{src:"images/sun_light.png?1587623432552", id:"_407_3_sun_light"},
-		{src:"images/tie_fp.png?1587623432552", id:"_407_3_tie_fp"},
-		{src:"images/tie_sp.png?1587623432552", id:"_407_3_tie_sp"}
+		{src:"images/bg.jpg", id:"_407_3_bg"},
+		{src:"images/bg_blur.jpg", id:"_407_3_bg_blur"},
+		{src:"images/blue_light.png", id:"_407_3_blue_light"},
+		{src:"images/ch_base.png", id:"_407_3_ch_base"},
+		{src:"images/ch_face10.jpg", id:"_407_3_ch_face10"},
+		{src:"images/ch_face11.jpg", id:"_407_3_ch_face11"},
+		{src:"images/ch_face12.jpg", id:"_407_3_ch_face12"},
+		{src:"images/ch_face2.jpg", id:"_407_3_ch_face2"},
+		{src:"images/ch_face3.jpg", id:"_407_3_ch_face3"},
+		{src:"images/ch_face4.jpg", id:"_407_3_ch_face4"},
+		{src:"images/ch_face6.jpg", id:"_407_3_ch_face6"},
+		{src:"images/ch_face7.jpg", id:"_407_3_ch_face7"},
+		{src:"images/ch_face8.jpg", id:"_407_3_ch_face8"},
+		{src:"images/ch_face9.jpg", id:"_407_3_ch_face9"},
+		{src:"images/finish.jpg", id:"_407_3_finish"},
+		{src:"images/finish_blur.jpg", id:"_407_3_finish_blur"},
+		{src:"images/leaf_1.png", id:"_407_3_leaf_1"},
+		{src:"images/leef_2.png", id:"_407_3_leef_2"},
+		{src:"images/leef_3.png", id:"_407_3_leef_3"},
+		{src:"images/leef_4.png", id:"_407_3_leef_4"},
+		{src:"images/leef_5.png", id:"_407_3_leef_5"},
+		{src:"images/leef_6.png", id:"_407_3_leef_6"},
+		{src:"images/sun_light.png", id:"_407_3_sun_light"},
+		{src:"images/tie_fp.png", id:"_407_3_tie_fp"},
+		{src:"images/tie_sp.png", id:"_407_3_tie_sp"}
 	],
 	preloads: []
 };
