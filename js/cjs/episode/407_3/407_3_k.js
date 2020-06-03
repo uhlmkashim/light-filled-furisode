@@ -4032,7 +4032,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_45 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "확실히,";
+		exportRoot._g.m2 = "곳은, 확실히,";
 		exportRoot._u.setText();
 	}
 	this.frame_79 = function() {
@@ -4078,7 +4078,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_225 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "있다고";
+		exportRoot._g.m2 = "이 있다고";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
