@@ -17,8 +17,8 @@ window.im_cjs.t[2][4] = "을 것입니다만.";
 
 window.im_cjs.t[3][1] = "나아가면 나아갈수록, 깊게 빠져들어";
 window.im_cjs.t[3][2] = "가는…… 그런 감각입니다.";
-window.im_cjs.t[3][3] = "프로듀서 씨를, 안내하는 것";
-window.im_cjs.t[3][4] = "이, 이 상태라면…….";
+window.im_cjs.t[3][3] = "프로듀서 씨를, 안내하는";
+window.im_cjs.t[3][4] = "것이, 이 상태라면…….";
 
 window.im_cjs.t[4][1] = "……격려해 주시는 거군요.";
 window.im_cjs.t[4][2] = "감사합니다. 프로듀서 씨";
