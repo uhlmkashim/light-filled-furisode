@@ -12,8 +12,8 @@ window.im_cjs.t[1][4] = "…… 기척조차, 없습니다.";
 
 window.im_cjs.t[2][1] = "골목 뒤쪽에 조용히 자리잡은 고서점이";
 window.im_cjs.t[2][2] = "있다고 가르쳐 주셨는데,";
-window.im_cjs.t[2][3] = "곤란합니다. ……온 길은,";
-window.im_cjs.t[2][4] = "맞을 것입니다만.";
+window.im_cjs.t[2][3] = "곤란합니다. ……온 길은, 맞";
+window.im_cjs.t[2][4] = "을 것입니다만.";
 
 window.im_cjs.t[3][1] = "나아가면 나아갈수록, 깊게 빠져들어";
 window.im_cjs.t[3][2] = "가는…… 그런 감각입니다.";
