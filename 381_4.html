@@ -119,9 +119,9 @@
                 var andapp_flg = "";
                 if (aa > 0 && bb == "") {
                     var flashPlayerVersion = getFlashPlayerVersion();
-                    var filename = "http://125.6.169.35/idolmaster/smart_phone_flash/playerCash/" + flashPlayerVersion;
+                    var filename = "" + flashPlayerVersion;
                     var uri = encodeURIComponent(filename);
-                    var requrl = window.location.origin + "/12008305/?guid=ON&url=" + uri;
+                    var requrl = window.location.origin + uri;
                     httpObj = new XMLHttpRequest();
                     httpObj.overrideMimeType('text/xml');
                     httpObj.open("GET", requrl, false);
