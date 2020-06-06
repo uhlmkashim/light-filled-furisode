@@ -9,7 +9,7 @@ https://uhlmkashim.github.io/light-filled-furisode/404_3 미카<br>
 https://uhlmkashim.github.io/light-filled-furisode/404_4 미유<br>
 https://uhlmkashim.github.io/light-filled-furisode/406_2_voice 미호<br>
 https://uhlmkashim.github.io/light-filled-furisode/407_3_voice 후미카<br>
-https://uhlmkashim.github.io/light-filled-furisode/407_3__voice 후미카<br>
+https://uhlmkashim.github.io/light-filled-furisode/407_3_k_voice 후미카<br>
 https://uhlmkashim.github.io/light-filled-furisode/407_4_voice 안즈<br>
 https://uhlmkashim.github.io/light-filled-furisode/408_2 슈코<br>
 https://uhlmkashim.github.io/light-filled-furisode/409_3 마유<br>
