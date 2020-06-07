@@ -6514,7 +6514,7 @@
         };
         this.frame_849 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "이,";
+            exportRoot._g.m4 = "";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch2", 2)
         };
