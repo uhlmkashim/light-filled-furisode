@@ -41,8 +41,8 @@ window.im_cjs.t[6][3] = "져. 안즈와 대자연";
 window.im_cjs.t[6][4] = "이, 잠시 허락해주지~.";
 
 //                      "１２３４５６７８９０１２３４5"
-window.im_cjs.t[7][1] = "아~, 봐봐, 석양! 가라앉";
-window.im_cjs.t[7][2] = "을 것 같아! 매직아워는 눈 깜짝할";
+window.im_cjs.t[7][1] = "아~, 봐봐, 석양! 가라앉을";
+window.im_cjs.t[7][2] = "것만 같아! 매직아워는 눈 깜짝할";
 window.im_cjs.t[7][3] = "새니까 말야.";
 window.im_cjs.t[7][5] = "……프로듀서도, 즐기지 그래.";
 window.im_cjs.t[7][6] = "응?";
