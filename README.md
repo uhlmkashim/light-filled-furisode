@@ -1,5 +1,6 @@
 재생 링크 : <br>
 https://uhlmkashim.github.io/light-filled-furisode/394_4_voice 쇼코<br>
+https://uhlmkashim.github.io/light-filled-furisode/394_4_k_voice 쇼코<br>
 https://uhlmkashim.github.io/light-filled-furisode/399_2 카에데<br>
 https://uhlmkashim.github.io/light-filled-furisode/401_3 나나<br>
 https://uhlmkashim.github.io/light-filled-furisode/401_4 리아무<br>
