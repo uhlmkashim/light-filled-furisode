@@ -5498,7 +5498,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_1317 = function() {
-		/* m4 = "이것이";
+		/* m4 = "이게";
 		
 		tellTarget ("ch2/c/f") {
 			next_face = 2;
@@ -5507,7 +5507,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m4 = "이것이";
+		exportRoot._g.m4 = "이게";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
