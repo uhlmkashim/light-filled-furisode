@@ -5587,7 +5587,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_1385 = function() {
 		/* m1 = "히얏!? ……미,";*/
 		
-		exportRoot._g.m1 = "ﾋｬｨｯ!? ……미,";
+		exportRoot._g.m1 = "히얏!? ……미,";
 		exportRoot._u.setText();
 	}
 	this.frame_1391 = function() {
