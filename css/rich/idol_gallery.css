@@ -1,0 +1,934 @@
+.large {
+    font-size: 22px
+}
+
+.small {
+    font-size: 10px
+}
+
+.red {
+    color: #ff0000
+}
+
+.red_mild {
+    color: #ff3333
+}
+
+.green {
+    color: #33ff33
+}
+
+.yellow {
+    color: #ff9900
+}
+
+.lemon_yellow {
+    color: #fff800
+}
+
+.blue {
+    color: #00ccff
+}
+
+.blue_st {
+    color: #0066ff
+}
+
+.gray {
+    color: #aaaaaa
+}
+
+.pink {
+    color: #f08080
+}
+
+.dark_gray {
+    color: #666666
+}
+
+.white {
+    color: #ffffff;
+    text-decoration: none
+}
+
+.defMargin {
+    width: 296px;
+    padding: 0 12px
+}
+
+.m-Btm0 {
+    margin-bottom: 0px
+}
+
+.m-Btm4 {
+    margin-bottom: 4px
+}
+
+.m-Btm5 {
+    margin-bottom: 5px
+}
+
+.m-Btm8 {
+    margin-bottom: 8px
+}
+
+.m-Btm10 {
+    margin-bottom: 10px
+}
+
+.m-Btm12 {
+    margin-bottom: 12px
+}
+
+.m-Btm15 {
+    margin-bottom: 15px
+}
+
+.m-Btm20 {
+    margin-bottom: 20px
+}
+
+.m-Top4 {
+    margin-top: 4px
+}
+
+.m-Top5 {
+    margin-top: 5px
+}
+
+.m-Top8 {
+    margin-top: 8px
+}
+
+.m-Top10 {
+    margin-top: 10px
+}
+
+.m-Top12 {
+    margin-top: 12px
+}
+
+.m-Head_img {
+    margin-top: -14px
+}
+
+.m-Cnt {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.t-Lft {
+    text-align: left !important
+}
+
+.t-Rgt {
+    text-align: right !important
+}
+
+.t-Cnt {
+    text-align: center !important
+}
+
+.left_float {
+    float: left
+}
+
+.right_float {
+    float: right
+}
+
+.displayBox {
+    display: -webkit-box;
+    display: -moz-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.v-Top {
+    vertical-align: top
+}
+
+.v-Mdl {
+    vertical-align: middle
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.l-Hgt120 {
+    line-height: 120%
+}
+
+.l-Hgt140 {
+    line-height: 140%
+}
+
+body#idol_gallery {
+    background-image: url(../../image_sp/ui/mypage_new/bg/bg_status_mypage_01.png);
+    background-size: 7px 7px
+}
+
+.tab-btn_4 {
+    width: 280px;
+    display: -webkit-box;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    border-radius: 7px;
+    line-height: 34px;
+    text-shadow: 0px 0px 2px #000
+}
+
+.tab-btn_4 .tab-btn_elem {
+    display: block;
+    width: 70px;
+    height: 36px;
+    border: 1px gray solid;
+    box-sizing: border-box;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #526fe5), color-stop(100%, #0c0e38))
+}
+
+.tab-btn_4 .tab-btn_elem:first-child {
+    border-radius: 7px 0 0 7px
+}
+
+.tab-btn_4 .tab-btn_elem:last-child {
+    border-radius: 0 7px 7px 0
+}
+
+.tab-btn_4 .tab-btn_elem.selected {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #111e5c), color-stop(100%, #1d1d1d));
+    color: gray
+}
+
+.tab-btn_5 {
+    width: 280px;
+    display: -webkit-box;
+    text-align: center;
+    margin: auto;
+    font-size: 10px
+}
+
+.tab-btn_5 .tab-btn_elem {
+    display: block;
+    width: 56px;
+    height: 36px
+}
+
+.selectArea_line {
+    width: 100%;
+    border-top: 1px #aaa solid;
+    margin-bottom: 8px
+}
+
+.ac_more_link {
+    width: 100%;
+    height: 36px;
+    color: #ffffff;
+    line-height: 36px;
+    position: relative;
+    top: 11px;
+    margin-top: -11px;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #444444;
+    border-top: 1px solid #aaa;
+    text-shadow: 0 0 2px #533713, 1px 1px 1px #1d1d1d;
+    border-bottom: 1px solid #7c7c7c;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #484848), color-stop(100%, #1c1c1c))
+}
+
+.no_clickable {
+    pointer-events: none
+}
+
+.not_exist {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%)
+}
+
+.star_cool {
+    background: url(../../image_sp/event/common/img_fukidashi_top_cool.png) no-repeat;
+    background-size: 22px;
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    bottom: 3px
+}
+
+.detail_idol_num_cool {
+    position: relative;
+    margin-left: auto;
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1782px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 148px;
+    height: 52px
+}
+
+.detail_idol_num_cool .detail_idol_register_num {
+    position: absolute;
+    top: 5px;
+    right: 18px
+}
+
+.detail_idol_num_cool .detail_idol_love_num {
+    position: absolute;
+    top: 33px;
+    right: 18px
+}
+
+.detail_idol_name_plate_cool {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1270px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 165px;
+    height: 64px;
+    position: relative;
+    top: -4px;
+    right: -3px;
+    text-align: center
+}
+
+.detail_idol_name_plate_cool .detail_idol_alias_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #006aff
+}
+
+.detail_idol_name_plate_cool .detail_idol_real_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.text_shadow_cool {
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.text_shadow_cool.name_cool {
+    text-shadow: 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff, 0px 0px 3px #006aff
+}
+
+.comment_title_cool {
+    background: #2a83ff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 20px;
+    margin-bottom: 5px;
+    position: relative;
+    text-shadow: 0px 0px 3px #0061e7, 0px 0px 3px #0061e7, 0px 0px 3px #0061e7, 0px 0px 3px #0061e7
+}
+
+.comment_title_cool:before {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2842px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_title_cool:after {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2830px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_cool {
+    background: #2a83ff;
+    border-radius: 8px;
+    padding: 0.1px 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.comment_frame_wrapper_cool .comment_frame {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 6px;
+    word-break: break-all;
+    color: #1d1d1d;
+    background: white;
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 1px 2px 3px #fff;
+    line-height: 110%;
+    text-align: left;
+    padding: 10px 35px 10px 5px;
+    font-size: 12px
+}
+
+.comment_frame_wrapper_cool .comment_frame .btn_idol_voice {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_cool .comment_frame._disable {
+    background: #ccc;
+    text-shadow: none;
+    color: #555
+}
+
+.star_cute {
+    background: url(../../image_sp/event/common/img_fukidashi_top_cute.png) no-repeat;
+    background-size: 22px;
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    bottom: 3px
+}
+
+.detail_idol_num_cute {
+    position: relative;
+    margin-left: auto;
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1676px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 148px;
+    height: 52px
+}
+
+.detail_idol_num_cute .detail_idol_register_num {
+    position: absolute;
+    top: 5px;
+    right: 18px
+}
+
+.detail_idol_num_cute .detail_idol_love_num {
+    position: absolute;
+    top: 33px;
+    right: 18px
+}
+
+.detail_idol_name_plate_cute {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1400px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 165px;
+    height: 64px;
+    position: relative;
+    top: -4px;
+    right: -3px;
+    text-align: center
+}
+
+.detail_idol_name_plate_cute .detail_idol_alias_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #ff0073
+}
+
+.detail_idol_name_plate_cute .detail_idol_real_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.text_shadow_cute {
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.text_shadow_cute.name_cute {
+    text-shadow: 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073, 0px 0px 3px #ff0073
+}
+
+.comment_title_cute {
+    background: #ff318e;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 20px;
+    margin-bottom: 5px;
+    position: relative;
+    text-shadow: 0px 0px 3px #eb1173, 0px 0px 3px #eb1173, 0px 0px 3px #eb1173, 0px 0px 3px #eb1173
+}
+
+.comment_title_cute:before {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2842px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_title_cute:after {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2830px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_cute {
+    background: #ff318e;
+    border-radius: 8px;
+    padding: 0.1px 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.comment_frame_wrapper_cute .comment_frame {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 6px;
+    word-break: break-all;
+    color: #1d1d1d;
+    background: white;
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 1px 2px 3px #fff;
+    line-height: 110%;
+    text-align: left;
+    padding: 10px 35px 10px 5px;
+    font-size: 12px
+}
+
+.comment_frame_wrapper_cute .comment_frame .btn_idol_voice {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_cute .comment_frame._disable {
+    background: #ccc;
+    text-shadow: none;
+    color: #555
+}
+
+.star_passion {
+    background: url(../../image_sp/event/common/img_fukidashi_top_passion.png) no-repeat;
+    background-size: 22px;
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    bottom: 3px
+}
+
+.detail_idol_num_passion {
+    position: relative;
+    margin-left: auto;
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1623px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 148px;
+    height: 52px
+}
+
+.detail_idol_num_passion .detail_idol_register_num {
+    position: absolute;
+    top: 5px;
+    right: 18px
+}
+
+.detail_idol_num_passion .detail_idol_love_num {
+    position: absolute;
+    top: 33px;
+    right: 18px
+}
+
+.detail_idol_name_plate_passion {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1335px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 165px;
+    height: 64px;
+    position: relative;
+    top: -4px;
+    right: -3px;
+    text-align: center
+}
+
+.detail_idol_name_plate_passion .detail_idol_alias_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fa0
+}
+
+.detail_idol_name_plate_passion .detail_idol_real_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0
+}
+
+.text_shadow_passion {
+    text-shadow: 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0
+}
+
+.text_shadow_passion.name_passion {
+    text-shadow: 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0, 0px 0px 3px #fa0
+}
+
+.comment_title_passion {
+    background: #ffb41d;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 20px;
+    margin-bottom: 5px;
+    position: relative;
+    text-shadow: 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00, 0px 0px 3px #ff9c00
+}
+
+.comment_title_passion:before {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2842px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_title_passion:after {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2830px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_passion {
+    background: #ffb41d;
+    border-radius: 8px;
+    padding: 0.1px 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.comment_frame_wrapper_passion .comment_frame {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 6px;
+    word-break: break-all;
+    color: #1d1d1d;
+    background: white;
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 1px 2px 3px #fff;
+    line-height: 110%;
+    text-align: left;
+    padding: 10px 35px 10px 5px;
+    font-size: 12px
+}
+
+.comment_frame_wrapper_passion .comment_frame .btn_idol_voice {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_passion .comment_frame._disable {
+    background: #ccc;
+    text-shadow: none;
+    color: #555
+}
+
+.star_trainer {
+    background: url(../../image_sp/event/common/img_fukidashi_top_trainer.png) no-repeat;
+    background-size: 22px;
+    width: 22px;
+    height: 16px;
+    position: absolute;
+    right: 2px;
+    bottom: 3px
+}
+
+.detail_idol_num_trainer {
+    position: relative;
+    margin-left: auto;
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1729px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 148px;
+    height: 52px
+}
+
+.detail_idol_num_trainer .detail_idol_register_num {
+    position: absolute;
+    top: 5px;
+    right: 18px
+}
+
+.detail_idol_num_trainer .detail_idol_love_num {
+    position: absolute;
+    top: 33px;
+    right: 18px
+}
+
+.detail_idol_name_plate_trainer {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1558px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 165px;
+    height: 64px;
+    position: relative;
+    top: -4px;
+    right: -3px;
+    text-align: center
+}
+
+.detail_idol_name_plate_trainer .detail_idol_alias_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #21c421
+}
+
+.detail_idol_name_plate_trainer .detail_idol_real_name {
+    -webkit-transform: skew(4deg, -4deg);
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+
+.text_shadow_trainer {
+    text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+
+.text_shadow_trainer.name_trainer {
+    text-shadow: 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421, 0px 0px 3px #21c421
+}
+
+.comment_title_trainer {
+    background: #21c421;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 2px 20px;
+    margin-bottom: 5px;
+    position: relative;
+    text-shadow: 0px 0px 3px #00b000, 0px 0px 3px #00b000, 0px 0px 3px #00b000, 0px 0px 3px #00b000
+}
+
+.comment_title_trainer:before {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2842px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_title_trainer:after {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -2830px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 13px;
+    height: 11px;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_trainer {
+    background: #21c421;
+    border-radius: 8px;
+    padding: 0.1px 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.comment_frame_wrapper_trainer .comment_frame {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    position: relative;
+    border-radius: 6px;
+    word-break: break-all;
+    color: #1d1d1d;
+    background: white;
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0px #fff, 1px 1px 0px #fff, -1px 1px 0px #fff, 1px 2px 3px #fff;
+    line-height: 110%;
+    text-align: left;
+    padding: 10px 35px 10px 5px;
+    font-size: 12px
+}
+
+.comment_frame_wrapper_trainer .comment_frame .btn_idol_voice {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto
+}
+
+.comment_frame_wrapper_trainer .comment_frame._disable {
+    background: #ccc;
+    text-shadow: none;
+    color: #555
+}
+
+.icon_birthday {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1502px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 134px;
+    height: 20px;
+    position: absolute;
+    top: 120px;
+    right: 7px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn_3rd_anniversary {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 0;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 136px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn_5th_anniversary {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -45px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 136px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#btn_premium_sign {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1465px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 96px;
+    height: 36px;
+    position: absolute;
+    top: 143px;
+    right: 27px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#btn_normal_sign {
+    display: block;
+    background: url(../../image_sp/ui/gallery-s537d398b12.png) no-repeat 0 -1835px;
+    -webkit-background-size: 308px 2918px;
+    background-size: 308px 2918px;
+    width: 96px;
+    height: 36px;
+    position: absolute;
+    top: 143px;
+    right: 27px;
+    margin-left: auto;
+    margin-right: auto
+}
