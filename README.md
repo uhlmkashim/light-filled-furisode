@@ -31,6 +31,8 @@ https://uhlmkashim.github.io/light-filled-furisode/409_4 <br>
 한패 버전 링크 :<br>
 쇼코<br>
 https://uhlmkashim.github.io/light-filled-furisode/394_4_k_voice <br>
+카에데<br>
+https://uhlmkashim.github.io/light-filled-furisode/399_2_k_voice <br>
 미호<br>
 https://uhlmkashim.github.io/light-filled-furisode/406_2_k_voice <br>
 후미카<br>
