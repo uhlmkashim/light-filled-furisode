@@ -1,4 +1,6 @@
-원본 재생 링크 : (_voice)는 보이스가 있는 에피들<br>
+*이미지가 제대로 나오지 않을 시 새로고침<br>
+*_voice는 보이스가 있는 에피들<br>
+원본 재생 링크 : <br>
 쇼코<br>
 https://uhlmkashim.github.io/light-filled-furisode/394_4_voice<br>
 카에데<br>
