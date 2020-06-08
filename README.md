@@ -4,7 +4,7 @@
 쇼코<br>
 https://uhlmkashim.github.io/light-filled-furisode/394_4_voice<br>
 카에데<br>
-https://uhlmkashim.github.io/light-filled-furisode/399_2 <br>
+https://uhlmkashim.github.io/light-filled-furisode/399_2_voice <br>
 나나<br>
 https://uhlmkashim.github.io/light-filled-furisode/401_3 <br>
 리아무<br>
