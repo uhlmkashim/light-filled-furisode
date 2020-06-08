@@ -5186,11 +5186,11 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 2);
 	}
 	this.frame_833 = function() {
-		/* m2 = "그러니까 예쁜 몸인 쪽이,";
+		/* m2 = "그러니까 예쁜 모습인 쪽이,";
 		
 		*/
 		
-		exportRoot._g.m2 = "그러니까 예쁜 몸인 쪽이,";
+		exportRoot._g.m2 = "그러니까 예쁜 모습인 쪽이,";
 		exportRoot._u.setText();
 	}
 	this.frame_871 = function() {
