@@ -2,4 +2,4 @@
 * _voice는 보이스가 있는 에피들<br>
 <br>
 메인 페이지<br>
-https://uhlmkashim.github.io/light-filled-furisode/index.html<br>
+https://uhlmkashim.github.io/light-filled-furisode/main.html<br>
