@@ -4892,19 +4892,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_2458601_yukimi_base.png:, id:"_391_2__2458601_yukimi_base"},
-		{src:"images/_2458601_yukimi_f2.png:, id:"_391_2__2458601_yukimi_f2"},
-		{src:"images/_2458601_yukimi_f3.png:, id:"_391_2__2458601_yukimi_f3"},
-		{src:"images/_2458601_yukimi_f4.png:, id:"_391_2__2458601_yukimi_f4"},
-		{src:"images/_2458601_yukimi_f5.png:, id:"_391_2__2458601_yukimi_f5"},
-		{src:"images/_2458601_yukimi_f6.png:, id:"_391_2__2458601_yukimi_f6"},
-		{src:"images/_2458601_yukimi_f7.png:, id:"_391_2__2458601_yukimi_f7"},
-		{src:"images/_2458601_yukimi_f8.png:, id:"_391_2__2458601_yukimi_f8"},
-		{src:"images/bg.jpg:, id:"_391_2_bg"},
-		{src:"images/finish.jpg:, id:"_391_2_finish"},
-		{src:"images/finish_blur.jpg:, id:"_391_2_finish_blur"},
-		{src:"images/first_scene.jpg:, id:"_391_2_first_scene"},
-		{src:"images/tie_sp.png:, id:"_391_2_tie_sp"}
+		{src:"images/_2458601_yukimi_base.png", id:"_391_2__2458601_yukimi_base"},
+		{src:"images/_2458601_yukimi_f2.png", id:"_391_2__2458601_yukimi_f2"},
+		{src:"images/_2458601_yukimi_f3.png", id:"_391_2__2458601_yukimi_f3"},
+		{src:"images/_2458601_yukimi_f4.png", id:"_391_2__2458601_yukimi_f4"},
+		{src:"images/_2458601_yukimi_f5.png", id:"_391_2__2458601_yukimi_f5"},
+		{src:"images/_2458601_yukimi_f6.png", id:"_391_2__2458601_yukimi_f6"},
+		{src:"images/_2458601_yukimi_f7.png", id:"_391_2__2458601_yukimi_f7"},
+		{src:"images/_2458601_yukimi_f8.png", id:"_391_2__2458601_yukimi_f8"},
+		{src:"images/bg.jpg", id:"_391_2_bg"},
+		{src:"images/finish.jpg", id:"_391_2_finish"},
+		{src:"images/finish_blur.jpg", id:"_391_2_finish_blur"},
+		{src:"images/first_scene.jpg", id:"_391_2_first_scene"},
+		{src:"images/tie_sp.png", id:"_391_2_tie_sp"}
 	],
 	preloads: []
 };
