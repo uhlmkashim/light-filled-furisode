@@ -17,23 +17,23 @@ window.im_cjs.t[2][4] = "맞을 것입니다만.";
 
 window.im_cjs.t[3][1] = "나아가면 나아갈수록, 깊게 빠져들어";
 window.im_cjs.t[3][2] = "가는…… 그런 감각입니다.";
-window.im_cjs.t[3][3] = "프로듀서 씨를, 안내하는";
-window.im_cjs.t[3][4] = "것이, 이 상태라면…….";
+window.im_cjs.t[3][3] = "프로듀서 씨를, 안내하는 것이,";
+window.im_cjs.t[3][4] = "이 상태라면…….";
 
 window.im_cjs.t[4][1] = "……격려해 주시는 거군요.";
-window.im_cjs.t[4][2] = "감사합니다. 프로듀서 씨";
-window.im_cjs.t[4][3] = "가, 미소 지어 주시면,";
+window.im_cjs.t[4][2] = "감사합니다. 프로듀서 씨가,";
+window.im_cjs.t[4][3] = "미소 지어 주시면,";
 window.im_cjs.t[4][4] = "요동치던 마음도 편안해집니다.";
 
 window.im_cjs.t[5][1] = "……네, 그렇네요. 아래만";
-window.im_cjs.t[5][2] = "보고 있으면, 놓쳐버리는";
-window.im_cjs.t[5][3] = "군요. 눈 앞에 펼쳐진……";
+window.im_cjs.t[5][2] = "보고 있으면, 놓쳐버리는 군요.";
+window.im_cjs.t[5][3] = "눈 앞에 펼쳐진……";
 window.im_cjs.t[5][4] = "이렇게도, 아름다운 경치를.";
 
 window.im_cjs.t[6][1] = "……저는, 초조해 하고 있었는지도";
-window.im_cjs.t[6][2] = "모릅니다. 당신과의 소중한";
-window.im_cjs.t[6][3] = "여행 시간을, 헛되이 하지 않겠다";
-window.im_cjs.t[6][4] = "고 고집을 부리고 있었습니다.";
+window.im_cjs.t[6][2] = "모릅니다. 당신과의 소중한 여행";
+window.im_cjs.t[6][3] = "시간을, 헛되이 하지 않겠다고";
+window.im_cjs.t[6][4] = "고집을 부리고 있었습니다.";
 
 window.im_cjs.t[7][1] = "갈팡거리는 시간도, 당신과 보낸다면,";
 window.im_cjs.t[7][2] = "멋진 기억으로 바뀝니다.";
