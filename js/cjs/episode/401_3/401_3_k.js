@@ -4612,7 +4612,7 @@ p.nominalBounds = new cjs.Rectangle(-524.5,-812.3,929.4,978.8);
 		this.ch1.leef_2.gotoAndStop("stop");
 	}
 	this.frame_158 = function() {
-		exportRoot._g.m1 = "そして､極めつけは……";
+		exportRoot._g.m1 = "그리고, 결정타는……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
