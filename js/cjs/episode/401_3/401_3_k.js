@@ -4640,7 +4640,7 @@ p.nominalBounds = new cjs.Rectangle(-524.5,-812.3,929.4,978.8);
 	}
 	this.frame_229 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "이거죠!";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 7);
@@ -4648,7 +4648,7 @@ p.nominalBounds = new cjs.Rectangle(-524.5,-812.3,929.4,978.8);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_270 = function() {
-		exportRoot._g.m3 = "이거죠! 자자,";
+		exportRoot._g.m3 = "자자,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1",1);
