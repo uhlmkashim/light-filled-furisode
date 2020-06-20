@@ -41,6 +41,6 @@ https://uhlmkashim.github.io/light-filled-furisode/407_3_k_voice <br>
 안즈<br>
 https://uhlmkashim.github.io/light-filled-furisode/407_4_k_voice <br>
 슈코<br>
-https://uhlmkashim.github.io/light-filled-furisode/408_2_k <br>
+https://uhlmkashim.github.io/light-filled-furisode/408_2_k_voice <br>
 마유<br>
 https://uhlmkashim.github.io/light-filled-furisode/409_3_k <br>
