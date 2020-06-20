@@ -4681,19 +4681,19 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_45 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "……｡";
+		m2 = "";
 		
 		
 		gotoAndPlay("ch1/:swing_on");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "…….";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("swing_on");
 	}
 	this.frame_96 = function() {
-		/* m2 = "……. 괘, 괜찮아,";
+		/* m2 = "괘, 괜찮아,";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 3;
@@ -4702,7 +4702,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		*/
 		
-		exportRoot._g.m2 = "……. 괘, 괜찮아,";
+		exportRoot._g.m2 = "괘, 괜찮아,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
