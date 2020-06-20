@@ -31,7 +31,7 @@ window.im_cjs.t[5][3] = "말을 들었어. 역시,";
 window.im_cjs.t[5][4] = "카리스마지? 헤헷♪";
 
 window.im_cjs.t[6][1] = "나와 이야기하는 모두의 얼굴은,";
-window.im_cjs.t[6][2] = "최고로 반짝반짝해서……언제나,";
+window.im_cjs.t[6][2] = "최고로 반짝반짝해서…… 언제나,";
 window.im_cjs.t[6][3] = "굉장히 힘이 나네. 정말……";
 window.im_cjs.t[6][4] = "멋없는 일, 못하겠네!";
 
