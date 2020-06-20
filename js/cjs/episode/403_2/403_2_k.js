@@ -3740,7 +3740,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_54 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "……";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -3968,7 +3968,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_672 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "……";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		this.ch1.c.ch_finger_set.gotoAndPlay("a_b_move");
@@ -3985,7 +3985,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_773 = function() {
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "정답!";
+		exportRoot._g.m4 = "오, 정답!";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 11);
