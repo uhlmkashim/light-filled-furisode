@@ -3800,7 +3800,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 15);
 	}
 	this.frame_126 = function() {
-		/* m2 = "驚いた……? 私……";
+		/* m2 = "놀랐어……? 나……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 2;
@@ -3808,14 +3808,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m2 = "驚いた……? 私……";
+		exportRoot._g.m2 = "놀랐어……? 나……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_157 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "なら……";
+		m3 = "라면……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 15;
@@ -3823,7 +3823,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "なら……";
+		exportRoot._g.m3 = "라면……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 15);
@@ -3835,7 +3835,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setText();
 	}
 	this.frame_255 = function() {
-		/* m4 = "いつも……";
+		/* m4 = "언제나……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 2;
@@ -3843,7 +3843,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m4 = "いつも……";
+		exportRoot._g.m4 = "언제나……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
@@ -3878,7 +3878,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント2
-		m1 = "大丈夫……";
+		m1 = "괜찮아……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -3888,7 +3888,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m1 = "大丈夫……";
+		exportRoot._g.m1 = "괜찮아……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -3897,14 +3897,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_329 = function() {
-		/* m1 = "大丈夫……私も……";*/
+		/* m1 = "괜찮아…… 나도……";*/
 		
-		exportRoot._g.m1 = "大丈夫……私も……";
+		exportRoot._g.m1 = "괜찮아…… 나도……";
 		exportRoot._u.setText();
 	}
 	this.frame_360 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "……｡";
+		m2 = "…….";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 2;
@@ -3914,7 +3914,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:nod2");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "……｡";
+		exportRoot._g.m2 = "…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
@@ -3922,7 +3922,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_417 = function() {
-		/* m2 = "……｡ﾌﾟﾛﾃﾞｭｰｻｰ……";
+		/* m2 = "……. 프로듀서……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 3;
@@ -3931,21 +3931,21 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch1/:swing");*/
 		
-		exportRoot._g.m2 = "……｡ﾌﾟﾛﾃﾞｭｰｻｰ……";
+		exportRoot._g.m2 = "……. 프로듀서……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
 	}
 	this.frame_457 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "思ってた……";*/
+		m3 = "생각……";*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "思ってた……";
+		exportRoot._g.m3 = "생각……";
 		exportRoot._u.setText();
 	}
 	this.frame_510 = function() {
-		/* m3 = "思ってた……から……｡";
+		/* m3 = "생각…… 했으니까…….";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 9;
@@ -3955,7 +3955,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:nod2");*/
 		
 		
-		exportRoot._g.m3 = "思ってた……から……｡";
+		exportRoot._g.m3 = "생각…… 했으니까…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 9);
@@ -3964,7 +3964,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_549 = function() {
 		/* m3 = eval("t" add idx add "_3");
-		m4 = "ない……";
+		m4 = "않았어……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 3;
@@ -3973,7 +3973,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "ない……";
+		exportRoot._g.m4 = "않았어……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4012,7 +4012,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント3
-		m1 = "見たいお店……";
+		m1 = "보고 싶은 가게……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4023,7 +4023,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m1 = "見たいお店……";
+		exportRoot._g.m1 = "보고 싶은 가게……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4046,7 +4046,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_690 = function() {
-		/* m2 = "楽しみにしてた……";
+		/* m2 = "기대하고 있었……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 3;
@@ -4054,7 +4054,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m2 = "楽しみにしてた……";
+		exportRoot._g.m2 = "기대하고 있었……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4072,7 +4072,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setText();
 	}
 	this.frame_781 = function() {
-		/* m3 = "ﾌﾟﾛﾃﾞｭｰｻｰと……";
+		/* m3 = "프로듀서와……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 9;
@@ -4080,7 +4080,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m3 = "ﾌﾟﾛﾃﾞｭｰｻｰと……";
+		exportRoot._g.m3 = "프로듀서와……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 9);
@@ -4100,9 +4100,9 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 3);
 	}
 	this.frame_851 = function() {
-		/* m4 = "素敵なもの……";*/
+		/* m4 = "멋진 것……";*/
 		
-		exportRoot._g.m4 = "素敵なもの……";
+		exportRoot._g.m4 = "멋진 것……";
 		exportRoot._u.setText();
 	}
 	this.frame_886 = function() {
@@ -4139,7 +4139,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント4
-		m1 = "気に入ったもの……";
+		m1 = "마음에 드는 것……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4149,7 +4149,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m1 = "気に入ったもの……";
+		exportRoot._g.m1 = "마음에 드는 것……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4167,7 +4167,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setText();
 	}
 	this.frame_969 = function() {
-		/* m2 = "…教えて……? ";
+		/* m2 = "…알려줘……?";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 4;
@@ -4176,7 +4176,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch1/:swing_on");*/
 		
-		exportRoot._g.m2 = "…教えて……? ";
+		exportRoot._g.m2 = "…알려줘……?";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
@@ -4195,9 +4195,9 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("swing_off");
 	}
 	this.frame_1053 = function() {
-		/* m3 = "好きなもの……";*/
+		/* m3 = "좋아하는 것……";*/
 		
-		exportRoot._g.m3 = "好きなもの……";
+		exportRoot._g.m3 = "좋아하는 것……";
 		exportRoot._u.setText();
 	}
 	this.frame_1091 = function() {
@@ -4217,14 +4217,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 11);
 	}
 	this.frame_1134 = function() {
-		/* m4 = "だって……";
+		/* m4 = "왜냐하면……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 4;
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m4 = "だって……";
+		exportRoot._g.m4 = "왜냐하면……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
@@ -4265,7 +4265,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント5
-		m1 = "ﾌﾟﾚｾﾞﾝﾄは……";
+		m1 = "선물은……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4277,7 +4277,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		
-		exportRoot._g.m1 = "ﾌﾟﾚｾﾞﾝﾄは……";
+		exportRoot._g.m1 = "선물은……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4303,7 +4303,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_1262 = function() {
-		/* m2 = "あげるの……｡";
+		/* m2 = "주는 거야…….";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 12;
@@ -4313,7 +4313,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch1/:swing");*/
 		
-		exportRoot._g.m2 = "あげるの……｡";
+		exportRoot._g.m2 = "주는 거야…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 12);
@@ -4321,7 +4321,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("swing");
 	}
 	this.frame_1302 = function() {
-		/* m2 = "あげるの……｡私の……";
+		/* m2 = "주는 거야……. 나의……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 14;
@@ -4329,14 +4329,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m2 = "あげるの……｡私の……";
+		exportRoot._g.m2 = "주는 거야……. 나의……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 14);
 	}
 	this.frame_1339 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "人……｡";
+		m3 = "사람…….";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 10;
@@ -4347,7 +4347,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:nod2");*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "人……｡";
+		exportRoot._g.m3 = "사람…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 10);
@@ -4372,7 +4372,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_1434 = function() {
-		/* m4 = "たくさん……";
+		/* m4 = "많이……";
 		
 		//tellTarget ("ch1/c/f") {
 		//	next_face = 12;
@@ -4380,7 +4380,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//};
 		*/
 		
-		exportRoot._g.m4 = "たくさん……";
+		exportRoot._g.m4 = "많이……";
 		exportRoot._u.setText();
 	}
 	this.frame_1464 = function() {
@@ -4416,7 +4416,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント6
-		m1 = "それじゃ……";
+		m1 = "그러면……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4428,7 +4428,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch1/:notice");*/
 		
-		exportRoot._g.m1 = "それじゃ……";
+		exportRoot._g.m1 = "그러면……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4439,41 +4439,41 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("notice");
 	}
 	this.frame_1513 = function() {
-		/* m1 = "それじゃ……だめ……? ";
+		/* m1 = "그러면…… 안돼……?";
 		
 		gotoAndPlay("ch1/:swing_on");*/
 		
-		exportRoot._g.m1 = "それじゃ……だめ……? ";
+		exportRoot._g.m1 = "그러면…… 안돼……?";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("swing_on");
 	}
 	this.frame_1563 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "ｻｰも……";
+		m2 = "……";
 		
 		gotoAndPlay("ch1/:swing_off");*/
 		
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "ｻｰも……";
+		exportRoot._g.m2 = "……";
 		exportRoot._u.setText();
 		
 		
 		this.ch1.gotoAndPlay("swing_off");
 	}
 	this.frame_1603 = function() {
-		/* m2 = "ｻｰも……私に……";*/
+		/* m2 = "……나에게……";*/
 		
-		exportRoot._g.m2 = "ｻｰも……私に……";
+		exportRoot._g.m2 = "……나에게……";
 		exportRoot._u.setText();
 	}
 	this.frame_1637 = function() {
 		/* m2 = eval("t" add idx add "_2");
-		m3 = "のﾌﾟﾚｾﾞﾝﾄ……? ";*/
+		m3 = "선물……?";*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "のﾌﾟﾚｾﾞﾝﾄ……? ";
+		exportRoot._g.m3 = "선물……?";
 		exportRoot._u.setText();
 	}
 	this.frame_1724 = function() {
@@ -4495,7 +4495,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_1777 = function() {
-		/* m4 = "同じ……";
+		/* m4 = "같은……";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 14;
@@ -4504,7 +4504,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch1/:nod2");*/
 		
-		exportRoot._g.m4 = "同じ……";
+		exportRoot._g.m4 = "같은……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 14);
@@ -4545,7 +4545,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		/* call("updateTalk");
 		
 		//コメント7
-		m1 = "じゃあ……";
+		m1 = "그럼……";
 		m2 = "";
 		m3 = "";
 		m4 = "";
@@ -4557,7 +4557,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch1/:nod2");*/
 		
-		exportRoot._g.m1 = "じゃあ……";
+		exportRoot._g.m1 = "그럼……";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4566,14 +4566,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 4);
 	}
 	this.frame_1866 = function() {
-		/* m1 = "じゃあ……わがまま……";*/
+		/* m1 = "그럼…… 어리광……";*/
 		
-		exportRoot._g.m1 = "じゃあ……わがまま……";
+		exportRoot._g.m1 = "그럼…… 어리광……";
 		exportRoot._u.setText();
 	}
 	this.frame_1894 = function() {
 		/* m1 = eval("t" add idx add "_1");
-		m2 = "……｡";
+		m2 = "…….";
 		
 		tellTarget ("ch1/c/f") {
 			next_face = 11;
@@ -4583,7 +4583,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:nod2");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "……｡";
+		exportRoot._g.m2 = "…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 11);
@@ -4591,7 +4591,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_1940 = function() {
-		/* m2 = "……｡手……";
+		/* m2 = "……. 손……";
 		
 		//gotoAndPlay("ch1/:swing2");
 		
@@ -4600,7 +4600,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m2 = "……｡手……";
+		exportRoot._g.m2 = "……. 손……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
@@ -4618,9 +4618,9 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setText();
 	}
 	this.frame_2059 = function() {
-		/* m5 = "一緒に並んで……";*/
+		/* m5 = "같이 나란히……";*/
 		
-		exportRoot._g.m5 = "一緒に並んで……";
+		exportRoot._g.m5 = "같이 나란히……";
 		exportRoot._u.setText("finish", 5);
 	}
 	this.frame_2102 = function() {
