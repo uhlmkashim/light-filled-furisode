@@ -4391,7 +4391,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_1187 = function() {
-		exportRoot._g.m2 = "分は……本当かも｡";
+		exportRoot._g.m2 = "반은…… 정말일지도.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -4399,7 +4399,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("swing");
 	}
 	this.frame_1232 = function() {
-		exportRoot._g.m2 = "반은…… 정말일지도.";
+		exportRoot._g.m2 = "반은…… 정말일지도. 벚꽃이,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
