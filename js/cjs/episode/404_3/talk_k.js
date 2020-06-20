@@ -39,4 +39,4 @@ window.im_cjs.t[7][1] = "응, 기합이 들었어! 모두의";
 window.im_cjs.t[7][2] = "카리스마로, 톱을 향해 달리는 갸루!";
 window.im_cjs.t[7][3] = "그것이 나.";
 window.im_cjs.t[7][4] = "프로듀서가 신뢰하는,";
-window.im_cjs.t[7][5] = "죠가사키 미카! 그렇지★";
+window.im_cjs.t[7][5] = "죠가사키 미카야! 그렇지★";
