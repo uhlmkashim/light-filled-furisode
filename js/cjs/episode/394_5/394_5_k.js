@@ -3925,13 +3925,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_73 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "했어?";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("swing_off");
 	}
 	this.frame_106 = function() {
-		exportRoot._g.m3 = "했어? 한눈팔지 말고,";
+		exportRoot._g.m3 = "한눈팔지 말고,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
