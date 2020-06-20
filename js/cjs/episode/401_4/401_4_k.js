@@ -3598,7 +3598,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot.ch1.c.gotoAndStop("nf");
 	}
 	this.frame_656 = function() {
-		exportRoot._g.m1 = "그러니까, 이건 웃는 얼굴의 졸업.";
+		exportRoot._g.m1 = "그러니까, 이건 미소의 졸업.";
 		exportRoot._u.setText();
 	}
 	this.frame_663 = function() {
