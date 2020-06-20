@@ -20,7 +20,7 @@ window.im_cjs.t[3][2] = "자국이 생기면 안되고";
 window.im_cjs.t[3][3] = "……프로듀서 씨와의";
 window.im_cjs.t[3][4] = "곁잠도 자기 어려우니까요.";
 
-window.im_cjs.t[4][1] = "후훗, 신선해요? 사이드 테일은,";
+window.im_cjs.t[4][1] = "후훗, 신선한가요? 사이드 테일은,";
 window.im_cjs.t[4][2] = "저의 챠밍포인트니까요. 집안일";
 window.im_cjs.t[4][3] = "하기 쉽고, 귀엽고…… 아이돌답고,";
 window.im_cjs.t[4][4] = "좋아해요.";
