@@ -4427,7 +4427,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	this.frame_609 = function() {
 		/* さっすが､ｶﾘｽﾏでしょ?*/
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "카리스마지?";
+		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
