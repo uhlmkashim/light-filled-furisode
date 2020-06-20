@@ -6298,7 +6298,7 @@
         };
         this.frame_85 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "가.";
+            exportRoot._g.m3 = "";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 2)
         };
@@ -6423,7 +6423,7 @@
         this.frame_551 =
             function() {
                 exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-                exportRoot._g.m3 = "고.";
+                exportRoot._g.m3 = "";
                 exportRoot._u.setText();
                 exportRoot._u.setFace("ch2", 3)
             };
@@ -6462,14 +6462,14 @@
         this.frame_677 =
             function() {
                 exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-                exportRoot._g.m3 = "고,";
+                exportRoot._g.m3 = "";
                 exportRoot._u.setText();
                 exportRoot._u.setFace("ch2", 5);
                 exportRoot.ch2.gotoAndPlay("nod2")
             };
         this.frame_703 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "서,";
+            exportRoot._g.m4 = "";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch2", 1);
             exportRoot.ch2.gotoAndPlay("swing")
@@ -6495,7 +6495,7 @@
         };
         this.frame_767 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "고,";
+            exportRoot._g.m2 = "";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch2", 2)
         };
@@ -6504,7 +6504,7 @@
         };
         this.frame_803 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "져.";
+            exportRoot._g.m3 = "";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch2", 1);
             exportRoot.ch2.gotoAndPlay("swing")
@@ -6547,7 +6547,7 @@
         };
         this.frame_928 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "것만 같아!";
+            exportRoot._g.m2 = "같아!";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch2", 1)
         };
