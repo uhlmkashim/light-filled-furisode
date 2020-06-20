@@ -3732,7 +3732,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot.ch2.gotoAndPlay("jump");
 	}
 	this.frame_1031 = function() {
-		exportRoot._g.m2 = "하든 계속 밀고 나가자!";
+		exportRoot._g.m2 = "하든 계속 밀어주자!";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -3758,7 +3758,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1120 = function() {
 		// finish指定時は exportRoot._g.m の後ろの数字をsetTextの2つ目の引数に指定する
-		exportRoot._g.m4 = "앞으로도 쭉 밀고 나간다고!!";
+		exportRoot._g.m4 = "앞으로도 쭉 밀어준다고!!";
 		exportRoot._u.setText("finish", 4);
 	}
 	this.frame_1151 = function() {
