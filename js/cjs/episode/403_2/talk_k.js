@@ -7,12 +7,12 @@ for (var i = 0, len = 10; i < len; i++) {
 //______________________"１２３４５６７８９０１２３４5"
 window.im_cjs.t[1][1] = "띵똥~";
 
-window.im_cjs.t[2][1] = "네네, 열게~♪기다려줘~";
+window.im_cjs.t[2][1] = "네네, 열게~♪ 기다려줘~";
 window.im_cjs.t[2][2] = "……, 뭐야 너인가~.";
 window.im_cjs.t[2][3] = "마침 지금, 좋은 때네.";
 window.im_cjs.t[2][4] = "Shhh,be quiet.Okay?";
 
-window.im_cjs.t[3][1] = "응, 괜찮아♪그래서, 너는 뭘";
+window.im_cjs.t[3][1] = "응, 괜찮아♪ 그래서, 너는 뭘";
 window.im_cjs.t[3][2] = "하러 왔을까나~? 여자애 동산에,";
 window.im_cjs.t[3][3] = "설마 아무것도 준비 안하고 왔다면";
 window.im_cjs.t[3][4] = "도리가 아니겠지?";
@@ -34,8 +34,8 @@ window.im_cjs.t[6][4] = "정답! 응하~, 맛있어~♪";
 
 window.im_cjs.t[7][1] = "사다줘서, 고마워!";
 window.im_cjs.t[7][2] = "……라니, 안돼. 큰 소리를";
-window.im_cjs.t[7][3] = "내버렸어. 흥분해버려서,";
-window.im_cjs.t[7][4] = "그만♪조용히네, 조용히.";
+window.im_cjs.t[7][3] = "내버렸어. 흥분해버려서, 그만♪";
+window.im_cjs.t[7][4] = "조용히네, 조용히.";
 
 window.im_cjs.t[8][1] = "그래도~, 역시 영화에는 정크";
 window.im_cjs.t[8][2] = "푸드야. ……응, 너의 참가를";
