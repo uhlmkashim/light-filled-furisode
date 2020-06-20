@@ -4560,7 +4560,7 @@ p.nominalBounds = new cjs.Rectangle(-524.5,-812.3,929.4,978.8);
 		this.ch1.leef_2.gotoAndStop("stop");
 	}
 	this.frame_15 = function() {
-		exportRoot._g.m1 = "お待たせしました～っ､";
+		exportRoot._g.m1 = "기다리셨습니다~,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
