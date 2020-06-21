@@ -4335,7 +4335,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		}
 		//btStart(int,char)//ボタンの数,ボタンのシンボル名*/
 		
-		exportRoot._g.m1 = "あっ､";
+		exportRoot._g.m1 = "앗,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4357,7 +4357,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch1/:pickup");
 		//とりあえずのイメージなので後で動きを調整*/
 		
-		exportRoot._g.m1 = "あっ､ﾌﾟﾚｾﾞﾝﾄがある! ";
+		exportRoot._g.m1 = "앗, 선물이 있어!";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 9);
@@ -4379,7 +4379,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//とりあえずのイメージなので後で動きを調整*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "……";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
@@ -4395,7 +4395,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m2 = "……Merry Christmas ";
+		exportRoot._g.m2 = "Merry Christmas";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 9);
@@ -4415,7 +4415,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m3 = "卯月! ";
+		exportRoot._g.m3 = "우즈키!";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
@@ -4431,7 +4431,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch1/:chord_ef");*/
 		
-		exportRoot._g.m3 = "卯月! わぁっ♪";
+		exportRoot._g.m3 = "우즈키! 와앗♪";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -4450,7 +4450,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "ございます､";
+		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4499,7 +4499,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m1 = "夜更かし禁止って､";
+		exportRoot._g.m1 = "밤샘금지라는 게,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4518,7 +4518,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "意味だったんですね｡";
+		exportRoot._g.m2 = "이런 의미였군요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4534,7 +4534,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "さんが……";
+		exportRoot._g.m3 = "씨가……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
@@ -4549,7 +4549,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m3 = "さんが……ううん､";
+		exportRoot._g.m3 = "씨가…… 아니,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 6);
@@ -4604,8 +4604,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		};
 		*/
 		
-		exportRoot._g.m1 = "朝起きたら､ﾂﾘｰの下にﾌﾟﾚｾﾞﾝﾄ";
-		exportRoot._g.m2 = "があるのって､";
+		exportRoot._g.m1 = "아침에 일어나니, 트리 밑에 선물";
+		exportRoot._g.m2 = "이 있다는 거,";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		
@@ -4630,7 +4630,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "てたんです｡";
+		exportRoot._g.m3 = "있었어요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 5);
@@ -4657,7 +4657,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m4 = "楽しそうだな～って｡";
+		exportRoot._g.m4 = "재밌을것 같아~하고요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 2);
@@ -4708,7 +4708,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m1 = "だから､";
+		exportRoot._g.m1 = "그러니까,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4731,7 +4731,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//gotoAndPlay("ch2/:chord");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "んてすごいですっ♪ ";
+		exportRoot._g.m2 = "와주다니 대단해요♪";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4753,7 +4753,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "で､";
+		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 2);
@@ -4814,7 +4814,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("bg2/:fi");*/
 		
-		exportRoot._g.m1 = "それに､";
+		exportRoot._g.m1 = "게다가,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4836,7 +4836,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		gotoAndPlay("ch2/:swing");*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "くて､";
+		exportRoot._g.m2 = "아니라,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4873,7 +4873,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		//gotoAndPlay("ch2/:swing_on");*/
 		
-		exportRoot._g.m4 = "えへへ､";
+		exportRoot._g.m4 = "에헤헤,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 7);
@@ -4930,7 +4930,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:nod2");*/
 		
-		exportRoot._g.m1 = "答えは､";
+		exportRoot._g.m1 = "답은,";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4950,7 +4950,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:jump_flower");*/
 		
-		exportRoot._g.m1 = "答えは､笑顔ですっ♪";
+		exportRoot._g.m1 = "답은, 미소입니다♪";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 5);
@@ -4969,7 +4969,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		*/
 		
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "さんと迎えたｸﾘｽﾏｽは､";
+		exportRoot._g.m2 = "씨와 맞이한 크리스마스는,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
@@ -5001,7 +5001,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndPlay("ch2/:swing_off");*/
 		
-		exportRoot._g.m3 = "ｷﾗｷﾗしてて……";
+		exportRoot._g.m3 = "반짝반짝해서……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
@@ -5058,8 +5058,8 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		
 		gotoAndStop("bg2/:def");*/
 		
-		exportRoot._g.m1 = "ﾌﾟﾛﾃﾞｭｰｻｰさんも､素敵な笑顔だ";
-		exportRoot._g.m2 = "から､";
+		exportRoot._g.m1 = "프로듀서 씨도, 멋진 미소니까,";
+		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
@@ -5090,7 +5090,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m3 = "かな? ";
+		exportRoot._g.m3 = "일까나?";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
@@ -5103,7 +5103,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 			gotoAndPlay("run");
 		};*/
 		
-		exportRoot._g.m3 = "かな? じゃあ私からも､";
+		exportRoot._g.m3 = "일까나? 그럼 저로부터도,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
