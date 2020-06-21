@@ -3997,13 +3997,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_284 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "순간부터,";
+		exportRoot._g.m2 = "순간,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 6);
 	}
 	this.frame_304 = function() {
-		exportRoot._g.m2 = "순간부터, 소유권은";
+		exportRoot._g.m2 = "순간, 소유권은";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 5);
