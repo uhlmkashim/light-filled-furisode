@@ -10,19 +10,19 @@ window.im_cjs.t[1][2] = "이렇게 멋진 경치야…….";
 window.im_cjs.t[1][3] = "굉장하구나…… 판타지 세계에";
 window.im_cjs.t[1][4] = "들어간 것 같아.";
 
-window.im_cjs.t[2][1] = "이곳은, 세계유산으로, 유명";
-window.im_cjs.t[2][2] = "한 거네요~. TV에서는 본";
-window.im_cjs.t[2][3] = "적이 있었지만…… 실제로";
-window.im_cjs.t[2][4] = "보면, 전혀 다르네요.";
+window.im_cjs.t[2][1] = "여기는, 세계유산으로, 유명한";
+window.im_cjs.t[2][2] = "거네요~. TV에서는 본";
+window.im_cjs.t[2][3] = "적이 있었지만…… 실제로 보면,";
+window.im_cjs.t[2][4] = "전혀 다르네요.";
 
 window.im_cjs.t[3][1] = "프로듀서 씨는, 역시 대단해요!";
 window.im_cjs.t[3][2] = "처음 만났을 때부터,";
-window.im_cjs.t[3][3] = "쭉 그래요♪ 대단한 것을, 펑";
+window.im_cjs.t[3][3] = "쭉 그래요♪ 대단한 일을, 펑";
 window.im_cjs.t[3][4] = "하고 해주시는 거예요.";
 
 window.im_cjs.t[4][1] = "마치, 저 기구처럼. 둥실,";
 window.im_cjs.t[4][2] = "아무것도 아닌 것처럼 저를";
-window.im_cjs.t[4][3] = "데려가서, 그리고 멋진";
+window.im_cjs.t[4][3] = "데리고 가서, 그리고 멋진";
 window.im_cjs.t[4][4] = "경치를 보여줘요!";
 
 window.im_cjs.t[5][1] = "그렇게 해서 저는, 점점 멀리,";
