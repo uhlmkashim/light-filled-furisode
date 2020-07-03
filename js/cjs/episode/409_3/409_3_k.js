@@ -3638,13 +3638,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_506 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "야.";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		//exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_536 = function() {
-		exportRoot._g.m3 = "야. 마유와 함께,";
+		exportRoot._g.m3 = "마유와 함께,";
 		exportRoot._u.setText();
 		
 		//exportRoot._u.setFace("ch1", 1);
@@ -3689,13 +3689,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_727 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "지만……";
+		exportRoot._g.m3 = "다르지만……";
 		exportRoot._u.setText();
 		
 		//exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_756 = function() {
-		exportRoot._g.m3 = "지만…… 그래도,";
+		exportRoot._g.m3 = "다르지만…… 그래도,";
 		exportRoot._u.setText();
 		
 		//exportRoot._u.setFace("ch1", 2);
@@ -3726,7 +3726,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_839 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "니라…….";
+		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
@@ -3734,7 +3734,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_895 = function() {
-		exportRoot._g.m2 = "니라……. 당신이 말하는 미래를,";
+		exportRoot._g.m2 = "당신이 말하는 미래를,";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
@@ -3743,7 +3743,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_937 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "신이 바라는 미래를,";
+		exportRoot._g.m3 = "바라는 미래를,";
 		exportRoot._u.setText();
 		
 		//exportRoot._u.setFace("ch1", 1);
@@ -3782,14 +3782,14 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1080 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "요,";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 6);
 	}
 	this.frame_1106 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "요, 프로듀서 씨.";
+		exportRoot._g.m2 = "프로듀서 씨.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
