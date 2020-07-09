@@ -4328,7 +4328,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_984 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "을 관철하는 일이,";
+		exportRoot._g.m3 = "을 관철하는 게,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2",1);
