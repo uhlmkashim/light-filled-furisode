@@ -5852,7 +5852,7 @@
                 var n = d.height / 20;
                 var o = (d.height + d.vg) / 20;
                 var p = d.mj && d.multiline ? Math.ceil((h - g) / n * 2) : 0;
-                a += "ib.font = '" + n + "px sans-serif';";
+                a += "ib.font = '" + n + "px 나눔고딕';";
                 a += "ib.fillStyle=kb(lb," + d.Kd + ");";
                 a += "ib.textBaseline='top';";
                 var q = 0,
