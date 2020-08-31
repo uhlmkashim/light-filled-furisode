@@ -72,7 +72,7 @@
                 for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
+                        'src': window.image_server + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
                         'id': lib.properties.manifest[i].id
                     }
                 }
