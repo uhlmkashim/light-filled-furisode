@@ -3878,7 +3878,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_432 = function() {
 		exportRoot._g.m1 = "사실은, 오므라이스도 만들어";
-		exportRoot._g.m2 = "드리고 싶었는데요……";
+		exportRoot._g.m2 = "드리고 싶었지만요……";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
