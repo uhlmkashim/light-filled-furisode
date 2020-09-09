@@ -46,6 +46,6 @@ window.im_cjs.t[7][2] = "즐거우면 열심히 할 수 있어? 아하,";
 window.im_cjs.t[7][3] = "그렇군요!";
 
 window.im_cjs.t[7][5] = "프로듀서 씨에게,";
-window.im_cjs.t[7][6] = "좋은 가르침 받았다♪";
+window.im_cjs.t[7][6] = "좋은 걸 배웠다♪";
 
 
