@@ -27,7 +27,7 @@ window.im_cjs.t[4][4] = "자, 빨리빨리♪";
 
 window.im_cjs.t[5][1] = "헤에, 역시 준비했구나.";
 window.im_cjs.t[5][2] = "게다가, 내 취향의 맛있어 보이는";
-window.im_cjs.t[5][3] = "과자! 역시네, 잘 알고 있잖아♪";
+window.im_cjs.t[5][3] = "과자! 역시나, 잘 알고 있잖아♪";
 window.im_cjs.t[5][4] = "";
 
 window.im_cjs.t[6][1] = "앗! 벼, 별로, 칭찬한건 아냐!?";
