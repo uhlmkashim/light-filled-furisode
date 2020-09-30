@@ -16,7 +16,7 @@ window.im_cjs.t[2][3] = "제멋대로 말해도, 아무리 장난을";
 window.im_cjs.t[2][4] = "쳐도, 용서받는 날!";
 
 window.im_cjs.t[3][1] = "그런 고로, 즉시 갈게!";
-window.im_cjs.t[3][2] = "당신, 각오와 준비는 되어 있는";
+window.im_cjs.t[3][2] = "너, 각오와 준비는 되어 있는";
 window.im_cjs.t[3][3] = "거지? 뭐, ｢기다렸다｣라는";
 window.im_cjs.t[3][4] = "말은, 묻지 않겠지만♪";
 
@@ -32,11 +32,11 @@ window.im_cjs.t[5][4] = "";
 
 window.im_cjs.t[6][1] = "앗! 벼, 별로, 칭찬한건 아냐!?";
 window.im_cjs.t[6][2] = "이 정도는, 당연한거야,";
-window.im_cjs.t[6][3] = "당연! 당신, 얼마나 내 곁에";
+window.im_cjs.t[6][3] = "당연! 너, 얼마나 내 곁에";
 window.im_cjs.t[6][4] = "있었다고 생각해!";
 
 window.im_cjs.t[7][1] = "그래도…… 그렇네, 좋아. 모처럼";
-window.im_cjs.t[7][2] = "이니까, 답례를 줄게! 당신이";
+window.im_cjs.t[7][2] = "이니까, 답례를 줄게! 네가";
 window.im_cjs.t[7][3] = "기뻐할 것 같은……";
 
 window.im_cjs.t[7][5] = "소중히 간직해둔,";
