@@ -25,7 +25,7 @@ window.im_cjs.t[4][2] = "않으면, 잔뜩 장난을 칠거야!";
 window.im_cjs.t[4][3] = "후흥, 마녀의 말은, 절대적이야?";
 window.im_cjs.t[4][4] = "자, 빨리빨리♪";
 
-window.im_cjs.t[5][1] = "와, 역시 준비했구나.";
+window.im_cjs.t[5][1] = "헤에, 역시 준비했구나.";
 window.im_cjs.t[5][2] = "게다가, 내 취향의 맛있어 보이는";
 window.im_cjs.t[5][3] = "과자! 역시네, 잘 알고 있잖아♪";
 window.im_cjs.t[5][4] = "";
