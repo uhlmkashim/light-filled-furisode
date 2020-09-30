@@ -3574,7 +3574,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//this.ch2.gotoAndPlay("jump");
 	}
 	this.frame_365 = function() {
-		exportRoot._g.m2 = "당신,";
+		exportRoot._g.m2 = ",";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 8);
@@ -3777,7 +3777,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_917 = function() {
-		exportRoot._g.m3 = "당연! 당신,";
+		exportRoot._g.m3 = "당연! 너,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
