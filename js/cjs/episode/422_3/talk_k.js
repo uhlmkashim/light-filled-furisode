@@ -20,7 +20,7 @@ window.im_cjs.t[3][2] = "눈치채버리면, 어느샌가,";
 window.im_cjs.t[3][3] = "눈이 흩날릴 정도의 추위가";
 window.im_cjs.t[3][4] = "와버리죠.";
 
-window.im_cjs.t[4][1] = "……지금 쯤, 프로듀서씨도, 같은";
+window.im_cjs.t[4][1] = "……지금쯤, 프로듀서씨도, 같은";
 window.im_cjs.t[4][2] = "경치를 보고계신걸까. ……";
 window.im_cjs.t[4][3] = "변해가는 가을 하늘에, 무얼";
 window.im_cjs.t[4][4] = "생각하고 계신걸까.";
