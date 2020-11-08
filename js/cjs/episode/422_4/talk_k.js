@@ -35,7 +35,7 @@ window.im_cjs.t[6][2] = "돌격해버리자! 모처럼";
 window.im_cjs.t[6][3] = "온천인걸, 방에 틀어박혀";
 window.im_cjs.t[6][4] = "있으면 아깝다구!";
 
-window.im_cjs.t[7][1] = "지역 한정인 맛있는 도넛이라던가,";
+window.im_cjs.t[7][1] = "지역 한정 맛있는 도넛이라던가,";
 window.im_cjs.t[7][2] = "있을지도 모르고! 프로듀서랑";
 window.im_cjs.t[7][3] = "즐거운 추억,";
 
