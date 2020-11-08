@@ -17,13 +17,13 @@ window.im_cjs.t[2][4] = "동그랗게, 동그랗게……";
 
 window.im_cjs.t[3][1] = "짜쟌-! 거품으로 만든,";
 window.im_cjs.t[3][2] = "새하얀 도넛! 음, 귀여워!";
-window.im_cjs.t[3][3] = "거기다 뭣보다도 맛있어보여!";
+window.im_cjs.t[3][3] = "거기다 뭣보다도 맛있어 보여!";
 window.im_cjs.t[3][4] = "나, 센스가 있을지도!";
 
 window.im_cjs.t[4][1] = "온천 한정의 스페셜 맛, 프로듀서";
-window.im_cjs.t[4][2] = "에게도 보여주고싶다~! 으음,";
+window.im_cjs.t[4][2] = "에게도 보여 주고 싶다~! 으음,";
 window.im_cjs.t[4][3] = "기왕이면, 함께 만들었으면";
-window.im_cjs.t[4][4] = "좋았을텐데.";
+window.im_cjs.t[4][4] = "좋았을 텐데.";
 
 window.im_cjs.t[5][1] = "……프로듀서, 아직 일 끝나지";
 window.im_cjs.t[5][2] = "않은 걸까? 모처럼 온천에";
