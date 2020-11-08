@@ -4039,13 +4039,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 10);
 	}
 	this.frame_621 = function() {
-		exportRoot._g.m1 = "……지금쯤, 프로듀서씨도,";
+		exportRoot._g.m1 = "……지금쯤, 프로듀서 씨도,";
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch2", 4);
 	}
 	this.frame_648 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "경치를 보고계신걸까.";
+		exportRoot._g.m2 = "경치를 보고 계신걸까.";
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch2", 8);
 	}
