@@ -4016,7 +4016,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 2);
 	}
 	this.frame_895 = function() {
-		exportRoot._g.m3 = "너무 행복해…….";
+		exportRoot._g.m3 = "너무 행복해요…….";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 1);
