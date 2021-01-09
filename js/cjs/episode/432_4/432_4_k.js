@@ -3701,7 +3701,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_681 = function() {
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "좀더 열심히 일한다.";
+		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		this.ch1.gotoAndPlay("nod2");
 		exportRoot._u.setFace("ch1", 1);
