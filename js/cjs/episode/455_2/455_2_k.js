@@ -3711,12 +3711,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch1.gotoAndPlay("swing");
 	}
 	this.frame_524 = function() {
-		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+		exportRoot._g.m3 = "귀중한걸. 아아, 안심해.";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_555 = function() {
+		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
 		exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch1", 5);
