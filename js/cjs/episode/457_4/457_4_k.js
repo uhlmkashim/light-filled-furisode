@@ -3765,13 +3765,13 @@
         }
         this.frame_45 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "るような罪の味……";
+            exportRoot._g.m2 = "뺏길 듯한 죄의 맛……";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 2);
         }
         this.frame_79 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "選んで｡";
+            exportRoot._g.m3 = "골라.";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 1);
         }
@@ -3794,7 +3794,7 @@
             this.ch1.gotoAndPlay("standby");
         }
         this.frame_140 = function() {
-            exportRoot._g.m1 = "それとも､";
+            exportRoot._g.m1 = "아니면,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -3807,7 +3807,7 @@
             exportRoot._u.setFace("ch1", 10);
         }
         this.frame_195 = function() {
-            exportRoot._g.m2 = "なーんてね､";
+            exportRoot._g.m2 = "랄까나,";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 3);
             this.ch1.gotoAndPlay("nod");
@@ -3824,7 +3824,7 @@
             exportRoot._u.setFace("ch1", 3);
         }
         this.frame_251 = function() {
-            exportRoot._g.m4 = "ﾊﾛｳｨﾝ限定の……";
+            exportRoot._g.m4 = "할로윈 한정……";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 4);
         }
@@ -3843,7 +3843,7 @@
             //シーンendでは直前のキーフレームの表情を指定してください。
         }
         this.frame_292 = function() {
-            exportRoot._g.m1 = "誘惑といえば､";
+            exportRoot._g.m1 = "유혹이라면,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -3856,7 +3856,7 @@
             exportRoot._u.setFace("ch1", 6);
         }
         this.frame_334 = function() {
-            exportRoot._g.m2 = "ﾈｲﾙにも気合入れたし｡";
+            exportRoot._g.m2 = "네일에도 신경 썼고.";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 2);
         }
@@ -3886,7 +3886,7 @@
             //シーンendでは直前のキーフレームの表情を指定してください。
         }
         this.frame_422 = function() {
-            exportRoot._g.m1 = "……って､";
+            exportRoot._g.m1 = "……라니,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -3894,7 +3894,7 @@
             exportRoot._u.setFace("ch1", 7);
         }
         this.frame_432 = function() {
-            exportRoot._g.m1 = "……って､その顔は､";
+            exportRoot._g.m1 = "……라니, 그 얼굴은,";
             exportRoot._u.setText();
         }
         this.frame_453 = function() {
@@ -3902,17 +3902,17 @@
         }
         this.frame_455 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "考えてた? ";
+            exportRoot._g.m2 = "생각했어?";
             exportRoot._u.setText();
         }
         this.frame_490 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "似合うなー､とか? ";
+            exportRoot._g.m3 = "어울리네~, 라던지?";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 11);
         }
         this.frame_540 = function() {
-            exportRoot._g.m3 = "似合うなー､とか? ふふっ､";
+            exportRoot._g.m3 = "어울리네~, 라던지? 후훗,";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 12);
         }
@@ -3935,7 +3935,7 @@
             //シーンendでは直前のキーフレームの表情を指定してください。
         }
         this.frame_587 = function() {
-            exportRoot._g.m1 = "ﾌﾟﾛﾃﾞｭｰｻｰさんには､";
+            exportRoot._g.m1 = "프로듀서 씨에겐,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -3944,7 +3944,7 @@
         }
         this.frame_609 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "ないみたいだね｡";
+            exportRoot._g.m2 = "것 같네.";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 4);
         }
@@ -3952,23 +3952,23 @@
             this.ch1.gotoAndPlay("swing");
         }
         this.frame_644 = function() {
-            exportRoot._g.m2 = "ないみたいだね｡じゃあ､";
+            exportRoot._g.m2 = "것 같네. 그럼,";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 9);
         }
         this.frame_656 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "過激に……";
+            exportRoot._g.m3 = "과격하게……";
             exportRoot._u.setText();
         }
         this.frame_682 = function() {
-            exportRoot._g.m3 = "過激に……と思ったけど､";
+            exportRoot._g.m3 = "과격하게…… 란 생각했지만,";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 10);
         }
         this.frame_700 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "はっ､";
+            exportRoot._g.m4 = "아하핫,";
             exportRoot._u.setText();
             this.ch1.gotoAndPlay("nod_double");
             exportRoot._u.setFace("ch1", 3);
@@ -3984,7 +3984,7 @@
             //シーンendでは直前のキーフレームの表情を指定してください。
         }
         this.frame_741 = function() {
-            exportRoot._g.m1 = "悪だくみとかしてないから､";
+            exportRoot._g.m1 = "나쁜 계획이라든가 안 꾸미니까,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -3993,7 +3993,7 @@
         }
         this.frame_766 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "きな方をとっていいよ｡";
+            exportRoot._g.m2 = "좋아하는 쪽을 골라도 좋아.";
             exportRoot._u.setText();
             exportRoot._u.setFace("ch1", 2);
         }
@@ -4016,7 +4016,7 @@
             //シーンendでは直前のキーフレームの表情を指定してください。
         }
         this.frame_859 = function() {
-            exportRoot._g.m1 = "あ､";
+            exportRoot._g.m1 = "아,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
@@ -4040,11 +4040,11 @@
         }
         this.frame_954 = function() {
             // finish指定時は exportRoot._g.m の後ろの数字をsetTextの2つ目の引数に指定する
-            exportRoot._g.m4 = "ｲﾀｽﾞﾗでも誘惑でも……";
+            exportRoot._g.m4 = "못된 장난이든 유혹이든……";
             exportRoot._u.setText("finish", 4);
         }
         this.frame_990 = function() {
-            exportRoot._g.m5 = "いっぱい､ﾄﾞｷﾄﾞｷさせて♪";
+            exportRoot._g.m5 = "잔뜩, 두근두근시켜줘♪";
             exportRoot._u.setText("finish", 4);
         }
         this.frame_1021 = function() {
