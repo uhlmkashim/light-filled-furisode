@@ -3755,7 +3755,7 @@
             this.stop();
         }
         this.frame_15 = function() {
-            exportRoot._g.m1 = "甘酸っぱい恋の誘惑と､";
+            exportRoot._g.m1 = "새콤달콤한 사랑의 유혹과,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
