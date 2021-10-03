@@ -4309,19 +4309,19 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1587096064428", id:"_406_2_bg"},
-		{src:"images/ch_base.png?1587096064428", id:"_406_2_ch_base"},
-		{src:"images/ch_face2.png?1587096064428", id:"_406_2_ch_face2"},
-		{src:"images/ch_face3.png?1587096064428", id:"_406_2_ch_face3"},
-		{src:"images/ch_face4.png?1587096064428", id:"_406_2_ch_face4"},
-		{src:"images/ch_face5.png?1587096064428", id:"_406_2_ch_face5"},
-		{src:"images/ch_face6.png?1587096064428", id:"_406_2_ch_face6"},
-		{src:"images/finish.jpg?1587096064428", id:"_406_2_finish"},
-		{src:"images/finish_blur.jpg?1587096064428", id:"_406_2_finish_blur"},
-		{src:"images/scene01.jpg?1587096064428", id:"_406_2_scene01"},
-		{src:"images/scene02.jpg?1587096064428", id:"_406_2_scene02"},
-		{src:"images/tie_fp.png?1587096064428", id:"_406_2_tie_fp"},
-		{src:"images/tie_sp.png?1587096064428", id:"_406_2_tie_sp"}
+		{src:"images/bg.jpg", id:"_406_2_bg"},
+		{src:"images/ch_base.png", id:"_406_2_ch_base"},
+		{src:"images/ch_face2.png", id:"_406_2_ch_face2"},
+		{src:"images/ch_face3.png", id:"_406_2_ch_face3"},
+		{src:"images/ch_face4.png", id:"_406_2_ch_face4"},
+		{src:"images/ch_face5.png", id:"_406_2_ch_face5"},
+		{src:"images/ch_face6.png", id:"_406_2_ch_face6"},
+		{src:"images/finish.jpg", id:"_406_2_finish"},
+		{src:"images/finish_blur.jpg", id:"_406_2_finish_blur"},
+		{src:"images/scene01.jpg", id:"_406_2_scene01"},
+		{src:"images/scene02.jpg", id:"_406_2_scene02"},
+		{src:"images/tie_fp.png", id:"_406_2_tie_fp"},
+		{src:"images/tie_sp.png", id:"_406_2_tie_sp"}
 	],
 	preloads: []
 };
