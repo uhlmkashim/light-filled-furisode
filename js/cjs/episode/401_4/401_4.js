@@ -3990,17 +3990,17 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1582710279372", id:"_401_4_bg"},
-		{src:"images/ch_base.png?1582710279372", id:"_401_4_ch_base"},
-		{src:"images/ch_face2.png?1582710279372", id:"_401_4_ch_face2"},
-		{src:"images/ch_face3.png?1582710279372", id:"_401_4_ch_face3"},
-		{src:"images/ch_face4.png?1582710279372", id:"_401_4_ch_face4"},
-		{src:"images/ch_face5.png?1582710279372", id:"_401_4_ch_face5"},
-		{src:"images/ch_face6.png?1582710279372", id:"_401_4_ch_face6"},
-		{src:"images/finish.jpg?1582710279372", id:"_401_4_finish"},
-		{src:"images/finish_blur.jpg?1582710279372", id:"_401_4_finish_blur"},
-		{src:"images/tie_fp.png?1582710279372", id:"_401_4_tie_fp"},
-		{src:"images/tie_sp.png?1582710279372", id:"_401_4_tie_sp"}
+		{src:"images/bg.jpg", id:"_401_4_bg"},
+		{src:"images/ch_base.png", id:"_401_4_ch_base"},
+		{src:"images/ch_face2.png", id:"_401_4_ch_face2"},
+		{src:"images/ch_face3.png", id:"_401_4_ch_face3"},
+		{src:"images/ch_face4.png", id:"_401_4_ch_face4"},
+		{src:"images/ch_face5.png", id:"_401_4_ch_face5"},
+		{src:"images/ch_face6.png", id:"_401_4_ch_face6"},
+		{src:"images/finish.jpg", id:"_401_4_finish"},
+		{src:"images/finish_blur.jpg", id:"_401_4_finish_blur"},
+		{src:"images/tie_fp.png", id:"_401_4_tie_fp"},
+		{src:"images/tie_sp.png", id:"_401_4_tie_sp"}
 	],
 	preloads: []
 };
