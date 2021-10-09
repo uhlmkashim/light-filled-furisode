@@ -3959,12 +3959,11 @@
         }
         this.frame_691 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "좋겠다고 생각했어요.";
+            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
             exportRoot._u.setText();
             exportRoot._u.setFace("ch3", 9);
         }
         this.frame_751 = function() {
-            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
             exportRoot._u.setText();
             exportRoot._u.setFace("ch3", 2);
