@@ -12,44 +12,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href='../css/game/pex.css' media="all">
     <script src='../js/jquery-1.9.1.min.js'></script>
-    <script>
-        $(document).ready(function() {
-            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/index.php/idol_story/cjs/446/2');
-            }
-        });
-    </script>
     <meta name="authoring-tool" content="Adobe_Animate_CC">
-    <style>
-        body {
-            overflow: hidden;
-        }
-
-        #mbga-pf-footer {
-            display: none;
-        }
-
-        #codeigniter_profiler {
-            height: 1500px;
-            position: absolute;
-            display: none;
-        }
-
-        #animation_container canvas {
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        }
-
-        #animation_container a {
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        }
-    </style>
     <script type='text/javascript' src='../js/createjs.min.js'></script>
     <script type='text/javascript' src='../js/app_sound.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/446_2/talk_k.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/446_2/446_2_k.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/44/6_2/talk_k.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/44/6_2/446_2_k.js'></script>
     <script>
-        var image_server = "";
-        var base_url = "";
         // 音声ファイルのmanifestを定義
         window.voice_manifest = {
             'scene1': '../sound/9901046/scene1.mp3',
@@ -81,7 +49,7 @@
                 for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
+                        'src': encodeURIComponent(window.dir_name + lib.properties.manifest[i].src),
                         'id': lib.properties.manifest[i].id
                     }
                 }
@@ -89,7 +57,7 @@
                 for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.base_url + window.dir_name + lib.properties.manifest[i].src,
+                        'src': window.dir_name + lib.properties.manifest[i].src,
                         'id': lib.properties.manifest[i].id
                     }
                 }
@@ -246,34 +214,13 @@
 </head>
 
 <body onload="init();" style="margin:0px;">
-    <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px position: relative">
+    <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px; position:relative; margin: auto;">
         <canvas id="canvas" width="100%" height="" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
         <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;">
         </div>
     </div>
     <script type='text/javascript' src='../js/boombox.min.js'></script>
     <script type='text/javascript' src='../js/voice_cjs.js'></script>
-    <div id="mbga-pf-footer">
-        <script type="text/javascript" charset="UTF-8">
-            (function() {
-                document.addEventListener('DOMContentLoaded', function() {
-                    var list = document.getElementsByClassName('mbga-pf-footer-li');
-                    var i = 0,
-                        l = list.length;
-                    for (; i < l; i++) {
-                        var elem = list[i];
-                        elem.addEventListener('touchstart', function(e) {
-                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
-                        });
-                        elem.addEventListener('touchend', function(e) {
-                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
-                        });
-                        elem.addEventListener('touchmove', function(e) {});
-                    }
-                });
-            })();
-        </script>
-    </div>
 </body>
 
 </html>
