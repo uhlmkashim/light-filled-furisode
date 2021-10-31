@@ -15,23 +15,23 @@
     <meta name="authoring-tool" content="Adobe_Animate_CC">
     <script type='text/javascript' src='../js/createjs.min.js'></script>
     <script type='text/javascript' src='../js/app_sound.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/44/4_4/talk.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/44/4_4/444_4.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/44/2_4/talk_k.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/44/2_4/442_4_k.js'></script>
     <script>
         // 音声ファイルのmanifestを定義
         window.voice_manifest = {
-            'scene1': '../sound/9901042/scene1.mp3',
-            'scene2': '../sound/9901042/scene2.mp3',
-            'scene3': '../sound/9901042/scene3.mp3',
-            'scene4': '../sound/9901042/scene4.mp3',
-            'scene5': '../sound/9901042/scene5.mp3',
-            'scene6': '../sound/9901042/scene6.mp3',
-            'scene7': '../sound/9901042/scene7.mp3',
+            'scene1': '../sound/9901036/scene1.mp3',
+            'scene2': '../sound/9901036/scene2.mp3',
+            'scene3': '../sound/9901036/scene3.mp3',
+            'scene4': '../sound/9901036/scene4.mp3',
+            'scene5': '../sound/9901036/scene5.mp3',
+            'scene6': '../sound/9901036/scene6.mp3',
+            'scene7': '../sound/9901036/scene7.mp3',
         };
-        window.file_name = "_444_4"; // createjs の本体ファイルを定義
-        window.dir_name = "../image_sp/cjs/episode/444_4/";
+        window.file_name = "_442_4"; // createjs の本体ファイルを定義
+        window.dir_name = "../image_sp/cjs/episode/442_4/";
         window.im_cjs.voice_flag = true; // 音声再生フラグを定義
-        window.im_cjs.jump_url = '../main_j.html'; // createjsの演出が全て終了した場合の飛び先urlの定義
+        window.im_cjs.jump_url = '../main.html'; // createjsの演出が全て終了した場合の飛び先urlの定義
     </script>
     <script>
         var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -214,7 +214,7 @@
 </head>
 
 <body onload="init();" style="margin:0px;">
-    <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px; position:relative; margin:auto">
+    <div id="animation_container" style="background-color:rgba(0, 0, 0, 0); width:100%; height: 1500px; position:relative; margin: auto;">
         <canvas id="canvas" width="100%" height="" style="position: absolute; display: block; background-color:rgba(0, 0, 0, 0);"></canvas>
         <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;">
         </div>
