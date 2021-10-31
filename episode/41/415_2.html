@@ -15,7 +15,7 @@
     <script>
         $(document).ready(function() {
             if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/index.php/idol_story/cjs/412/2');
+                newrelic.setPageViewName('/idolmaster/index.php/idol_story/cjs/415/2');
             }
         });
     </script>
@@ -45,24 +45,15 @@
     </style>
     <script type='text/javascript' src='../js/createjs.min.js'></script>
     <script type='text/javascript' src='../js/app_sound.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/412_2/talk.js'></script>
-    <script type='text/javascript' src='../js/cjs/episode/412_2/412_2.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/415_2/talk.js'></script>
+    <script type='text/javascript' src='../js/cjs/episode/415_2/415_2.js'></script>
     <script>
         var image_server = "";
         var base_url = "";
         // 音声ファイルのmanifestを定義
-        window.voice_manifest = {
-            'scene1': '../sound/9900958/scene1.mp3',
-            'scene2': '../sound/9900958/scene2.mp3',
-            'scene3': '../sound/9900958/scene3.mp3',
-            'scene4': '../sound/9900958/scene4.mp3',
-            'scene5': '../sound/9900958/scene5.mp3',
-            'scene6': '../sound/9900958/scene6.mp3',
-            'scene7': '../sound/9900958/scene7.mp3',
-        };
-        window.file_name = "_412_2"; // createjs の本体ファイルを定義
-        window.dir_name = "../image_sp/cjs/episode/412_2/";
-        window.im_cjs.voice_flag = true; // 音声再生フラグを定義
+        window.file_name = "_415_2"; // createjs の本体ファイルを定義
+        window.dir_name = "../image_sp/cjs/episode/415_2/";
+        window.im_cjs.voice_flag = false; // 音声再生フラグを定義
         window.im_cjs.jump_url = '../main_j.html'; // createjsの演出が全て終了した場合の飛び先urlの定義
     </script>
     <script>
@@ -81,7 +72,7 @@
                 for (var i = 0, len = lib.properties.manifest.length; i < len; i++) {
                     new_manifest[i] = {
                         'type': 'image',
-                        'src': window.image_server + '?url=' + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
+                        'src': window.image_server + encodeURIComponent(window.base_url + window.dir_name + lib.properties.manifest[i].src),
                         'id': lib.properties.manifest[i].id
                     }
                 }
@@ -191,8 +182,7 @@
     </script>
     <script>
         (function() {
-            window.viewer_id = 134800333;
-            var _url = "game_error/report_js_error/l_frm/Idol_story_cjs_1";
+            var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://125.6.169.35/idolmaster/game_error/report_js_error%3Fl_frm%3DIdol_story_cjs_1%26rnd%3D335335666";
             var _path = location.href;
             var _spec_obj;
             var _spec = 'none';
@@ -251,8 +241,6 @@
         <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:240px; height:310px; position: absolute; left: 0px; top: 0px; display: block;">
         </div>
     </div>
-    <script type='text/javascript' src='../js/boombox.min.js'></script>
-    <script type='text/javascript' src='../js/voice_cjs.js'></script>
     <div id="mbga-pf-footer">
         <script type="text/javascript" charset="UTF-8">
             (function() {
