@@ -183,31 +183,7 @@
             } else {
                 _spec = 'browser?';
             }
-            var _ua = window.navigator.userAgent.toLowerCase();
-            window.onerror = function(msg, file, line, col, error) {
-                $.ajax({
-                    url: _url,
-                    type: 'post',
-                    data: {
-                        'ua': _ua,
-                        'viewer_id': window.viewer_id,
-                        'path': _path,
-                        'line': line,
-                        'column': col,
-                        'error': error,
-                        'spec': _spec,
-                        'spec_obj': _spec_obj,
-                        'version': version
-                    }
-                })
-            };
         })();
-    </script>
-    <script type='text/javascript'>
-        var se_flg = 0,
-            bgm_flg = 0,
-            chrome_app_flg = 0,
-            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
     </script>
     <script type='text/javascript' src='../../js/app_sound.js'></script>
     <link rel="stylesheet" type="text/css" href="../../css/base.css" />
