@@ -30,13 +30,13 @@ window.im_cjs.t[5][2] = "오빠와 갖고 싶은 장난감에 대해";
 window.im_cjs.t[5][3] = "다퉜던 장소, 크리스마스 선물을";
 window.im_cjs.t[5][4] = "사주셨던 장소…….";
 
-window.im_cjs.t[6][1] = "그렇지, 프로듀서 님! 괜찮으시다면,";
+window.im_cjs.t[6][1] = "그렇지, 프로듀서 공! 괜찮으시다면,";
 window.im_cjs.t[6][2] = "저와 프라모델 만들어보시겠습니까?";
 window.im_cjs.t[6][3] = "하나의 프라모델을 협력해, 만든다!";
 window.im_cjs.t[6][4] = "크리스마스 결전, 입니다!";
 
 window.im_cjs.t[7][1] = "음, 실로 좋은 크리스마스입니다!";
-window.im_cjs.t[7][2] = "게다가, 프로듀서 님과 함께 ";
+window.im_cjs.t[7][2] = "게다가, 프로듀서 공과 함께 ";
 window.im_cjs.t[7][3] = "프라모델을 즐길 수 있다면……";
 window.im_cjs.t[7][4] = "더 좋아하게 될지도";
 window.im_cjs.t[7][5] = "모릅니다♪";

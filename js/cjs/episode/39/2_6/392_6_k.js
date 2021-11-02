@@ -4399,7 +4399,7 @@
             // gotoAndPlay("ch1/:swing");
             gotoAndPlay("ch1/:nod");*/
             
-            exportRoot._g.m1 = "그렇지, 프로듀서 님!";
+            exportRoot._g.m1 = "그렇지, 프로듀서 공!";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 1);
