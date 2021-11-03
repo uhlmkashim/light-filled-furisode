@@ -4032,18 +4032,18 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_45 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "곳은, 확실히,";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 	}
 	this.frame_79 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "… ";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_132 = function() {
-		exportRoot._g.m3 = "… 어째서일까요.";
+		exportRoot._g.m3 = "어째서일까요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 10);
@@ -4052,13 +4052,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_162 = function() {
 		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "……";
+		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_194 = function() {
-		exportRoot._g.m4 = "…… 기척조차,";
+		exportRoot._g.m4 = "기척조차,";
 		exportRoot._u.setText();
 	}
 	this.frame_212 = function() {
@@ -4078,7 +4078,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_225 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "이 있다고";
+		exportRoot._g.m2 = "있다고";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
 		exportRoot._u.setText();
@@ -4089,20 +4089,20 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_281 = function() {
-		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
+		exportRoot._g.m2 = "있다고 가르쳐 주셨는데,";
 		exportRoot._u.setText();
 		
 		this.ch1.gotoAndPlay("nod2");
 	}
 	this.frame_322 = function() {
-		exportRoot._g.m3 = "곤란합니다.";
+		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 11);
 		this.ch1.gotoAndPlay("nod");
 	}
 	this.frame_361 = function() {
-		exportRoot._g.m3 = "곤란합니다. ……온 길은,";
+		exportRoot._g.m3 = "……온 길은,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -4138,7 +4138,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_450 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "가는……";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 11);
@@ -4175,7 +4175,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch2", 11);
 	}
 	this.frame_611 = function() {
-		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
+		exportRoot._g.m1 = "……격려해주시는 거군요.";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4188,7 +4188,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		//this.ch2.gotoAndPlay("swing");
 	}
 	this.frame_635 = function() {
-		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
+		exportRoot._g.m1 = "……격려해주시는 거군요.";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -4198,29 +4198,28 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_674 = function() {
-		exportRoot._g.m2 = "감사합니다.";
+		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
 		this.ch2.gotoAndPlay("swing");
 	}
 	this.frame_719 = function() {
-		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "";
+		exportRoot._g.m2 = "프로듀서 씨가,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_747 = function() {
-		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
 		this.ch2.gotoAndPlay("swing");
 	}
 	this.frame_788 = function() {
-		exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
+		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 6);
@@ -4257,27 +4256,26 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_867 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "보고 있으면,";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);
 	}
 	this.frame_905 = function() {
-		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "";
+		exportRoot._g.m2 = "놓쳐버리는군요.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 12);
 		this.ch2.gotoAndPlay("nod2");
 	}
 	this.frame_952 = function() {
-		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 7);
 	}
 	this.frame_992 = function() {
-		exportRoot._g.m4 = "이렇게도,";
+		exportRoot._g.m3 = "이렇게도,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 8);
@@ -4286,7 +4284,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		this.ch2.gotoAndPlay("nod");
 	}
 	this.frame_1014 = function() {
-		exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
+		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 7);
@@ -4314,7 +4312,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1062 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "모릅니다.";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 3);
@@ -4322,7 +4320,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1120 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "시간을,";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch2", 4);

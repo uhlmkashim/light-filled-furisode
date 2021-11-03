@@ -3695,23 +3695,23 @@
             exportRoot._u.setFace("ch1", 11);
         }
         this.frame_73 = function() {
-            exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
+            exportRoot._g.m1 = "프로듀서 씨…… 아아, 저……"; 
             exportRoot._u.setText();
         }
         this.frame_93 = function() {
-            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
+            exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 4);
         }
         this.frame_140 = function() {
-            exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+            exportRoot._g.m2 = "……말을 걸어주셔서,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 6);
         }
         this.frame_174 = function() {
-            exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
+            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 4);
@@ -3736,24 +3736,24 @@
         }
         this.frame_233 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "나누고 싶다고 생각했지만……";
+            exportRoot._g.m2 = "생각했지만……";
             exportRoot._u.setText();
         }
         this.frame_283 = function() {
-            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
+            exportRoot._g.m2 = "생각했지만…… 후후,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 5);
         }
         this.frame_303 = function() {
-            exportRoot._g.m3 = "설마,";
+            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 4);
         }
         this.frame_325 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "될 거라곤";
+            exportRoot._g.m4 = "";
             exportRoot._u.setText();
         }
         this.frame_376 = function() {
@@ -3791,20 +3791,18 @@
         }
         this.frame_523 = function() {
             exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-            exportRoot._g.m3 = "꿈……";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 4);
         }
         this.frame_568 = function() {
-            exportRoot._g.m3 = "꿈…… 아니,";
+            exportRoot._g.m3 = "아니,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 2);
         }
         this.frame_595 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "주신,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch1", 4);
@@ -3856,13 +3854,13 @@
             exportRoot._u.setText();
         }
         this.frame_842 = function() {
-            exportRoot._g.m3 = "잊혀진 책. 하지만……";
+            exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 11);
         }
         this.frame_866 = function() {
-            exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+            exportRoot._g.m4 = "저 스스론,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 2);
@@ -3887,35 +3885,35 @@
             exportRoot._u.setFace("ch2", 11);
         }
         this.frame_959 = function() {
-            exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "";
+            exportRoot._g.m1 = "세상에는, 나보다 매력적인 책이";
             exportRoot._u.setText();
         }
         this.frame_997 = function() {
-            exportRoot._g.m2 = "많이 있으니까……";
+            exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
+            exportRoot._g.m2 = "있으니까……";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 2);
         }
         this.frame_1039 = function() {
-            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
+            exportRoot._g.m2 = "있으니까…… 어쩔 수 없어,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 11);
         }
         this.frame_1058 = function() {
-            exportRoot._g.m3 = "라고.";
+            exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
             exportRoot._u.setText();
         }
         this.frame_1091 = function() {
-            exportRoot._g.m3 = "라고. ……하지만 당신은……";
+            exportRoot._g.m3 = "……하지만 당신은……";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 3);
         }
         this.frame_1126 = function() {
             exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-            exportRoot._g.m4 = "저를,";
+            exportRoot._g.m4 = "";
             exportRoot._u.setText();
         }
         this.frame_1156 = function() {
@@ -3990,11 +3988,10 @@
         }
         this.frame_1467 = function() {
             exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-            exportRoot._g.m2 = "서장에…….";
             exportRoot._u.setText();
         }
         this.frame_1514 = function() {
-            exportRoot._g.m2 = "서장에……. 부디,";
+            exportRoot._g.m2 = "부디,";
             exportRoot._u.setText();
             
             exportRoot._u.setFace("ch2", 8);

@@ -3964,7 +3964,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_838 = function() {
-		exportRoot._g.m1 = "……지금말인가요?";
+		exportRoot._g.m1 = "……지금 말인가요?";
 		exportRoot._g.m2 = "";
 		exportRoot._g.m3 = "";
 		exportRoot._g.m4 = "";
@@ -3986,19 +3986,18 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_935 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "있으니까……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
 	}
 	this.frame_990 = function() {
-		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
+		exportRoot._g.m3 = "지금이라면,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
 	}
 	this.frame_1014 = function() {
-		exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
+		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -4025,26 +4024,25 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1110 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "하고 있는 이 날들 자체가,";
+		exportRoot._g.m2 = "이 날들 자체가,";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
 	}
 	this.frame_1171 = function() {
 		exportRoot._g.m2 = this.m.t[exportRoot._g.idx][2];
-		exportRoot._g.m3 = "이야기처럼……";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 5);
 	}
 	this.frame_1212 = function() {
-		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
-		exportRoot._g.m4 = "";
+		exportRoot._g.m3 = "가슴 떨리는 감동으로,";
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch1", 7);
 	}
 	this.frame_1252 = function() {
-		exportRoot._g.m4 = this.m.t[exportRoot._g.idx][4];
+		exportRoot._g.m3 = this.m.t[exportRoot._g.idx][3];
 		exportRoot._u.setText();
 		exportRoot._u.setFace("ch1", 8);
 	}
@@ -4064,7 +4062,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_1346 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "건져 올려,";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
