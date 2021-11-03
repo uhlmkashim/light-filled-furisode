@@ -1894,7 +1894,7 @@
         this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
     
         // txt2_2line
-        this.line2 = new cjs.Text("", "14px 'MS PGothic'", "#F1439A");
+        this.line2 = new cjs.Text("", "12px 'NanumSquare'", "#F1439A");
         this.line2.name = "line2";
         this.line2.lineHeight = 16;
         this.line2.lineWidth = 260;
@@ -1904,7 +1904,7 @@
         this.timeline.addTween(cjs.Tween.get(this.line2).wait(1));
     
         // txt2_2line
-        this.line1 = new cjs.Text("", "14px 'MS PGothic'", "#F1439A");
+        this.line1 = new cjs.Text("", "12px 'NanumSquare'", "#F1439A");
         this.line1.name = "line1";
         this.line1.lineHeight = 16;
         this.line1.lineWidth = 260;

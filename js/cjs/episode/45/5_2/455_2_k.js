@@ -244,28 +244,28 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 	this.initialize(mode,startPosition,loop,{});
 
 	// レイヤー_1
-	this.line4 = new cjs.Text("", "14px 'NanumSquare'");
+	this.line4 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line4.name = "line4";
 	this.line4.lineHeight = 18;
 	this.line4.lineWidth = 260;
 	this.line4.parent = this;
 	this.line4.setTransform(2,50);
 
-	this.line3 = new cjs.Text("", "14px 'NanumSquare'");
+	this.line3 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line3.name = "line3";
 	this.line3.lineHeight = 18;
 	this.line3.lineWidth = 260;
 	this.line3.parent = this;
 	this.line3.setTransform(2,34);
 
-	this.line2 = new cjs.Text("", "14px 'NanumSquare'");
+	this.line2 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line2.name = "line2";
 	this.line2.lineHeight = 18;
 	this.line2.lineWidth = 260;
 	this.line2.parent = this;
 	this.line2.setTransform(2,18);
 
-	this.line1 = new cjs.Text("", "14px 'NanumSquare'");
+	this.line1 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line1.name = "line1";
 	this.line1.lineHeight = 18;
 	this.line1.lineWidth = 260;
@@ -1813,7 +1813,7 @@ p.nominalBounds = new cjs.Rectangle(-90,-105,180,210.1);
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// txt2_2line
-	this.line2 = new cjs.Text("", "14px 'MS PGothic'", "#F1439A");
+	this.line2 = new cjs.Text("", "12px 'NanumSquare'", "#F1439A");
 	this.line2.name = "line2";
 	this.line2.lineHeight = 16;
 	this.line2.lineWidth = 260;
@@ -1823,7 +1823,7 @@ p.nominalBounds = new cjs.Rectangle(-90,-105,180,210.1);
 	this.timeline.addTween(cjs.Tween.get(this.line2).wait(1));
 
 	// txt2_2line
-	this.line1 = new cjs.Text("", "14px 'MS PGothic'", "#F1439A");
+	this.line1 = new cjs.Text("", "12px 'NanumSquare'", "#F1439A");
 	this.line1.name = "line1";
 	this.line1.lineHeight = 16;
 	this.line1.lineWidth = 260;
