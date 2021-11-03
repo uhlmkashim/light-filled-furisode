@@ -17,6 +17,7 @@ body#mbga-pf-body * {
   line-height: 100%;
   font-size: 13px;
   font-family: "Hiragino Kaku Gothic Pro" monospace;
+  
 }
 
 #mbga-pf-content {
@@ -130,7 +131,7 @@ div#mbga-pf-footer div.mbga-pf-footer-container .mbga-pf-footer-arrow {
 }
 
 div#mbga-pf-footer .mbga-pf-footer-arrow {
-  background-image: url("/img/arrow_link.png?20130918");
+  background-image: url("/img/arrow_link.png");
   background-position: 96% 50%;
   background-repeat: no-repeat;
   -webkit-background-size: 6px 9px;
@@ -196,7 +197,7 @@ li.mbga-pf-footer-li {
 }
 
 a.mbga-pf-footer-a {
-  background-image: url(/img/sg-sprite.png?20130918);
+  background-image: url(/img/sg-sprite.png);
   background-repeat: no-repeat;
   -webkit-background-size: 320px auto;
   -moz-background-size: 320px auto;
@@ -210,7 +211,7 @@ a.mbga-pf-footer-a {
 }
 
 #mbga-pf-footer-navbar-mini a.mbga-pf-footer-a {
-  background-image: url(/img/sg-sprite.png?20130918);
+  background-image: url(/img/sg-sprite.png);
   background-repeat: no-repeat;
   -webkit-background-size: 240px auto;
   -moz-background-size: 240px auto;
@@ -327,4 +328,52 @@ div#mbga-pf-footer .sandboxMode .sandboxModeTxt {
     #mbga-pf-footer-navbar {
       padding-bottom: 10px;
     }
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  src: url(../fonts/NanumSquareR.eot);
+  src: url(../fonts/NanumSquareR.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquareR.woff) format("woff"), url(../fonts/NanumSquareR.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareLight';
+  src: url(../fonts/NanumSquareL.eot);
+  src: url(../fonts/NanumSquareL.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquareL.woff) format("woff"), url(../fonts/NanumSquareL.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareExtraBold';
+  src: url(../fonts/NanumSquareEB.eot);
+  src: url(../fonts/NanumSquareEB.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquareEB.woff) format("woff"), url(../fonts/NanumSquareEB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareBold';
+  src: url(../fonts/NanumSquareB.eot);
+  src: url(../fonts/NanumSquareB.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquareB.woff) format("woff"), url(../fonts/NanumSquareB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareAcR';
+  src: url(../fonts/NanumSquare_acR.eot);
+  src: url(../fonts/NanumSquare_acR.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquare_acR.woff) format("woff"), url(../fonts/NanumSquare_acR.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareAcL';
+  src: url(../fonts/NanumSquare_acL.eot);
+  src: url(../fonts/NanumSquare_acL.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquare_acL.woff) format("woff"), url(../fonts/NanumSquare_acL.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareAcEB';
+  src: url(../fonts/NanumSquare_acEB.eot);
+  src: url(../fonts/NanumSquare_acEB.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquare_acEB.woff) format("woff"), url(../fonts/NanumSquare_acEB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareAcB';
+  src: url(../fonts/NanumSquare_acB.eot);
+  src: url(../fonts/NanumSquare_acB.eot?#iefix) format("embedded-opentype"), url(../fonts/NanumSquare_acB.woff) format("woff"), url(../fonts/NanumSquare_acB.ttf) format("truetype");
 }

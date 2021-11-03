@@ -288,28 +288,28 @@ p.nominalBounds = new cjs.Rectangle(-2.1,0,4.300000000000001,6.6);
 	this.initialize(mode,startPosition,loop,{});
 
 	// レイヤー_1
-	this.line4 = new cjs.Text("", "14px 'Arial'");
+	this.line4 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line4.name = "line4";
 	this.line4.lineHeight = 18;
 	this.line4.lineWidth = 260;
 	this.line4.parent = this;
 	this.line4.setTransform(2,50);
 
-	this.line3 = new cjs.Text("", "14px 'Arial'");
+	this.line3 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line3.name = "line3";
 	this.line3.lineHeight = 18;
 	this.line3.lineWidth = 260;
 	this.line3.parent = this;
 	this.line3.setTransform(2,34);
 
-	this.line2 = new cjs.Text("", "14px 'Arial'");
+	this.line2 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line2.name = "line2";
 	this.line2.lineHeight = 18;
 	this.line2.lineWidth = 260;
 	this.line2.parent = this;
 	this.line2.setTransform(2,18);
 
-	this.line1 = new cjs.Text("", "14px 'Arial'");
+	this.line1 = new cjs.Text("", "12px 'NanumSquare'");
 	this.line1.name = "line1";
 	this.line1.lineHeight = 18;
 	this.line1.lineWidth = 260;
@@ -3840,13 +3840,13 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_233 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "있습니다.";
+		exportRoot._g.m2 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 4);
 	}
 	this.frame_290 = function() {
-		exportRoot._g.m2 = "있습니다. ……네.";
+		exportRoot._g.m2 = "……네.";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 3);
@@ -3858,7 +3858,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 		exportRoot._u.setFace("ch1", 2);
 	}
 	this.frame_333 = function() {
-		exportRoot._g.m3 = "당시의 제 애독서로,";
+		exportRoot._g.m3 = "";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 1);
@@ -3893,7 +3893,7 @@ p.nominalBounds = new cjs.Rectangle(-97.4,0,92.4,18);
 	}
 	this.frame_495 = function() {
 		exportRoot._g.m1 = this.m.t[exportRoot._g.idx][1];
-		exportRoot._g.m2 = "운동이 서투른 아이로……";
+		exportRoot._g.m2 = "저는 운동이 서투른 아이로……";
 		exportRoot._u.setText();
 		
 		exportRoot._u.setFace("ch1", 5);
