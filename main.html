@@ -8,117 +8,19 @@
     <title>추억에피소드 </title>
     <link rel="stylesheet" type="text/css" href="css/rich/new_mypage_common.css" media="all">
     <link rel="apple-touch-icon-precomposed" href="image_sp/ui/icon_bookmark.png">
-    <script>
-        (function() {
-            window.console.log = function() {};
-        })();
-    </script>
-    <script type="text/javascript">
-        if (window.localStorage) {
-            var displaySet = localStorage.getItem('DisplayPositionSet');
-            if (displaySet == 1) {
-                if (navigator.userAgent.indexOf('Android') > 0) {
-                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
-                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
-                } else {
-                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
-                }
-                window.addEventListener('resize', function() {
-                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
-                });
-            } else {
-                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
-            }
-        } else {
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
-        }
-    </script>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="js/jquery-2.2.2.min.js"></script>
-    <script>
-        (function() {
-            window.viewer_id = 000000001;
-            var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://125.6.169.35/idolmaster/game_error/report_js_error%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D252374961";
-            var _path = location.href;
-            var _spec_obj;
-            var _spec = 'none';
-            var version = 1;
-            // access方法検出
-            _spec_obj = {
-                'isNative': false,
-                'isAndApp': false,
-                'isShellApp': false,
-                'isIosApp': false,
-                'isChromeApp': false
-            };
-            window._spec = _spec_obj;
-            if (_spec.isAndApp) {
-                _spec = 'andapp'
-            } else if (_spec.isIosApp) {
-                _spec = 'iosApp';
-            } else if (_spec.isShellApp) {
-                _spec = 'shellapp';
-            } else {
-                _spec = 'browser?';
-            }
-        })();
-    </script>
-
-
-
-    <script>
-        requirejs.config({
-            paths: {
-                easeljs: "js/easeljs-0.8.2.min.js",
-                easeljs_0_7_1: "js/easeljs-0.7.1.min.js", //スプライトを読むためのバージョン
-                tweenjs: "js/tweenjs-0.6.2.min.js",
-                movieclipjs: "js/movieclip-0.7.1.min.js",
-                createjs: "js/createjs-2015.11.26.min.js",
-            }
-        })
-    </script>
-
-
-    <script>
-        $(function() {
-            window.$ibox = $('.ibox').ibox();
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/item/show_premium_card_cjs/90/fumi_main');
-            }
-        });
-    </script>
-    <script type="text/javascript">
-        var se_flg = 0,
-            bgm_flg = 0,
-            chrome_app_flg = 0,
-            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
-    </script>
     <script type="text/javascript" src="js/app_sound.js"></script>
     <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
-<script type="text/javascript" id="useragent-switcher">
-    navigator.__defineGetter__("userAgent", function() {
-        return "Mozilla/5.0 (Linux; Android 9.0; MI 8 SE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Mobile Safari/537.36"
-    })
-</script>
-
-<body id="idol_gallery" class="idol_detail">
-    <div id="top" class="page_container jsOnBtn">
+<body id="idol_gallery" class="idol_detail" style="width: auto;">
+    <div id="top" class="page_container jsOnBtn" style="width:auto; display:flex;flex-wrap: wrap;flex-direction: row; justify-content:center;">
         <input id="delay" type="hidden" value="0">
         <link rel="stylesheet" type="text/css" href="css/rich/idol_gallery.css" media="all">
-        <style>
-            .idolProfile {
-                margin-bottom: 0;
-            }
-        </style>
-        <div class="infortext_nosp gray">
-            <p>※로딩이 길어질 경우 이미지가 제대로 표시되지 않을 수 있습니다. 그럴 땐 새로고침을 해주세요.<br>이 페이지에는 네이버에서 제공한 나눔 고딕 글꼴이 적용되어 있습니다.<br><a href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497">라이센스</a></p>
+        <div class="infortext_nosp gray" style="width:100%;">
+            <p style="width:100%; text-align: center;">※로딩이 길어질 경우 이미지가 제대로 표시되지 않을 수 있습니다. 그럴 땐 새로고침을 해주세요.<br>이 페이지에는 네이버에서 제공한 나눔 고딕 글꼴이 적용되어 있습니다.<br><a href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=3497">라이센스</a></p>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -141,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -181,7 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -228,7 +130,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -299,7 +201,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -363,7 +265,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -410,7 +312,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -495,7 +397,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -805,7 +707,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -1052,14 +954,13 @@
                 </div>
             </div>
         </div>
-        <a href="main_j.html">
-            <div class="backLink">일본어 버전</div>
+        <a href="main_j.html" style="width:100%;">
+            <div class="backLink" style="width: 100%;">일본어 버전</div>
         </a>
-        <a href="../anniversary/mypage.html">
-            <div class="backLink">마이 페이지로</div>
+        <a href="../anniversary/mypage.html" style="width:100%">
+            <div class="backLink" style="width: 100%;" >마이 페이지로</div>
         </a>
-        <footer><a href="#top" id="toPageTop" class="mypage_under">
-                <div></div>
+        <footer style="width:320px"><a href="#top" id="toPageTop" class="mypage_under">
             </a></footer>
     </div>
     <script>
