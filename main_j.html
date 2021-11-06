@@ -1,125 +1,26 @@
 <html lang="ja" xml:lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="-1">
     <meta name="format-detection" content="telephone=no">
-    <title>에피소드 </title>
+    <title>思い出エピソード</title>
     <link rel="stylesheet" type="text/css" href="css/rich/new_mypage_common.css" media="all">
     <link rel="apple-touch-icon-precomposed" href="image_sp/ui/icon_bookmark.png">
-    <script>
-        (function() {
-            window.console.log = function() {};
-        })();
-    </script>
-    <script type="text/javascript">
-        if (window.localStorage) {
-            var displaySet = localStorage.getItem('DisplayPositionSet');
-            if (displaySet == 1) {
-                if (navigator.userAgent.indexOf('Android') > 0) {
-                    document.write('<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">');
-                    document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
-                } else {
-                    document.write('<meta name="viewport" content="width=320, user-scalable=no">');
-                }
-                window.addEventListener('resize', function() {
-                    if (navigator.userAgent.indexOf('Android') > 0) document.getElementsByTagName('html')[0].style.zoom = document.documentElement.clientWidth / 320;
-                });
-            } else {
-                document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
-            }
-        } else {
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no">');
-        }
-    </script>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <script src="js/jquery-2.2.2.min.js"></script>
-    <script>
-        (function() {
-            window.viewer_id = 000000001;
-            var _url = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://125.6.169.35/idolmaster/game_error/report_js_error%3Fl_frm%3DIdol_gallery_idol_detail_1%26rnd%3D252374961";
-            var _path = location.href;
-            var _spec_obj;
-            var _spec = 'none';
-            var version = 1;
-            // access方法検出
-            _spec_obj = {
-                'isNative': false,
-                'isAndApp': false,
-                'isShellApp': false,
-                'isIosApp': false,
-                'isChromeApp': false
-            };
-            window._spec = _spec_obj;
-            if (_spec.isAndApp) {
-                _spec = 'andapp'
-            } else if (_spec.isIosApp) {
-                _spec = 'iosApp';
-            } else if (_spec.isShellApp) {
-                _spec = 'shellapp';
-            } else {
-                _spec = 'browser?';
-            }
-        })();
-    </script>
-
-
-
-    <script>
-        requirejs.config({
-            paths: {
-                easeljs: "js/easeljs-0.8.2.min.js",
-                easeljs_0_7_1: "js/easeljs-0.7.1.min.js", //スプライトを読むためのバージョン
-                tweenjs: "js/tweenjs-0.6.2.min.js",
-                movieclipjs: "js/movieclip-0.7.1.min.js",
-                createjs: "js/createjs-2015.11.26.min.js",
-            }
-        })
-    </script>
-
-
-    <script>
-        $(function() {
-            window.$ibox = $('.ibox').ibox();
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
-                newrelic.setPageViewName('/idolmaster/item/show_premium_card_cjs/90/fumi_main');
-            }
-        });
-    </script>
-    <script type="text/javascript">
-        var se_flg = 0,
-            bgm_flg = 0,
-            chrome_app_flg = 0,
-            chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
-    </script>
     <script type="text/javascript" src="js/app_sound.js"></script>
     <link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
-<script type="text/javascript" id="useragent-switcher">
-    navigator.__defineGetter__("userAgent", function() {
-        return "Mozilla/5.0 (Linux; Android 9.0; MI 8 SE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Mobile Safari/537.36"
-    })
-</script>
-
-<body id="idol_gallery" class="idol_detail">
-    <div id="top" class="page_container jsOnBtn">
+<body id="idol_gallery" class="idol_detail" style="width: auto;">
+    <div id="top" class="page_container jsOnBtn" style="width:auto; display:flex;flex-wrap: wrap;flex-direction: row; justify-content:center;">
         <input id="delay" type="hidden" value="0">
         <link rel="stylesheet" type="text/css" href="css/rich/idol_gallery.css" media="all">
-        <style>
-            .idolProfile {
-                margin-bottom: 0;
-            }
-        </style>
-        <div class="infortext_nosp gray">
-            <p>※로딩이 길어질 경우 이미지가 제대로 표시되지 않을 수 있습니다. 그럴 땐 새로고침을 해주세요.</p>
+        <div class="infortext_nosp gray" style="width:100%;">
+            <p style="width:100%; text-align: center;">※로딩이 길어질 경우 이미지가 제대로 표시되지 않을 수 있습니다. 그럴 땐 새로고침을 해주세요.</p>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -134,6 +35,81 @@
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="displayBox t-Cnt">
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_002_2_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:34%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_002_4_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_002_6_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="displayBox t-Cnt">
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_004_2_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:34%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_004_4_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_004_6_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="displayBox t-Cnt">
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_006_2_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:34%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_006_4_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_006_6_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="displayBox t-Cnt">
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_007_2_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:34%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_007_4_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                                <li style="width:33%; height:90;">
+                                    <a href="">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_007_6_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="displayBox t-Cnt">
+                                <li style="width:100%; height:90;">
+                                    <a href="" style="height:90px;">
+                                        <input type="image" src="image_sp/cjs/episode/epi_button/epi_button_movie_008_2_gray.jpg" height="75">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <div class="area-frame_bg_image"></div>
                     </div>
@@ -142,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -201,7 +177,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -241,7 +217,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -271,7 +247,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -325,7 +301,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -642,7 +618,7 @@
                 </div>
             </div>
         </div>
-        <div class="area_tab_3" style="display: block;">
+        <div class="area_tab_3" style="width:320px; display: block;flex-direction: row;">
             <div id="story-content" class="jsOnDesignBtn-wrap">
                 <div class="area-frame_common _hd_blue _bd_black m-Btm10">
                     <div class="area-frame_wrap">
@@ -830,52 +806,14 @@
                 </div>
             </div>
         </div>
-        <a href="main.html">
-            <div class="backLink">韓國語版</div>
+        <a style="width:100%;" href="main.html">
+            <div class="backLink" style="width:100%;">韓國語版</div>
         </a>
-        <a href="../anniversary/mypage.html">
-            <div class="backLink">マイスタジオへ</div>
+        <a style="width:100%;" href="../anniversary/mypage.html">
+            <div class="backLink" style="width:100%;">マイスタジオへ</div>
         </a>
         <footer><a href="#top" id="toPageTop" class="mypage_under">
-                <div></div>
             </a></footer>
-    </div>
-    <script>
-        window._tarminal = {
-            'native_app_flg': false,
-            'android_app_flg': false,
-            'ios_app_flg': false,
-            'shell_app_flg': false
-        };
-    </script>
-    <script>
-        window._tarminal = {
-            'native_app_flg': false,
-            'android_app_flg': false,
-            'ios_app_flg': false,
-            'shell_app_flg': false
-        };
-    </script>
-    <div id="mbga-pf-footer">
-        <script type="text/javascript" charset="UTF-8">
-            (function() {
-                document.addEventListener('DOMContentLoaded', function() {
-                    var list = document.getElementsByClassName('mbga-pf-footer-li');
-                    var i = 0,
-                        l = list.length;
-                    for (; i < l; i++) {
-                        var elem = list[i];
-                        elem.addEventListener('touchstart', function(e) {
-                            e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
-                        });
-                        elem.addEventListener('touchend', function(e) {
-                            e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
-                        });
-                        elem.addEventListener('touchmove', function(e) {});
-                    }
-                });
-            })();
-        </script>
     </div>
     <div id="ibox_mask0" class="ibox_close ibox_mask jsOnDesignBtn-wrap"></div>
 </body>
