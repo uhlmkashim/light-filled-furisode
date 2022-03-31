@@ -4595,7 +4595,7 @@
         color: "#FFFFFF",
         opacity: 1.00,
         manifest: [
-            {src:"images/_00.jpg", id:"_477_4__00"},
+            {src:"images/00.jpg", id:"_477_4__00"},
             {src:"images/bg.jpg", id:"_477_4_bg"},
             {src:"images/book_dust.png", id:"_477_4_book_dust"},
             {src:"images/ch_base.png", id:"_477_4_ch_base"},
