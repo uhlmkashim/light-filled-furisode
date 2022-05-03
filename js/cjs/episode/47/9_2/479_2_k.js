@@ -3751,7 +3751,7 @@
             exportRoot._u.setFace("ch1", 4);
         }
         this.frame_15 = function() {
-            exportRoot._g.m1 = "혀,";
+            exportRoot._g.m1 = "버,";
             exportRoot._g.m2 = "";
             exportRoot._g.m3 = "";
             exportRoot._g.m4 = "";
