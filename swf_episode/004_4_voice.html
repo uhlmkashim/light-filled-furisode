@@ -147,7 +147,7 @@
                 container.style.marginTop = (marginTop) + "px";
                 container.style.zoom = "50%";
                 container.style.height = (window.outerHeight * 2 - marginTop) + "px";
-                var pex = new Pex('../flash/012_2.swf',"container",option);
+                var pex = new Pex('../flash/004_4.swf',"container",option);
                 pex.getAPI().ready(function() {
                     setScrollTop();
                 });
@@ -305,13 +305,6 @@
             }
             function nextJump(url) {
                 location.href = url;
-            }
-            // 대사 수정용 함수
-            function setSerif() {
-                pexApi.setVariable("", "voice_path1", "유메미 리아무");
-                pexApi.setVariable("", "voice_path2", mySerif);
-                pexApi.setVariable("", "voice_path3", "사무소");            
-                pexApi.setVariable("", "voice_path4", "뻥이야~");
             }
         </script>
         <script type='text/javascript'>
