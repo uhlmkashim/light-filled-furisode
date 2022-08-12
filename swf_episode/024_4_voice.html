@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ja" xml:lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="stylesheet" href='../css/game/pex.css' media="all">
+        <script src='../js/jquery-1.9.1.min.js'></script>
+        <script src='../js/pex-1.2.0-furiousjhin.js'></script>
+        <script src='../js/pex_common.js'></script>
+        <script>
+            $(document).ready(function() {
+                if (typeof newrelic === 'object' && typeof newrelic.setPageViewName === 'function') {
+                    newrelic.setPageViewName('/uhlmkashim/anniversary/idol_story/movie_play/53/4');
+                }
+            });
+        </script>
+        <title>ｱｲﾄﾞﾙﾏｽﾀｰ ｼﾝﾃﾞﾚﾗｶﾞｰﾙｽﾞ </title>
+        <style>
+            #container {
+                position: relative;
+            }
+
+            #voiceTouch {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 100;
+                width: 100%;
+                height: 150%;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+            }
+
+            .switchBt {
+                display: block;
+                position: absolute;
+                z-index: 200;
+            }
+
+            .selectSwitchBt {
+                display: block;
+                position: absolute;
+                z-index: 210;
+            }
+
+            .scrollBt {
+                display: block;
+                position: absolute;
+                z-index: 200;
+            }
+        </style>
+        <style>
+            #mbga-pf-footer {
+                display: none;
+            }
+        </style>
+        <script>
+            var isTouch = ('ontouchstart'in window);
+            var isSp = false;
+            if (isTouch === false)
+                isSp = false;
+            else if (window.orientation === undefined)
+                isSp = false;
+            else
+                isSp = true;
+            displayScaleValue = scaleSizeCheck();
+            var width = 240 * displayScaleValue * 2;
+            marginLeft = widthMarginCheck(displayScaleValue);
+            marginTop = topMarginCheck(displayScaleValue);
+            function setScrollTop() {
+                if (document.documentElement) {
+                    document.documentElement.scrollTop = 0;
+                }
+                if (document.body) {
+                    document.body.scrollTop = 0
+                }
+            }
+            window.addEventListener("DOMContentLoaded", function() {
+                no_scroll();
+                function no_scroll() {
+                    var scroll_event = 'onwheel'in document ? 'wheel' : 'onmousewheel'in document ? 'mousewheel' : 'DOMMouseScroll';
+                    document.addEventListener(scroll_event, function(e) {
+                        e.preventDefault()
+                    }, {
+                        passive: false
+                    });
+                    document.addEventListener('touchstart', function(e) {
+                        setScrollTop()
+                    }, {
+                        passive: false
+                    });
+                    document.addEventListener('touchend', function(e) {
+                        setScrollTop()
+                    }, {
+                        passive: false
+                    });
+                    document.addEventListener('touchmove', function(e) {
+                        setScrollTop();
+                        e.preventDefault()
+                    }, {
+                        passive: false
+                    });
+                }
+            });
+            window.onunload = function() {}
+            ;
+            window.onload = function() {
+                var flashPlayerVersion = getFlashPlayerVersion();
+                var aa = "1";
+                var bb = "0";
+                var pexFlag = "1";
+                var native_app_flg = "";
+                var chrome_app_flg = "";
+                var andapp_flg = "";
+                if (aa > 0 && bb == "") {
+                    var flashPlayerVersion = getFlashPlayerVersion();
+                    var filename = "http://125.6.169.35/idolmaster/smart_phone_flash/playerCash/" + flashPlayerVersion;
+                    var uri = encodeURIComponent(filename);
+                    var requrl = window.location.origin + "/12008305/?guid=ON&url=" + uri;
+                    httpObj = new XMLHttpRequest();
+                    httpObj.overrideMimeType('text/xml');
+                    httpObj.open("GET", requrl, false);
+                    httpObj.send(null);
+                }
+                if (flashPlayerVersion != "" && aa != "2" && pexFlag != 1 && native_app_flg != "1" && chrome_app_flg != "1" && andapp_flg != "1") {
+                    var retUrl = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http://125.6.169.35/idolmaster/idol_story/flash/1/2";
+                    location.href = retUrl;
+                    return;
+                }
+                var option = {
+                    enableButton: false,
+                    enableTouch: false,
+                    partialDraw: getPexPartialDraw(),
+                    delayEval: false,
+                    operation: {
+                        lighter_tgt: "lighter"
+                    },
+                    width: width
+                };
+                var container = document.getElementById("container");
+                container.setAttribute("style", "margin-left:" + (marginLeft) + "px");
+                container.style.marginTop = (marginTop) + "px";
+                container.style.zoom = "50%";
+                container.style.height = (window.outerHeight * 2 - marginTop) + "px";
+                var pex = new Pex('../flash/024_4.swf',"container",option);
+                pex.getAPI().ready(function() {
+                    setScrollTop();
+                });
+                var pexApi = pex.getAPI();
+                window.pexApi = pexApi;
+                (function($) {
+                    $.fn.pexConsole = function() {
+                        if (globalNextLabel) {
+                            pexApi.gotoFrame('/', sceneLabel);
+                            globalNextLabel = 0;
+                        }
+                    }
+                    ;
+                    $.fn.pexBtacquisition = function(mcName) {
+                        var obj = {
+                            x: pexApi.getVariable(mcName, 'w'),
+                            y: pexApi.getVariable(mcName, 'h'),
+                            poX: pexApi.getVariable(mcName, 'x'),
+                            poY: pexApi.getVariable(mcName, 'y'),
+                            label: pexApi.getVariable(mcName, 'scene'),
+                            voicePath: pexApi.getVariable(mcName, 'voicePath')
+                        };
+                        return [obj.x, obj.y, obj.poX, obj.poY, obj.label, obj.voicePath];
+                    }
+                    ;
+                    $.fn.pexGotoFrame = function(mcName, palam) {
+                        pexApi.gotoFrame(mcName, palam);
+                    }
+                    ;
+                    $.fn.pexCallActions = function(label) {
+                        pexApi.callActions('/', label);
+                    }
+                    ;
+                    $.fn.pexSetVaris = function(name, h) {
+                        pexApi.setVariable(name, 'touched_x', h.x);
+                        pexApi.setVariable(name, 'touched_y', h.y);
+                    }
+                    ;
+                }
+                )(jQuery);
+                timerId = setTimeout("isFlash()", 60000);
+            }
+            ;
+            function touchHandler(event) {
+                event.preventDefault();
+            }
+            ;function redirect() {
+                location.href = "http://sp.pf.mbga.jp/12008305/?guid=ON&amp;url=http%3A//125.6.169.35/idolmaster/game_error";
+            }
+            ;function isFlash() {
+                var container = document.getElementById("container");
+                var children = container.childNodes;
+                if (children.length < 1) {
+                    redirect();
+                } else {
+                    clearTimeout(timerId);
+                }
+            }
+            ;function scaleSizeCheck() {
+                window.scrollTo(0, 1);
+                myW = window.innerWidth;
+                myH = window.innerHeight;
+                scaleWidth = myW / 240;
+                scaleHeight = myH / 320;
+                if (myH > myW) {
+                    myS = scaleWidth;
+                } else {
+                    myS = scaleHeight;
+                }
+                return myS;
+            }
+            ;function widthMarginCheck(scale) {
+                if (scale < 0) {
+                    return 0;
+                }
+                baseW = 240;
+                myW = window.innerWidth;
+                size = baseW * scale;
+                if ((myW - size) < 5) {
+                    marginL = 0;
+                } else {
+                    marginL = Math.round((myW - size) / 2);
+                }
+                return marginL * 2;
+            }
+            function topMarginCheck(scale) {
+                if (scale < 0) {
+                    return 0;
+                }
+                baseH = 320;
+                myH = window.innerHeight;
+                size = baseH * scale;
+                if ((myH - size) < 5) {
+                    marginT = 0;
+                } else {
+                    marginT = Math.round((myH - size) / 2);
+                }
+                return marginT * 2;
+            }
+            function getFlashPlayerVersion() {
+                var vsn = '';
+                if (navigator.plugins["Shockwave Flash"] && navigator.mimeTypes.length) {
+                    var tmp = navigator.plugins["Shockwave Flash"].description.match(/([0-9]+)/);
+                    vsn = tmp[0];
+                } else {
+                    try {
+                        var tmp = new ActiveXObject("ShockwaveFlash.ShockwaveFlash").GetVariable("$version").match(/([0-9]+)/);
+                        vsn = tmp[0];
+                    } catch (e) {}
+                }
+                return vsn;
+            }
+            var skipNextUrl;
+            function skipBtnGenerate(url) {}
+            function SkipBtnDown(e) {
+                var scale = scaleSizeCheck();
+                var width_margin = widthMarginCheck(scale);
+                var top_margin = topMarginCheck(scale);
+                var client_width = window.innerWidth;
+                var client_height = window.innerHeight;
+                var click_x = e.clientX;
+                var click_y = e.clientY;
+                var swf_width = client_width - width_margin;
+                var swf_height = 320 * scale;
+                var btn_x = (width_margin / 2) + ((swf_width * 2) / 3);
+                var btn_width = swf_width / 3;
+                var btn_y = top_margin / 2;
+                var btn_height = swf_height / 12;
+                if (btn_x < click_x && click_x < (btn_x + btn_width) && btn_y < click_y && click_y < (btn_y + btn_height)) {
+                    document.location = skipNextUrl;
+                }
+            }
+            function call_select_item(play_scene, select_num) {
+                var use_item, max_use_flag;
+                switch (select_num) {
+                case "1":
+                    use_item = 0;
+                    max_use_flag = 0;
+                    break;
+                case "2":
+                    use_item = 3;
+                    max_use_flag = 0;
+                    break;
+                case "3":
+                    use_item = 3;
+                    max_use_flag = 1;
+                    break;
+                case "4":
+                    use_item = 1;
+                    max_use_flag = 0;
+                    break;
+                default:
+                    break;
+                }
+            }
+            function nextJump(url) {
+                location.href = url;
+            }
+        </script>
+        <script type='text/javascript'>
+            var se_flg = 0
+              , bgm_flg = 0
+              , chrome_app_flg = 0
+              , chrome_app_extension_id = 'dnacabmnfmejgfffmcehejcmiciinpej';
+        </script>
+        <script type='text/javascript' src='../js/app_sound.js'></script>
+        <link rel="stylesheet" type="text/css" href="../css/base.css"/>
+    </head>
+    <body style="height:100%">
+        <a href="#" id="voiceTouch"></a>
+        <div id="container"></div>
+        <script>
+            soundFlag = 1;
+            white_flag = 0;
+            vote_simple_swf_flg = 0;
+        </script>
+        <script src="../js/boombox.min.js"></script>
+        <script src="../js/voice_2.js"></script>
+        <div id="mbga-pf-footer">
+            <script type="text/javascript" charset="UTF-8">
+                (function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var list = document.getElementsByClassName('mbga-pf-footer-li');
+                        var i = 0
+                          , l = list.length;
+                        for (; i < l; i++) {
+                            var elem = list[i];
+                            elem.addEventListener('touchstart', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/$/, ' mbga-pf-tapped');
+                            });
+                            elem.addEventListener('touchend', function(e) {
+                                e.currentTarget.className = e.currentTarget.className.replace(/ mbga-pf-tapped/, '');
+                            });
+                            elem.addEventListener('touchmove', function(e) {});
+                        }
+                    });
+                }
+                )();
+            </script>
+        </div>
+    </body>
+</html>
